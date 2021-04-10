@@ -1,0 +1,569 @@
+.,Spanish
+quest.name,La ciudad de los muertos (V1.2)
+quest.description,Cuando regresas a Vynelvale, tu ciudad natal, la encuentras asediada por un ejército de no muertos. \n\n Cambios: \n\n V1.1.1: \n - Aumentados los puntos de experiencia iniciales del héroe a 4 \n\n V1.2: \n - Eliminadas algunas amenazas \n - Aumentado el oro obtenido
+quest.authors,<b>Creada por:</b> Tantum \n\n <i>Traducción al español:</i> Frankman8 y Vidimus \n
+quest.authors_short,Tantum
+ContinueButton,Seguir
+SpawnZombies51A.text,<i>De repente, os despertáis sobresaltados por unos quejidos. Al abrir los ojos os encontráis con zombis frente a vuestras camas. </i> \n\n Coloca un grupo de monstruos {type} como se indica.
+SpawnZombies51A.button1,{qst:ContinueButton}
+EventObjective1Tile51A.button1,{qst:ContinueButton}
+EventObjective2Tile60A.text,<b>Objetivo</b> \n\n <i>Averiguar de dónde vienen los no muertos.</i>
+EventStart.button1,{qst:ContinueButton}
+EventCampaignRules.text,<b>Reglas de Campaña</b> \n\n Por favor, consulta las reglas en el manual de <i>Camino a la leyenda</i>.
+EventCampaignRules.button1,{qst:ContinueButton}
+EventIntroduction2.text,<i>Y vosotros también tenéis algo que celebrar. Han sido varios meses muy duros y agotadores. Y, sin embargo, al final todo salió bien. El mal ha desaparecido, al menos de momento, y tenéis los bolsillos llenos de oro. Después de un gran festín en la posada más cara de toda la ciudad -os veis en la necesidad de gastaros todo ese oro después de todo- caéis exhaustos en vuestras camas. \n\n La conversación de vuestro grupo derivó en los extraños relatos del posadero. Los no muertos se congregan en las tierras oscuras. Miles de ellos, inmóviles, en la frontera. ¿Quizás esté Waiquar planeando un nuevo ataque? ¿Se cernirá de forma inminente la oscuridad sobre todos una vez más? \n\n Pese a las malas noticias, el cansancio os puede y os hace caer en un profundo sueño. Al final, siempre podéis seguir dándole vueltas a todas las malas noticias que llegan del mundo por la mañana... </i>\n
+EventIntroduction1.text,<i> Finalmente, ¡está hecho! Después de muchas aventuras habéis regresado a vuestra ciudad natal, Vynelvale. \n\n La ciudad se engalana y prepara para celebrar la festividad dedicada al dios Kellos. La gran catedral, erigida en su honor, ya está casi terminada. Pronto, miles de peregrinos arribarán a la ciudad para rendir tributo a su dios.</i>\n
+EventPrepareTiles.button1,{qst:ContinueButton}
+EventPlaceTiles1Tavern.text,Coloca la pieza de tablero 51A y dos terminales como se indican. Coloca una puerta donde se indica. \n\n Sitúa los héroes en las localizaciones dónde se encuentran las fichas de Objetivo.
+EventPrepareTiles.text,<b>Atención:</b> \n El mapa para esta misión es bastante extenso. Por favor asegúrate de que dispones de una mesa lo suficientemente amplia. \n\n Deja aparte las siguientes piezas de tablero: \n\n 1B, 11A, 14B, 17B, 18B, 19A, \n 20B, 23B, 24A, 25B, 29A, \n 33B, 38B, \n 40B, 43B, 49B \n 50A, 51A, 53B \n 60A, 62A, 63A, 65A, 67A, \n 77B, 78B, 80B, 82B, 85B, \n 95A, 96B \n 8 terminales \n 4 conectores \n 2 transiciones \n 1 transición de La Sombra de Nerekhall \n 8 terminales de La Sombra de Nerekhall \n 3 transiciones de La Sombra de Nerekhall \n\n
+EventPlaceTiles1Tavern.button1,{qst:ContinueButton}
+EventZombiesDefeated51A.button1,{qst:ContinueButton}
+EventZombiesDefeated51A.text,<i>Con mucho más esfuerzo del esperado, lográis derrotar a los zombis. \n\n Apesadumbrados, os dais cuenta que todos vuestros ahorros han desaparecido. Quizás, esta posada no fuese una buena idea después de todo. \n\n Mientras lo pensáis, una sucesión de fuertes golpes se cuela a través de la puerta de vuestra habitación. Quizás debáis echar un ojo a ver qué está ocurriendo...</i> \n\n Coloca una ficha de Objetivo como se indica. \n\n Ahora ya se puede abrir la puerta.
+Door51A.text,<i>Esta puerta conduce a la sala principal de la taberna.</i>
+Door51A.button1,{action} Abrir
+EventDoor51AOpened2.button1,{qst:ContinueButton}
+EventDoor51AOpened1.text,Retira la puerta. \n\n Coloca las piezas de tablero 60A,65A, un conector, un terminal y dos puertas como se indica. \n\n Coloca una ficha de Búsqueda como se indica.
+Door51AZombies.text,<i>Esta puerta conduce a la sala principal de la taberna. \n\n Debéis derrotar a los zombis antes de abrirla.</i>
+EventObjective1Tile51A.text,<b>Objetivo:</b> \n\n Derrotar al grupo de zombis.
+EventObjective2Tile60A.button1,{qst:ContinueButton}
+SpawnReanimated60A.button1,{qst:ContinueButton}
+EventDoor51AOpened2.text,<i>La sala principal de la taberna es un caos. Desde lejos ves un no muerto apuñalando al tabernero con una espada gigante.</i>
+EventDoor51AOpened1.button1,{qst:ContinueButton}
+Door51AZombies.button1,{qst:ContinueButton}
+SpawnReanimated60A.text,Coloca un grupo de monstruos {type} en la pieza de tablero 60A respetando el límite de grupo.
+Door62A.text,<i>Detrás de esta puerta hay otra habitación.</i>
+Door62A.button1,{action} Abrir
+EventOpenDoor62A.text,Retira la puerta. \n\n Coloca la pieza de tablero 62A y una ficha de Búsqueda como se indica.
+EventOpenDoor62A.button1,{qst:ContinueButton}
+EventPlacePersonToken62A.text,<i>Bajo la cama hay un hombre aterrorizado hecho un ovillo.</i> \n\n Coloca una ficha de Aldeano como se indica. Un héroe adyacente a esta ficha puede hablar con él para calmarlo. Quizás puedas obtener algo de información.
+EventPlacePersonToken62A.button1,{qst:ContinueButton}
+TokenManUnderTheBed.text,<i>Bajo la cama hay un hombre aterrorizado hecho un ovillo.</i> \n\n Un héroe adyacente a esta ficha puede hablar con él para calmarlo y obtener algo de información (no se requiere una acción).
+TokenManUnderTheBed.button1,Hablar
+EventZombiesDefeatedBeforeRound3.button1,{qst:ContinueButton}
+EventDeadPersonUnderBed.text,<i>Encontráis el cadáver de un hombre bajo la cama. Aparentemente no falleció hace mucho. Si hubieses venido aquí antes, seguro que podrías haberle salvado.<i>
+EventDeadPersonUnderBed.button1,{qst:ContinueButton}
+TokenSearch62A.button1,{action} Buscar
+TokenSearch62A.text,<i>Encuentras una bolsa grande en un rincón. Quizás pertenece al hombre de debajo de la cama.</i>
+TokenSearch60A.text,<i>Hay un gran armario en uno de los extremos de la sala principal de la taberna. Es posible que el tabernero guarde ahí sus objetos de valor.</i>
+TokenSearch60A.button1,{action} Buscar
+Door60A.text,<i>La puerta de la sala principal conduce al barrio del mercado central.</i>
+Door60A.button1,{action} Abrir
+EventDoor60APlaceTiles1.button1,{qst:ContinueButton}
+EventDoor60APlaceTiles2.button1,{qst:ContinueButton}
+EventDoor60APlaceTiles2.text,<i>En el mercado, la gente grita y corre desesperada de un lado a otro. Entre algunos puestos y tenderetes, aterrorizados mercaderes se agolpan agazapados intentando ocultarse.</i> \n\n Coloca una ficha de Aldeano y otra de Aldeana como se indica.
+EventObjectiveGate.text,<b>Objetivo</b> \n\n Cierra el portón de la ciudad para detener el ataque de los no muertos.
+EventPlaceSearchTile95A.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchTile95A.button1,{qst:ContinueButton}
+EventPlaceBlueObjectiveToken95A.text,Coloca una ficha de Objetivo Azul como se indica. \n\n Esta ficha es la palanca que acciona el portón de la ciudad. Gastando una acción, el héroe adyacente a esta ficha puede tirar de la palanca para detener el número de huestes de no muertos que se cuelan en la ciudad.
+EventPlaceBlueObjectiveToken95A.button1,{qst:ContinueButton}
+SpawnUndeadReinforcements.button1,{qst:ContinueButton}
+SpawnUndeadReinforcements.text,<i>Más huestes de no muertos arriban a la ciudad.</i> \n\n Coloca el grupo de monstruos {type} como se indica.
+TokenObjectiveGateLever.text,<i>Esta es la palanca que acciona el portón de la ciudad.</i> \n\n Gastando una acción, un héroe adyacente puede tirar de la palanca para cerrar el portón.
+TokenObjectiveGateLever.button1,{action} Tirar de la palanca
+EventPullLever.text,<i>Al tirar de la palanca, el portón comienza a cerrarse. Tú y tus compañeros os movéis con premura al interior de los muros que protegen la ciudad.</i> \n\n Coloca una puerta como se indica. Sitúa todos los héroes que se encuentran en la pieza de tablero 95A justo detrás de la puerta como se indica. Ya no es posible moverse al otro lado del portón. \n\n Quita todos monstruos y fichas que se encuentren actualmente detrás del portón. Si todos los monstruos de un grupo se encontraban detrás del portón elige la opción de 'Derrotar Grupo'. \n\n Descarta la ficha de Objetivo Azul.
+EventPullLever.button1,{qst:ContinueButton}
+Door95ACityGate.text,<i>Se ha cerrado el portón de la ciudad.</i>
+Door95ACityGate.button1,{qst:ContinueButton}
+TokenMerchant1.button1,Muestra los artículos de la tienda
+TokenMerchant1.text,—<i>¡Bienvenidos amigos! Vendo algunos de los mejores productos de la ciudad. ¿Qué puedo ofreceros hoy?</i> \n\n Un héroe adyacente puede comerciar con este mercader (no gasta una acción).
+EventOpenShop.button1,Salir de la tienda
+EventCloseShop.button1,{qst:ContinueButton}
+EventOpenShop.text,—<i>¿Qué estáis buscando? Dispongo de todo lo que necesitéis.</i>
+EventOpenShop.button2,Reabastecer
+EventRestock.text,—<i>¿Estáis seguro de que queréis que traiga cosas nuevas? Mis compañeros tardarán un tiempo en traer cosas nuevas hasta aquí. Mientras tanto, no podré venderos nada.</i> \n\n Reabastecer requiere {var:RestockWaitTime} rondas. Mientras no podréis comprarle nada a este mercader. \n\n ¿Quieres reabastecer ahora?
+EventRestock.button1,No
+EventSearch62AManDead.button1,{qst:ContinueButton}
+EventSearch62AManAlive.text,<i>Al acercarte a la bolsa, el hombre sale gritando de debajo de la cama. \n\n —¡Es mi bolsa! Por favor no la toquéis. Es todo lo que tengo.</i>
+EventSearch62AManDead.text,<i>La bolsa contiene algo de oro.</i> \n\n Descarta la ficha de Búsqueda. \n\n Obtienes {var:Search62AGold} de oro. \n\n Roba una carta de Búsqueda.
+EventSearch62AManAlive.button1,Cogerlo de todos modos...
+EventSearch62AManAlive.button2,Ponerlo de nuevo...
+EventSearch62AManAlivePutBagBack.text,—<i>¡Gracias! ¡Sabía que aún quedaba gente honesta en esta ciudad! Tomad, coged esto. Quizás os sea de ayuda en medio del caos que reina ahí fuera...</i> \n\n Saca cartas de Búsqueda hasta que te salga el Frasco de Fuego Líquido. Quédate esa carta, a continuación devuelve el resto de cartas de Búsqueda al mazo y barájalo. \n\n Descarta esta ficha.
+EventSearch62AManAlivePutBagBack.button1,{qst:ContinueButton}
+EventSearch62AManAliveStoleBag.text,<i> Cuando empiezas a registrar la bolsa, el hombre corre hacia ti. En la mano lleva una daga pequeña. Con un acto reflejo, coges tu arma y le asestas un golpe. Un último suspiro y el hombre se desploma en el suelo. Está muerto... \n\n En sus bolsillos encuentras algo de oro. No estás seguro que haya merecido la pena...</i> \n\n Encuentras {var:Search62AGold} de oro y pierdes {var:Search62AManAliveStoleBagFame} de fama. \n\n Descarta esta ficha y la ficha de Aldeano.
+EventSearch62AManAliveStoleBag.button1,{qst:ContinueButton}
+Event62ATalkToMan.text,—<i>¡Oh! ¡Al final alguien me encontró! ¡No salgas fuera! Hordas de monstruos recorren la ciudad. Justo enfrente de la taberna tienen rodeado a un grupo de mercaderes. Y he visto a la guardia del palacio enfrentándose a criaturas gigantescas. El único camino seguro hasta el castillo sería a través de las alcantarillas. \n\n No creo que la ciudad resista mucho tiempo este ataque.</i>
+Event62ATalkToMan.button1,{qst:ContinueButton}
+Door67A.text,<i> Esta puerta es la entrada de las alcantarillas. </i>
+Door67A.button1,{action} Abrir
+EventPlaceTiles67ASewers2.button1,{qst:ContinueButton}
+EventPlaceTiles67ASewers1.button1,{qst:ContinueButton}
+EventPlaceTiles67ASewers2.text,Coloca la pieza de tablero 38B y un terminal como se indica. \n\n Coloca cuatro puertas como se indica.
+EventPlaceTiles67ASewers1.text,<i>Al abrir la puerta, un horrible olor fétido te golpea el rostro.</i> \n\n Retira la puerta. \n\n Coloca la pieza de tablero 49B, una pieza de transición, un conector lateral y dos terminales como se indica.
+EventPlaceTiles67ASewers3.button1,{qst:ContinueButton}
+EventPlaceTiles67ASewers3.text,Coloca fichas de Búsqueda como se indica.
+EventPlaceTiles67ASewers4.text,Coloca una ficha de Objetivo como se indica. \n\n <i>Parece que es un pasadizo secreto. Quizás los héroes puedan usar este pasadizo para acceder a otros lugares de la ciudad.</i> \n\n Un héroe adyacente puede usar esta ficha para moverse a otro punto del mapa.
+EventPlaceTiles67ASewers4.button1,{qst:ContinueButton}
+TokenFastTravel38B.button1,{action} Usar pasadizo secreto
+Token14BFastTravel.button1,{action} Usar pasadizo secreto
+Token14BMerchantWife.text,<i>Hay una mujer de pie sobre una silla. Grita histérica debido a las ratas.</i>
+Token40BFastTravel.button1,{action} Usar pasadizo secreto
+EventDoorSewersOpened4.button1,{qst:ContinueButton}
+Token85BFastTravel.button1,{action} Usar pasadizo secreto
+Door25B.text,<i>Otra puerta bloquea el camino.</i>
+EventUseHiddenPassageToMerchant.button1,{qst:ContinueButton}
+EventUseHiddenPassageToMerchantToken.button1,{qst:ContinueButton}
+EventUseHiddenPassageToMerchantMove.button1,{qst:ContinueButton}
+EventUseHiddenPassageToMerchantToken.text,Coloca una ficha de Objetivo como se indica. \n\n Héroes adyacentes pueden usar esta ficha para viajar rápidamente hasta una de las fichas de Objetivo en los pasadizos secretos.
+EventUseHiddenPassageToMerchantMove.text,Mueve el héroe que use el pasadizo hasta la posición indicada.
+TokenFastTravelMerchant.text,<i>Es un pasadizo secreto. Los héroes pueden usar este pasadizo para moverse a otros lugares de la ciudad.</i> \n\n Gastando una acción, un héroe adyacente puede usar esta ficha para moverse hasta otro punto en el mapa.
+TokenFastTravelMerchant.button1,{action} Usar pasadizo secreto
+TokenFastTravel38B.text,<b>Pasadizo secreto</b> \n\n <i>Es un pasadizo secreto. Los héroes pueden usar este pasadizo para moverse a otros lugares de la ciudad.</i> \n\n Gastando una acción, un héroe adyacente puede usar esta ficha para moverse hasta otro punto en el mapa.
+EventUseHiddenPassageToMerchantMoveBack.button1,{qst:ContinueButton}
+EventUseHiddenPassageToMerchantMoveBack.text,Mueve el héroe que use el pasadizo hasta una ficha de Objetivo en un pasadizo secreto.
+EventEvent51ASecretPassageNotReady.text,<i>Uno de los zombis ha levantado inintencionadamente una alfombra de grandes dimensiones en uno de sus ataques. Bajo ella se desvela una trampilla. Está cerrada por un candado muy pesado. Sin la llave no podrás abrirlo.</i>
+Token51ASecretPassage.button1,Seguir
+Event51ASecretPassagePickLock1.text,¿Has superado la prueba?
+Event51ASecretPassagePickLock1.button1,Superada
+Event51ASecretPassagePickLock1.button2,Fallada
+Event51ASecretPassagePickLock1Passed.text,Coloca la pieza de tablero 24A y un terminal como se indica. \n\n Coloca una puerta como se indica.
+Event51ASecretPassagePickLock1Passed.button1,{qst:ContinueButton}
+Event51ASecretPassagePickLock1Failed.text,<i>El candado sigue cerrado. Semejante candado solo puede ser abierto con mucha habilidad y mucha más suerte...</i>
+Event51ASecretPassagePickLock1Failed.button1,{qst:ContinueButton}
+Token51ASecretPassageOpened.text,<i>Es un pasadizo secreto.</i> \n\n Gastando una acción, un héroe adyacente se puede mover a través del pasadizo.
+Token51ASecretPassageOpened.button1,{action} Moverse a través del pasadizo
+Event51ASecretPassageOpenedMoveTrough.button1,{qst:ContinueButton}
+Event51ASecretPassagePickLock1Passed2.button1,{qst:ContinueButton}
+Event51ASecretPassageOpenedMoveTrough.text,Mueve el héroe que se ha aventurado por el pasadizo hasta la posición indicada.
+Event51ASecretPassagePickLock1Passed3.button1,{qst:ContinueButton}
+Event51ASecretPassagePickLock1Passed2.text,<i>La trampilla se abre repentinamente y caes dentro. Impactas violentamente contra el suelo. Te incorporas algo mareado y ves que te encuentras en lo que parece ser un pasadizo recubierto de musgo.</i> \n\n Mueve el héroe que intentó abrir el candado hasta la posición indicada. Este héroe pierde {var:var51ASecretPassagePickLock1Passed2Heart} {heart}.
+Event51ASecretPassagePickLock1Passed4.text,Otros héroes adyacentes al pasadizo pueden ahora moverse directamente a través de él gastando una acción.
+Event51ASecretPassagePickLock1Passed3.text,Los héroes que se muevan a través del pasadizo solo pueden regresar usando la otra entrada del pasadizo.
+Event51ASecretPassagePickLock1Passed4.button1,{qst:ContinueButton}
+Door24A1.text,<i>Una enorme puerta bloquea el camino. Parece que no se ha abierto en mucho tiempo...</i> \n\n Gastando una acción, un héroe adyacente puede intentar abrirla realizando una prueba de {might}.
+Door24A1.button1,{action} Prueba de {might}
+Door1B2OtherSide.button1,{qst:ContinueButton}
+Door77B2.button1,{action} Intentar abrir la puerta
+EventDoor77B2Test.text,Prueba de {might}
+EventDoor77B2Test.button1,Superada
+EventDoor77B2Test.button2,Fallada
+EventDoor77B2TestPassedPlaceTiles.button1,{qst:ContinueButton}
+EventDoor77B2TestPassed.button1,{qst:ContinueButton}
+EventDoor77B2TestFailed.text,<i>La puerta sigue cerrada con llave.</i>
+EventDoor77B2TestFailed.button1,{qst:ContinueButton}
+EventObjectiveBoss.text,<b>Objetivo</b>: \n\n Derrotar a Ardus Ix Erebus antes de que mate al barón.
+EventDoor77B2TestPassedPlaceBaron.button1,{qst:ContinueButton}
+SpawnArdusConfused.text,Coloca a {type} como se indica. Tiene {var:ArdusHealth} de vida adicional por cada héroe. \n\n <i>{type} Se encuentra enfrente del barón Valdanor. Pese a su esquelética apariencia {type} parece confundido. \n\n —¿De dónde habéis salido? ¡No importa! ¡Os mataré tan pronto acabe con el barón!</i>
+TokenBaron.text,Es el barón Valdanor. No se puede mover ya que Ardus Ix Erebus le ha herido.
+TokenBaron.button1,{qst:ContinueButton}
+SpawnArdusConfused.button1,{qst:ContinueButton}
+EventDoor24A1Test.text,¿Has superado la prueba?
+Door1B2.button1,{action} Abrir
+EventDoor24A1Test.button1,Superada
+EventDoor24A1Test.button2,Fallada
+EventDoor24A1TestFailed.text,<i>La puerta no se mueve ni un milímetro.</i>
+EventDoor24A1TestFailed.button1,{qst:ContinueButton}
+EventDoor24A1TestPassed.text,<i>Con gran esfuerzo logras abrir la puerta lo justo para deslizarte a través de ella.</i> \n\n Retira la puerta.
+EventDoor24A1TestPassed.button1,{qst:ContinueButton}
+EventDoor24A1TestPassed2.button1,{qst:ContinueButton}
+SpawnPalaceGuards.text,<i>Tras la puerta, de repente se empiezan a mover algunas estatuas. ¿Podrían ser los antiguos guardianes del palacio?</i> \n\n Coloca el grupo de {type} como se indica..
+SpawnPalaceGuards.button1,{qst:ContinueButton}
+Door77B1.text,<i>Otra puerta, decorada con el escudo de armas del palacio, bloquea el camino. La puerta parece estar cerrada con algún tipo de sello mágico.</i> \n\n Gastando una acción, un héroe adyacente puede intentar abrir la puerta.
+Door77B1.button1,{qst:ContinueButton}
+EventDoor77B1Test.text,Prueba de {knowledge}
+EventDoor77B1Test.button1,Superada
+EventDoor77B1Test.button2,Fallada
+EventDoor77B1TestFailed.text,<i>No eres capaz de romper el sello mágico.</i>
+EventDoor77B1TestFailed.button1,{qst:ContinueButton}
+EventDoor77B1TestPassed.text,Retira la puerta. \n\n Coloca la pieza de tablero 77B como se indica. \n\n Coloca otra puerta como se indica.
+EventDoor77B1TestPassed.button1,{qst:ContinueButton}
+SpawnDoor77B1TestPassedGuardian2.button1,{qst:ContinueButton}
+EventDoor77B1TestPassedPlaceSearchToken.text,Coloca una ficha de Búsqueda como se indica.
+EventDoor24A1TestPassed2.text,Coloca una puerta y una transición como se indica.
+TokenDiarySearch77B.text,<i>Un pequeño diario yace en el suelo.</i>
+EventDoor77B1TestPassedPlaceSearchToken.button1,{qst:ContinueButton}
+EventSearch77B.button1,{qst:ContinueButton}
+SpawnDoor77B1TestPassedGuardian2.text,<i>Tras la puerta, la estatua de una enorme criatura comienza repentinamente a transformarse. Es un {type}!</i> \n\n Coloca un {type} líder como se indica.
+Door77B2.text,<i>Esta enorme puerta luce el blasón del barón.</i> \n\n Gastando una acción, un héroe adyacente puede intentar abrir la puerta.
+EventObjectiveBoss.button1,{qst:ContinueButton}
+EventDoor77B2TestPassedPlaceBaron.text,Coloca una ficha de Aldeano como se indica. Es el barón Valdanor.
+Door1B2.text,<i>Es la puerta que lleva a la sala del trono. Se escuchan fuertes ruidos provenientes de la sala.</i>
+EventDoor1B2OpenedPlaceTiles.button1,{qst:ContinueButton}
+EventDoor1B2OpenedTests.button1,{qst:ContinueButton}
+EventDoor77B2TestPassedPlaceLockedDoor.text,Coloca una puerta como se indica.
+EventDoor77B2TestPassedPlaceLockedDoor.button1,{qst:ContinueButton}
+Door1B2OtherSide.text,<i>Es la puerta que lleva a la sala del trono. La han cerrado desde el otro lado.</i>
+Token33BSecret.button1,Prueba de {knowledge}
+EventTokenSecret33BTest.text,¿Has superado la prueba?
+EventTokenSecret33BTest.button1,Si
+EventTokenSecret33BTest.button2,No
+EventTokenSecret33BTestFailed.text,<i>No ocurre nada.</i>
+EventTokenSecret33BTestFailed.button1,{qst:ContinueButton}
+EventTokenSecret33BTestPassed.text,<i>La piedra comienza a brillar con mayor intensidad. Poco a poco se empieza a resquebrajar y explota en mil pedazos que instantáneamente se transforman en polvo.
+EventTokenSecret33BTestPassed.button1,{qst:ContinueButton}
+SpawnKyndrithul.button1,{qst:ContinueButton}
+EventSpawnKyndrithulCloseDoor.text,<i>La puerta se cierra repentinamente otra vez. \n\n —Lo siento, pero no os puedo permitir marcharos —dice Kyndrinthul.</i> \n\n Coloca una puerta como se indica.
+SpawnKyndrithul.text,<i>Una resplandeciente luz inunda la sala. Progresivamente va desapareciendo y alcanzas a ver a una persona que se gira dándote la espalda. Una terrorífica risa te hiela la sangre. \n\n —¡Por fin! Después de todos estos años finalmente estoy libre. ¡Oh, no sabes lo bien que sienta poder oír nuevamente la sangre recorrer las venas de mis víctimas! Encantado de conocerte. Soy Kyndrithul. Si no te importa darme tan solo un poco de tu sangre te estaría muy agradecido. \n\n Con estas palabras, la criatura se abalanza sobre ti. Con sus afiladas garras busca tu desprotegido cuello.</i> \n\n Coloca a {type} como se indica. \n\n Descarta la ficha.
+EventSpawnKyndrithulCloseDoor.button1,{qst:ContinueButton}
+Door96BKyndrithul.text,<i> Esta puerta está sellada por la magia de Kyndrithul.</i> \n\n Como una acción, un héroe adyacente puede intentar abrirla con una prueba de {knowledge} o una de {might}.
+Door96BKyndrithul.button1,Prueba de {knowledge} o de {might}
+EventDoor96BKyndrithulTest.text,¿Has superado la prueba?
+EventDoor96BKyndrithulTest.button1,Superada
+EventDoor96BKyndrithulTest.button2,Fallada
+EventDoor96BKyndrithulTestFailed.text,<i>La puerta sigue cerrada con llave.</i>
+EventDoor96BKyndrithulTestFailed.button1,{qst:ContinueButton}
+EventDoor96BKyndrithulTestPassed.text,<i>Logras romper el sello mágico de la puerta.</i> \n\n Retira la puerta.
+EventDoor96BKyndrithulTestPassed.button1,{qst:ContinueButton}
+Door96B.text,<i>Una de las cuatro puertas de las alcantarillas. Parece que ha sido recientemente abierta.</i>
+Door96B.button1,{action} Abrir
+Door82B.button1,{action} Abrir
+Door18B.button1,{action} Abrir
+Door53B.button1,{action} Abrir
+Door80B.button1,{action} Prueba de {awareness} o de {might}
+Door40B.button1,{action} Abrir
+Door14B.button1,{action} Abrir
+Door25B.button1,{action} Abrir
+Door11A.button1,{action} Abrir
+EventDoor96BOpened.text,Retira la puerta. \n\n Coloca la pieza de tablero 96B como se muestra. \n\n Coloca una ficha de Búsqueda como se indica. \n\n Coloca una puerta como se indica.
+EventDoor96BOpened.button1,{qst:ContinueButton}
+Door33B.text,<i>Esta puerta ha sido sellada con una barrera mágica. Los no muertos no han podido atravesarla.</i> \n\n Gastando una acción, un héroe adyacente puede romper la barrera mágica de la puerta con una prueba de {knowledge}.
+Door33B.button1,{action} Prueba de {knowledge}
+EventDoor33BTest.text,¿Has superado la prueba?
+EventDoor33BTest.button1,Superada
+EventDoor33BTest.button2,Fallada
+EventDoor33BTestFailed.text,<i>La puerta sigue cerrada.</i>
+EventDoor33BTestFailed.button1,{qst:ContinueButton}
+EventDoor33BTestPassed.text,</i> \n\n Retira la puerta. \n\n Coloca la pieza de tablero 33B y un terminal como se indica. \n\n Coloca una ficha de Objetivo Blanco como se indica.
+EventDoor33BTestPassed.button1,{qst:ContinueButton}
+Token33BSecret.text,<i>En una esquina adviertes un pedestal sobre el que descansa una piedra que desprende una brillante luz. \n\n —Por favor, ayúdame. Llevo años aquí atrapado —escuchas que una dulce voz se dirige a ti. ¿Proviene de la piedra?</i> \n\n Gastando una acción, un héroe adyacente puede intentar romper la barrera mágica de la piedra con una prueba de {knowledge}.
+SpawnSewerMonster.text,<i>Algo aguarda en las alcantarillas...<i></i></i> \n\n Coloca un grupo de {type} en la pieza de tablero 49B.
+SpawnSewerMonster.button1,{qst:ContinueButton}
+EventDoor82BOpen.text,<i>Hay un pequeño altar en la sala. ¿Te preguntas a quién adoraban aquí?</i> \n\n Retira la puerta. \n\n Coloca la pieza de tablero 82B y una ficha de Búsqueda como se indica.
+EventDoor82BOpen.button1,{qst:ContinueButton}
+EventDoor53BOpen.text,<i>El suelo de la sala está completamente inundado de agua.</i> \n\n Retira la puerta. \n\n Coloca la pieza de tablero 53B como se indica. \n\n Coloca dos fichas de Búsqueda como se indica. \n\n Coloca una puerta como se indica.
+EventDoor53BOpen.button1,{qst:ContinueButton}
+SpawnDoor53BOpenMonster.text,<i>Con tu primer paso dentro de la sala notas que pisas algo viscoso. ¡Es un tentáculo!</i> \n\n Coloca un grupo de {type} en la pieza de tablero 53B.
+SpawnDoor53BOpenMonster.button1,{qst:ContinueButton}
+Door53B.text,<i>Una de las cuatro puertas de las alcantarillas. Escuchas el sonido del agua detrás de la puerta.</i>
+Door18B.text,<i> Los símbolos en esta puerta muestran que es parte del castillo. </i>
+EventDoor18BOpened.text,<i>Los largos pasillos del palacio se extienden más allá de la puerta.</i> \n\n Retira la puerta. \n\n Coloca las piezas de tablero 18B, 40B y 78B como se indica. \n\n Coloca dos puertas como se indica.
+EventDoor18BOpened.button1,{qst:ContinueButton}
+EventDoorSewersOpened2.button1,{qst:ContinueButton}
+Door50A.text,<i>Esta enorme puerta conduce al palacio.</i> \n\n Gastando una acción, un héroe adyacente puede abrir la puerta con una prueba de {awareness} o de {might}.
+EventDoorSewersOpened4.text,Coloca la pieza de tablero 43B y una transición como se indica. \n\n Coloca una puerta como se indica.
+EventDoorSewersOpened3.button1,{qst:ContinueButton}
+Door11A2.text,<i> Esta puerta está bloqueada por algo enorme en el otro lado. </i>
+Door40B2.text,<i> Esta puerta no se puede abrir desde este lado. </i>
+SpawnBarricade2Monsters.text,<i>Al otro lado te aguardan más no muertos.</i> \n\n Coloca un grupo de {type} en la pieza de tablero 11A.
+Door40B2.button1,{qst:ContinueButton}
+EventDoorSewersOpened3.text,Coloca la pieza de tablero 80B y una puerta como se indica.
+EventDoorSewersOpened2.text,Coloca la pieza de tablero 23B y un terminal como se indica.
+Door82B.text,<i>La puerta está cubierta de polvo. Parece que nadie la abierto en años.</i>
+EventDoor18Opened2.text,Retira la puerta.
+Door40B.text,<i> Los símbolos en esta puerta muestran que es parte del castillo. </i>
+EventDoor40BOpened.button1,{qst:ContinueButton}
+EventDoor40InnerCastleNotOpened.button1,{qst:ContinueButton}
+Door18B2.text,<i> Esta puerta no se puede abrir desde este lado. </i>
+Door18B2.button1,{qst:ContinueButton}
+Door80B.text,<i>Una gran puerta cerrada. No será fácil abrirla.</i> \n\n Gastando una acción, un héroe adyacente puede abrirla con una prueba de {awareness} o {might}.
+EventDoor40BOpened2.text,Retira la puerta.
+EventDoor80Test.text,¿Has superado la prueba?
+EventDoor80Test.button1,Superada
+EventDoor80Test.button2,Fallada
+EventDoor80TestFailed.text,<i>No ocurre nada.</i>
+EventDoor80TestFailed.button1,{qst:ContinueButton}
+EventDoor80TestPassed.text,Retira la puerta. \n\n Coloca las piezas de tablero 17B y 20B y un conector lateral como se indica.
+EventDoor80TestPassed.button1,{qst:ContinueButton}
+EventDoor53BOpen2.text,Coloca una puerta como se indica.
+EventDoor40BOpened.text,<i>Los largos pasillos del palacio se extienden más allá de la puerta.</i> \n\n Retira la puerta. \n\n Coloca las piezas de tablero 18B, 40B y 78B como se indica. \n\n Coloca dos puertas como se indica.
+Door14B.text,<i>Escuchas gritos al otro lado de la puerta.</i>
+EventDoor14BOpen.text,<i>Tras la puerta se abre una pequeña cámara. Una mujer grita de pie sobre una silla</i>. \n\n Retira la puerta. \n\n Coloca la pieza de tablero 14B, un conector y un terminal como se indica. \n\n Coloca una ficha de Búsqueda y una ficha de Aldeana como se indica.
+EventDoor14BOpen.button1,{qst:ContinueButton}
+Token14BFastTravel.text,<b>Pasadizo secreto</b> \n\n <i>Es un pasadizo secreto. Los héroes pueden usar este pasadizo para moverse a otros lugares de la ciudad.</i> \n\n Gastando una acción, un héroe adyacente puede usar esta ficha para moverse hasta otro punto en el mapa.
+Token14BMerchantWife.button1,{qst:ContinueButton}
+TokenDiarySearch14B.button1,{action} Buscar
+TokenDiarySearch11A.text,<i>Los monstruos se han abierto paso hasta el palacio sembrando el caos. En un punto, algo sobresale del suelo.</i>
+Door11A.text,<i>Es otra puerta del palacio.</i>
+EventDoor11AOpen.text,<i>Los largos pasillos del palacio se extienden más allá de la puerta.</i> \n\n Retira la puerta. \n\n Coloca las piezas de tablero 43B, 80B y una transición como se indica. \n\n Coloca una puerta como se indica.
+EventDoor11AOpen.button1,{qst:ContinueButton}
+EventDoor11AOpen2.text,Coloca la pieza de tablero 23B y un terminal como se indica.
+EventDoor11AOpen2.button1,{qst:ContinueButton}
+EventDoor11AOpen3.text,Coloca las piezas de tablero 18B, 40B, 78B y un terminal como se indica. \n\n Coloca tres puertas como se indica.
+EventDoor11AOpen3.button1,{qst:ContinueButton}
+EventDoor11AOpenAlreadyInCastle.button1,{qst:ContinueButton}
+EventDoor11AOpenAlreadyInCastle.text,Retira la puerta.
+EventPlaceTokensInnerCastle1.text,Coloca fichas de Búsqueda como se indica. \n\n Coloca una ficha de Objetivo como se indica.
+EventPlaceTokensInnerCastle1.button1,{qst:ContinueButton}
+Token40BFastTravel.text,<b>Pasadizo secreto</b> \n\n <i>Es un pasadizo secreto. Los héroes pueden usar este pasadizo para moverse a otros lugares de la ciudad.</i> \n\n Gastando una acción, un héroe adyacente puede usar esta ficha para moverse hasta otro punto en el mapa.
+Door50A.button1,{action} Prueba de {awareness} o de {might}
+Event50ATest.text,¿Has superado la prueba?
+Event50ATest.button1,Superada
+Event50ATest.button2,Fallada
+Event50ATestFailed.text,<i>No ocurre nada.</i>
+Event50ATestFailed.button1,{qst:ContinueButton}
+Event50ATestPassed.text,Retira la puerta. \n\n Coloca las piezas de tablero 19A, 29A y una transición (a la izquierda de la pieza 19A) como se indica.
+Event50ATestPassed.button1,{qst:ContinueButton}
+EventPlaceBarricade.button1,{qst:ContinueButton}
+TokenBarricade2.text,<i>Una enorme barricada de madera bloquea el camino hacia el palacio.</i> \n\n Un héroe puede atacar la barricada como si fuese un monstruo, tira {var:BarricadeDefenseDiceBlack} dado negro de defensa y {var:BarricadeDefenseDiceGrey} dados grises de defensa. Cada vez que la barricada sufre daño debido al ataque, selecciona el botón de 'Barricada Dañada' de debajo. Cuando la barricada haya sido dañada 3 veces será destruida. \n\n Actualmente tiene {var:BarricadeHealth} de {var:BarricadeMaximumHealth}.
+SpawnBarricadeMonsters.button1,{qst:ContinueButton}
+TokenBarricade1.text,<i>Una enorme barricada de madera bloquea el camino hacia el palacio.</i> \n\n Un héroe puede atacar la barricada como si fuese un monstruo, tira {var:BarricadeDefenseDiceBlack} dado negro de defensa y {var:BarricadeDefenseDiceGrey} dados grises de defensa. Cada vez que la barricada sufre daño debido al ataque, selecciona el botón de 'Barricada Dañada' de debajo. Cuando la barricada haya sido dañada 3 veces será destruida. \n\n Actualmente tiene {var:BarricadeHealth} de {var:BarricadeMaximumHealth}.
+TokenBarricade1.button1,Barricada dañada
+EventPlaceBarricade.text,<i>Una enorme barricada de madera bloquea el camino hacia el palacio.</i> \n\n Coloca dos fichas de Objetivo Rojo como se indica. \n\n Estas fichas son la barrera. Un héroe adyacente puede atacar la barricada para destruirla.
+TokenBarricade2.button1,{action} Atacar barricada
+EventAttackBarricade1Failed.button1,{qst:ContinueButton}
+EventAttackBarricade1Passed.text,<i>Tu ataque daña la barricada, abriendo grietas en ella.</i>
+EventAttackBarricade1Failed.text,<i>No ocurre nada.</i>
+EventAttackBarricade1Passed.button1,{qst:ContinueButton}
+SpawnBarricadeMonsters.text,<i>Algunos {type} intentan destruir el bloqueo. Cuando advierten tu presencia, se detienen y se giran hacia ti.</i> \n\n Coloca un grupo de {type} en la pieza de tablero 19A y 29A como se indica.
+EventAttackBarricade2Failed.text,<i>No ocurre nada.</i> \n
+EventAttackBarricade2Failed.button1,{qst:ContinueButton}
+EventAttackBarricade2Passed.text,<i>No ocurre nada.</i> \n
+EventAttackBarricade2Passed.button1,{qst:ContinueButton}
+EventBarricadeDestroyed.button1,{qst:ContinueButton}
+Door11A2.button1,{qst:ContinueButton}
+EventBarricadeDestroyed.text,<i>La barricada cede y se viene abajo.</i> \n\n Descarta las dos fichas de Objetivo Rojo. \n\n Coloca la pieza de tablero 11A como se muestra. \n\n Coloca una puerta como se indica. \n\n Coloca una ficha de Búsqueda como se indica.
+SpawnBarricade2Monsters.button1,{qst:ContinueButton}
+EventDoor25BOpen.text,<i>La puerta se abre. Ves otro pasillo que gira hacia la derecha.</i> \n\n Retira la puerta. \n\n Coloca las piezas de tablero 25B, 85B, un conector y dos terminales como se indica.
+EventDoor25BOpen.button1,{qst:ContinueButton}
+EventDoor25BOpen2.text,Coloca una ficha de Búsqueda como se indica. \n\n Coloca una ficha de Objetivo como se indica. \n\n Coloca una puerta como se indica.
+EventDoor25BOpen2.button1,{qst:ContinueButton}
+Token85BFastTravel.text,<b>Pasadizo secreto</b> \n\n <i>Es un pasadizo secreto. Los héroes pueden usar este pasadizo para moverse a otros lugares de la ciudad.</i> \n\n Gastando una acción, un héroe adyacente puede usar esta ficha para moverse hasta otro punto en el mapa.
+Door77B2OtherSide.text,<i> Esta puerta no se puede abrir desde este lado. </i>
+SpawnArdusNormal.text,<i>Sobre él se erige un terrorífico y gigantesco esqueleto. Es Ardus Ix Erebus, comandante en jefe de la legión de muertos de Waiqar. \n\n —¿Dónde está? ¡Mi maestro requiere su presencia inmediata! —Ardus Ix Erebus le grita al barón—. Si no me lo dices, ¡reduciré a cenizas toda la ciudad! \n\n —No te diré nada —le responde el barón Valdanor con voz distorsionada por el dolor. \n\n Al entrar en la estancia, Ardus Ix Erebus se gira hacia ti lentamente. \n\n —¡Ah eres tú! Sabía que era cuestión de tiempo que aparecieras por aquí. Como puedes ver, aún tengo trabajo aquí. Mis sirvientes se ocuparán de ti.</i> \n\n Coloca un grupo {type} como se indica. Tiene {var:ArdusHealth} de vida adicional por héroe.
+EventPlaceDoor77BIfNotOpened.text,Coloca una puerta como se indica.
+SpawnArdusNormal.button1,{qst:ContinueButton}
+EventPlaceBaronNormal.text,<i>El barón Valdanor yace en el suelo junto a su trono. Parece estar herido.</i> \n\n Coloca una ficha de Aldeano como se indica. Es el barón Valdanor.
+EventPlaceBaronNormal.button1,{qst:ContinueButton}
+EventPlaceDoor77BIfNotOpened.button1,{qst:ContinueButton}
+Door77B2OtherSide.button1,{qst:ContinueButton}
+EventDoor77B2TestPassed2.text,Retira la puerta.
+EventDoor77B2TestPassedPlaceTiles.text,Retira la puerta. \n\n Coloca la pieza de tablero 1B y un terminal como se indica. \n\n Coloca una ficha de Búsqueda como se indica.
+EventDoor77B2TestPassed2.button1,{qst:ContinueButton}
+TokenMerchant2.button1,Comprar una poción curativa
+EventDoor1B2Opened2.text,Retira la puerta.
+EventDoor1B2Opened2.button1,{qst:ContinueButton}
+EventDoor1B2OpenedPlaceTiles.text,<i>Al entrar en el salón del trono, te sorprendes al comprobar el caos que los no muertos han causado.</i> \n\n Retira la puerta. \n\n Coloca la pieza de tablero 1B y un terminal como se indica. \n\n Coloca una ficha de Búsqueda como se indica.
+TokenMerchant2.text,—<i>¡Bienvenido! ¡Dispongo de las mejores pociones de toda la ciudad! Algunas dan acceso a conocimientos ocultos y olvidados...</i> \n\n Un héroe adyacente puede comerciar con este mercader (no se requiere una acción). \n\n Puedes comprar pociones curativas a este mercader. Cada poción cuesta {var:PricePotions} de oro. \n\n Además, puedes obtener puntos de experiencia. Cada punto de experiencia cuesta {var:PriceXp} de oro.
+EventPotionBuy.text,Busca en el mazo de cartas de Búsqueda por una poción. \n\n Luego, baraja dicho mazo nuevamente.
+EventPotionBuy.button1,{qst:ContinueButton}
+EventPotionsNotEnoughMoney.text,—<i>Lo siento, pero parece que no tienes suficiente dinero para comprar una poción.</i>
+EventPotionBuyCheck.button1,{qst:ContinueButton}
+EventPotionsNotEnoughMoney.button1,{qst:ContinueButton}
+TokenMerchant1.button2,Hablar
+EventMerchantWifeNotYetFound.button1,{qst:ContinueButton}
+EventMerchantWifeHelpedTalk.button1,{qst:ContinueButton}
+EventMerchantWifeFoundTalk.text,<i>Le dices que su mujer se encuentra atrapada por una plaga de ratas gigantes en el castillo. \n\n —¡Oh por favor, tienes que ayudarla! ¡Serás recompensado generosamente por ello!
+SpawnRatSwarm.button1,{qst:ContinueButton}
+EventRatsDefeated.text,<i>Al sucumbir a tu espada la última rata, el silencio se apodera de la estancia. La mujer deja de gritar. Con tu ayuda, se baja de la silla. \n\n —¡Gracias! Las ratas invadieron repentinamente la habitación y no tuve oportunidad de escapar. Intentaré llegar hasta mi esposo tan rápido como me sea posible. Es un mercader.\n\n Se acerca a una de las paredes y presiona sobre un interruptor secreto.\n\n —Si quieres puedes seguirme a través de este camino secreto. Estos pasadizos secretos existen por toda la ciudad y la mayoría llevan directamente hasta el mercado. Di con ellos por casualidad hace unos años. Pero, ¡por favor no se lo digas a mi esposo! Se preocuparía mucho.</i> \n\n Coloca una ficha de Objetivo como se indica. Es un pasadizo secreto. Los héroes pueden usar este pasadizo para moverse a otros lugares de la ciudad.\n\n Gastando una acción, un héroe adyacente puede usar esta ficha para moverse hasta otro punto en el mapa.
+SpawnRatSwarm.text,<i>Al mirar detenidamente a tu alrededor comprendes porque la mujer grita desesperadamente: \n\n Lo que en un primer momento pensaste que era una alfombra es en realidad una ingente y repulsiva masa compuesta por cientos de ratas. \n\n —¡Oh, por favor ayudadme! —grita la mujer—. Mi nombre es Cara. Mi esposo debe estar ya buscándome.</i> \n\n La mujer no tiene ninguna opción de escapar a menos que acabes con las ratas \n\n Grupo común de {type} en la pieza de tablero 14B.
+EventRatsDefeated.button1,{qst:ContinueButton}
+EventMerchantWifeNotYetFound.text,—<i>¡Por favor intentad encontrar a mi esposa!</i>
+TokenMerchant2.button2,Comprar un punto de experiencia
+EventTalkHealthMerchant.button1,{qst:ContinueButton}
+EventTalkHealthMerchant1.text,—<i>¡Oh, estos monstruos son terribles! Han espantado a todos mis clientes. Y el paso hasta el palacio está bloqueado. Si pretendes llegar al palacio debes estar preparado para todos los obstáculos que hallarás.</i>
+EventTalkHealthMerchant1.button1,{qst:ContinueButton}
+EventTalkHealthMerchant2.text,—<i>Creo que los monstruos accedieron a la ciudad a través de las alcantarillas. No he tenido el valor de pasar por ahí desde hace semanas, desde que un vecino me habló de una terrible criatura que vio con docenas de brazos.</i>
+EventTalkHealthMerchant2.button1,{qst:ContinueButton}
+EventTalkHealthMerchant3.text,—<i>La celebración en honor al dios Kellos no se podrá celebrar mientras todos esos monstruos campen a sus anchas. Es una lástima todas las pociones que podría haber vendido.</i>
+EventTalkHealthMerchant3.button1,{qst:ContinueButton}
+TokenSearch82B.text,<i>Hay una extraña caja sobre un altar. Está decorada con piedras preciosas.</i>
+TokenSearch82B.button1,{action} Buscar
+EventSearch82BTrapTest.text,<i>Al levantar la tapa de la caja, algunas bisagras se accionan y oyes algo moverse en una esquina de la sala.</i> \n\n Prueba de {awareness}.
+EventSearch82BTrapTest.button1,Superada
+EventSearch82BTrapTest.button2,Fallada
+EventSearch82BTrapTestPassed.text,<i>Varias flechas salen disparadas de la pared. Logras evitarlas y hacerte con lo que había en el interior de la caja. Es un precioso cofre que contiene una pila de piezas de oro.</i> \n\n Descarta la ficha. \n\n Obtienes {var:Search82BGold} de oro. \n\n Roba una carta de Búsqueda.
+EventSearch82BTrapTestPassed.button1,{qst:ContinueButton}
+EventSearch82BTrapTestFailed.text,<i>Varias flechas salen disparadas de la pared. No logras evitarlas. La caja desaparece repentinamente.</i> \n\n Descarta la ficha. \n\n Todos los héroes adyacentes a la ficha de Búsqueda sufren {var:Search82BTrapTestFailedDamage} {heart}. \n\n Roba una carta de Búsqueda.
+EventSearch82BTrapTestFailed.button1,{qst:ContinueButton}
+EventTokenSearch60A.text,<i>A excepción de algo de oro y unos libros viejos, no hay nada de interés en el armario.</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch60AGold} de oro. \n\n Roba una carta de Búsqueda.
+EventTokenSearch60A.button1,{qst:ContinueButton}
+TokenSearch95A.button1,Buscar
+EventTokenSearch95ASearch.text,<i>La bolsa contiene algunas monedas y un artículo útil.</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch95ASearchGold} de oro. \n\n Roba una carta de Búsqueda.
+EventTokenSearch95ASearch.button1,{qst:ContinueButton}
+TokenDiarySearch49B.text,<i>Ves un destello en la oscuridad.</i>
+EventTokenSearch49B.text,<i>Es un cofre plateado. Dentro hay algo de oro y la página de un diario.</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch49BGold} de oro. \n\n Roba una carta de Búsqueda.
+EventTokenSearch49B.button1,{qst:ContinueButton}
+TokenDiarySearch50A.text,<i>Hay sangre fresca en el cadalso sobre el que cuelgan las horcas. Los siervos de Kellos parecen disfrutar con sus tareas. Da la impresión de que alguien perdió algo junto al cadalso.</i>
+TokenSearch38B.text,<i> Hay algo flotando en el agua. </i>
+TokenSearch38B.button1,{action} Buscar
+TokenDiarySearch53B.button1,{action} Buscar
+TokenDiarySearch49B.button1,{action} Buscar
+TokenSearch53B2.text,<i>Da la impresión que el Meriodón ha ido recolectado diversos artículos de los ingenuos visitantes de las alcantarillas.</i>
+TokenSearch53B2.button1,{action} Buscar
+TokenSearch40B.text,<i>Un guardia muerto yace en el suelo. Se le cayó algo.</i>
+TokenSearch40B.button1,{action} Buscar
+TokenSearch23B.text,<i> Hay algo en el suelo, en la esquina. </i>
+TokenSearch23B.button1,{action} Buscar
+TokenDiarySearch85B.button1,{action} Buscar
+TokenDiarySearch14B.text,<i>Hay numerosos libros esparcidos por toda la estancia.</i>
+TokenDiarySearch1B.button1,{action} Buscar
+EventTokenDiarySearch1B.text,<i>Encuentras la página de un diario. Lleva el sello del barón. Junto a ella hay una pequeña bolsa con monedas de oro.</i> \n\n Descarta esta ficha. \n\n Roba una carta de Búsqueda.
+TokenDiarySearch96B.button1,{action} Buscar
+TokenDiarySearch53B.text,<i>Hay una cesta podrida en una esquina.</i>
+EventTokenSearch38B.text,<i>Un pequeño broche. Te preguntas si le interesará al mercader</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch38BGold} de oro.
+EventTokenSearch38B.button1,{qst:ContinueButton}
+EventTokenSearch96B.text,<i>Encuentras la página de un diario y algo de oro.</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch96BGold} de oro. \n\n Roba una carta de Búsqueda.
+EventTokenSearch96B.button1,{qst:ContinueButton}
+EventTokenSearch53B2.button1,{qst:ContinueButton}
+EventTokenSearch53B.text,<i>La cesta contiene la página de un diario y algo de oro.</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch53BGold} de oro. \n\n Roba una carta de Búsqueda.
+EventTokenSearch53B2.text,<i>Entre toda la basura encuentras algo de oro y una extraña llave. Te preguntas en qué cerradura encajará</i> \n\n Descarta esta ficha. \n\n Roba una carta de Búsqueda.
+EventTokenSearch53B.button1,{qst:ContinueButton}
+EventTokenSearch40B.text,<i>Una daga ceremonial de plata. ¿Sería el guardia un adorador de Kellos? Seguro que el mercader puede hacer algo con ella...</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch40BGold} de oro.
+EventTokenSearch40B.button1,{qst:ContinueButton}
+EventTokenSearch14B.text,<i>Dentro de uno de los libros hallas la página de un diario. Otro de los libros resulta ser el escondite de algunas monedas de oro.</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch14BGold} de oro.
+EventTokenSearch14B.button1,{qst:ContinueButton}
+EventTokenSearch23B.text,<i>Encuentras un anillo de oro.</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch23BGold} de oro.
+EventTokenSearch23B.button1,{qst:ContinueButton}
+EventTokenSearch85B.text,<i>Tras una inspección más minuciosa das con la página de un diario y algo de oro.</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch85BGold} de oro. \n\n Roba una carta de Búsqueda.
+EventTokenSearch85B.button1,{qst:ContinueButton}
+EventTokenDiarySearch1B.button1,{qst:ContinueButton}
+TokenDiarySearch11A.button1,{action} Buscar
+TokenDiarySearch96B.text,<i>El esqueleto de la esquina sujeta algo en la mano.</i>
+EventTokenSearch11A.text,<i>Encuentras la página de un diario. Es difícil de leer. Además hay algunas monedas de oro. ¿Cómo llegó esto aquí?</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch11AGold} de oro. \n\n Roba una carta de Búsqueda.
+EventTokenSearch11A.button1,{qst:ContinueButton}
+TokenSearch95A.text,<i>Hay una bolsita junto a la puerta.</i>
+TokenDiarySearch85B.text,<i>Junto a la puerta del salón del trono hay un pequeño hueco en la pared.</i>
+EventLost2.text,<i>¡Has sido derrotado!</i>
+EventBaronDamageChecks3.button1,{qst:ContinueButton}
+EventBaronDamageChecks.button1,{qst:ContinueButton}
+SpawnBossMinions.text,Coloca el grupo {type} en la pieza 1B. \n\n Si los monstruos ya están sobre el mapa en otra parte, muévelos a todos a la pieza 1B.
+SpawnBossMinions.button1,{qst:ContinueButton}
+EventEndRound.button1,{qst:ContinueButton}
+EventSpawnBossBattleForces.button1,{qst:ContinueButton}
+SpawnUndeadReinforcementsBossBattle1.button1,{qst:ContinueButton}
+SpawnUndeadReinforcementsBossBattle2.text,<i>De repente llegan más tropas de Ardus Ix Erebus.</i> \n\n Coloca un grupo de {type} como se indica respetando el límite de grupo.
+SpawnUndeadReinforcementsBossBattle1.text,Más tropas de <i>Ardus Ix Erebus han llegado...</i> \n\n Coloca un grupo de {type} como se indica respetando el límite de grupo.
+SpawnUndeadReinforcementsBossBattle2.button1,{qst:ContinueButton}
+EventStartRound.button1,{qst:ContinueButton}
+EventStartRoundEvents.button1,{qst:ContinueButton}
+EventEndRoundEvents.button1,{qst:ContinueButton}
+SpawnMarketplaceMonsters.text,<i>Los no muertos se acercan a los mercaderes. Deberías ayudarles.</i> \n\n Coloca un grupo de {type} en la pieza de tablero 63A.
+SpawnMarketplaceMonsters.button1,{qst:ContinueButton}
+SpawnReanimatedNearKyrinthul.text,<i>Al entrar en la sala adviertes más no muertos intentando derribar una enorme puerta. Al acercarte, sus fríos y apagados ojos se giran hacia ti...</i> \n\n Coloca dos grupos de {type} como se indica.. Si ya se ha alcanzado el límite de grupo, mueve {type} desde cualquier otra parte a esta posición.
+SpawnReanimatedNearKyrinthul.button1,{qst:ContinueButton}
+TokenDiary1.button1,Entrada N.º 1 del diario
+TokenDiary1.text,<b>Página 1 del diario</b> \n\n «<i>¡Mis sueños se han hecho realidad! Anoche, en mis sueños, caminaba por los pasillos del palacio y entraba en zonas y lugares que nunca antes había visto. Hoy me he colado en esa sección del palacio que desconocía y ha resultado ser exactamente cómo la había visto en mis sueños. \n\n ¿Cómo es posible? Hablaré con mi padre al respecto</i>»
+EventPlaceDiary.text,Puedes pinchar en las fichas para leer las entradas del diario. \n\n Encuentra todas las partes para averiguar más sobre los eventos y sucesos acaecidos en la ciudad y, quizás, descubrir el motivo detrás del ataque de los no muertos.
+EventDiaryLogic.button1,{qst:ContinueButton}
+EventPlaceDiary.button1,{qst:ContinueButton}
+TokenDiarySearch50A.button1,{qst:ContinueButton}
+EventSearch50A.text,<i>El objeto es un pequeño libro. Parece un diario. Tiene grabado un símbolo que te resulta extrañamente familiar.</i> \n\n Descarta esta ficha. \n\n Encuentras {var:TokenSearch50AGold} de oro. \n\n Roba una carta de Búsqueda.
+EventSearch50A.button1,{qst:ContinueButton}
+TokenDiarySearch77B.button1,{action} Buscar
+EventIntroduction2.button1,{qst:ContinueButton}
+EventIntroduction1.button1,{qst:ContinueButton}
+TokenDiary7.text,<b>Página 7 del diario</b> \n\n «<i>¡Héroes! No puedo referirme a ellos de ninguna otra manera. Y ahora, ¡también están muertos! Todos excepto uno... \n\n Fue una batalla terrible. Y aunque lucharon con honor y valentía, no fueron rivales para Kyndrithul. Pero no lucharon en vano. Con la ayuda de Kellos, el último de los héroes en pie pudo desterrarlo. Como si de un milagro se tratase, su mano brilló con fuerza y atrapó al vampiro en una reluciente luz mágica. Después, todo se acabó... \n\n Pero, ¿y el demonio desterrado? Aún no lo sé. Mientras no haya un refugio seguro en la ciudad, todo lo que puedo hacer es esconderlo en alguna parte. ¡Me aseguraré que nunca vuelva a ver la luz del día de nuevo!</i>»
+TokenDiary2.text,<b>Página 2 del diario</b> \n\n «<i>Mi padre no se mostró muy complacido con las historias que le conté sobre mis sueños. Me dijo que todo eso no eran más que tonterías. Que debía centrarme en mis quehaceres y futuras obligaciones. \n\n Pero, ¿qué pasa si no quiero nada de eso? ¿Y si lo que realmente deseo es conocer mundo? \n\n Así que he continuado con mis exploraciones en secreto. Y, por casualidad, he dado con un pasadizo secreto. Ya lo había visto en uno de mis sueños. El pasadizo lleva del palacio directamente al sistema de alcantarillado. Desde allí intentaré acceder a la ciudad</i>».
+TokenDiary3.text,<b>Página 3 del diario</b> \n\n «<i>Los corredores y túneles bajo la ciudad son tan extensos y numerosos que me llevará meses poder explorarlos todos. Reconozco muchos lugares de mis sueños. Tengo la impresión de que ya he recorrido estos túneles. \n\n Mientras, sigo soñando con tesoros y lugares lejanos que albergan todas las maravillas del mundo. Espero poder visitar todos esos lugares algún día. \n\n Ya no me atrevo a contarles nada más a mis padres, así que registraré los futuros descubrimientos en este diario</i>».
+TokenDiary4.text,<b>Página 4 del diario</b> \n\n «<i>He tenido otra discusión con mi padre. Un guardia me atrapó colándome en el sistema de alcantarillado. Como castigo, mi padre ha decidido confinarme en mis aposentos. Pero eso no me va a detener. Ya conozco docenas de formas de abandonar mi cuarto, e incluso el palacio. \n\n Voy a dejar la ciudad para siempre. Cuando mis padres descubran mis intenciones harán todo lo que esté en sus manos para hacerme regresar. Así que, ¡ya he preparado todo para abandonarlos lo antes posible! En cada uno de mis viejos escondites secretos he dejado a buen recaudo una bolsa con algo de oro y otros objetos</i>».
+TokenDiary5.text,<b>Página 5 del diario</b> \n\n «<i>Llevo varios días que no me encuentro bien. Siento cansancio y una gran debilidad que parece haberse adueñado de mi cuerpo. Además, me cuesta separar los sueños de la realidad. \n\n Mi fuga de la ciudad tendrá que aguardar a que me recupere</i>».
+TokenDiary6.text,<b>Página 6 del diario</b> \n\n «<i>¿Cómo puede ser? ¡No es que no sea posible! ¡Y es mi culpa! ¡Un vampiro! Creo que Kyndrithul es su nombre. \n\n ¡No han sobrevivido! Los mató a sangre fría. ¡Y ni tan siquiera pude despedirme de ellos! \n\n Mis sueños habían sido reales todo el tiempo. Me usó para para llegar hasta el palacio y explorarlo todo. Un pasadizo secreto alrededor de la sala del trono le trajo hasta nosotros. Y yo abrí la puerta. Tengo la impresión de que ha sido mi propia mano la que le ha despertado. \n\n ¡Aún sigue por aquí, en algún lugar! ¿Qué debo hacer?</i>»
+TokenDiarySearch1B.text,<i> Hay algo en un extremo de la sala del trono. </i>
+TokenDiary8.text,<b>Página 8 del diario</b> \n\n «<i>Algo terrible ha tenido lugar en el palacio. Por el bien de todos, ni puedo, ni quiero seguir escribiendo más sobre ello. Este diario ha sido un fiel compañero durante años. Así que, no puedo simplemente destruirlo. En lugar de eso, repartiré sus hojas por toda la ciudad, por aquellos lugares que tanto me gustaba visitar. \n\n Mientras, los seguidores de Kellos celebran un gran festín. ¿Cómo voy a culparles? Sin Kellos ni los héroes no estaría escribiendo estas páginas. Me han pedido que me una a ellos. No sé si tengo la fuerza suficiente para dedicarme de lleno a mi nuevo oficio. Pero si sé que lo daré todo para llegar a dominar esta empresa que me ha tocado llevar a cabo. \n\n ¡Por Kellos y la ciudad que tanto amo!</i>»
+EventDiaryLogic.text,¡Has encontrado una nueva página del diario secreto! \n\n Has encontrado {var:DiariesFound} de {var:MaximumDiaries} páginas del diario.
+TokenDiary9.text,<b>Página 9 del diario</b> \n\n «<i>Si estás leyendo estas páginas has dado con uno de los mayores secretos de la ciudad. \n\n Hace generaciones, los gobernantes de la ciudad construyeron un pasadizo secreto que llevaba directamente a una de las calles aledañas de fuera del palacio. Este pasadizo fue construido para poder huir lo más rápido posible en caso de peligro inminente. En las subsiguientes generaciones fue usado para multitud de propósitos. No quiero saber cuántos de mis familiares han visto la luz del día gracias a él. La mayoría, en realidad, no saben que son descendientes de los grandes señores de la ciudad. \n\n A través de este pasadizo guié a Kyndrithul hasta el palacio durante mis fases de trance. El pasadizo lleva directamente hasta la sala del trono. Mis padres no tuvieron ninguna oportunidad. El vampiro también fulminó a los guardias con tan solo un movimiento de muñeca. Su poder es increíble. ¡Sin los héroes de Kellos la ciudad habría estado perdida! \n\n Por eso es fundamental que esconda bien la piedra del destierro. ¡Es la única manera de mantenerlo alejado para toda la eternidad!</i>»
+EventMerchantFirstTalk.button1,{qst:ContinueButton}
+EventMerchantWifeFoundTalk.button1,{qst:ContinueButton}
+EventMerchantFirstTalk.text,—<i>Oh, por favor, ayudadme a encontrar a mi esposa Cara. Ella trabaja en el castillo. Si la encontráis y me la traéis de vuelta sana y salva, ¡os daré una fantástica recompensa!</i>
+EventSearch77B.text,<i>Encuentras una página del diario y un objeto de utilidad. </i> \n\n Roba una carta de Búsqueda.
+EventDoor60APlaceTiles1.text,Retira la puerta. \n\n Coloca las piezas 50A, 63A, 67A, 95A, una transición (junto a la pieza 95A), una terminal y dos puertas como se indica. \n\n Coloca una ficha de Búsqueda como se indica.
+EventObjectiveGate.button1,{qst:ContinueButton}
+EventObjectiveKyrinthul.text,<b>Objetivo:</b> \n\n Derrotar al vampiro Kyndrithul.
+EventObjectiveKyrinthul.button1,{qst:ContinueButton}
+Door40B3.button1,{qst:ContinueButton}
+EventDoor40InnerCastleNotOpened.text,Coloca una puerta como se indica.
+EventDoor40BOpened2.button1,{qst:ContinueButton}
+EventDoor40InnerCastleOpened.button1,{qst:ContinueButton}
+Door40B3.text,<i> Los símbolos en esta puerta muestran que es parte del castillo. </i>
+EventDoor40InnerCastleOpened.text,Coloca una puerta como se indica.
+Door18B3.text,<i> Los símbolos en esta puerta muestran que es parte del castillo. </i>
+Door18B3.button1,{qst:ContinueButton}
+EventDoor18Opened2.button1,{qst:ContinueButton}
+EventDoor53BOpen2.button1,{qst:ContinueButton}
+EventDoor53BOpen3.text,Coloca una puerta como se indica.
+EventDoor53BOpen3.button1,{qst:ContinueButton}
+EventRestock.button2,Si
+EventMerchantStartRestock.text,—<i>Tendremos algunas cosas nuevas muy interesantes para cuando regreséis de nuevo. </i> \n\n El mercader tendrá nuevas mercancías en {var:RestockWaitTime} rondas.
+EventMerchantStartRestock.button1,{qst:ContinueButton}
+EventOpenShopBlockedRestock.text,—<i>Lo siento pero en estos momentos estamos consiguiendo nuevo equipo para vos. Mientras tanto, no tengo nada que os pueda vender.</i>
+EventOpenShopBlockedRestock.button1,{qst:ContinueButton}
+EventShopRestocked.text,Los objetos de la tienda han sido repuestos. Ahora puedes comprar objetos de nuevo .
+EventShopRestockCheck.button1,{qst:ContinueButton}
+EventShopRestocked.button1,{qst:ContinueButton}
+quest.synopsys,Cuando regresáis a vuestra ciudad natal, Vynelvale, descubrís que está siendo asediada por huestes de no muertos.
+EventNoMorale.button1,{qst:ContinueButton}
+EventLost.text,<i>Hay alguien sentado frente a vosotros en el trono. Pero no es el barón Valdanor. Es Ardus Ix Erebus. A su lado yace sobre el suelo el cuerpo sin vida del barón. \n\n —¡Por fin estáis despiertos! Como podéis ver, el barón no ha sobrevivido a mi interrogatorio. Pero la información que precisaba, me la facilitó poco antes de morir. Ahora sé dónde se dirige el vampiro Kyndrithul. Por desgracia, no anticipé que fuese a usar el caos provocado por el ataque a la ciudad para escapar. \n\n Deberíais saber que no es buena idea interponerse en mis planes. Mis huestes están reuniendo a los últimos supervivientes de la ciudad y luego se enfrentarán a su destino. Pero para vosotros tengo otros planes. Seguiré a Kyndrithul y ¡vosotros me acompañaréis como mis siervos! \n\n Al pronunciar estas palabras sentís una cadena invisible alrededor del cuello. Ardus Ix Erebus se levanta del trono y le seguís. En contra de vuestra voluntad, camináis tras él mientras el resto de sus sirvientes comienzan a preparar una pira en la sala del trono. \n\n —No os preocupéis, no tendréis que observar impasibles cómo la ciudad es devastada hasta sus cimientos. Allá donde vamos, os aguarda una vida que es mucho peor que la mismísima muerte...</i>
+EventLost.button1,Fin de la misión
+EventNoMorale.text,<i>Exhaustos, os desplomáis en el suelo. \n\n Cuando os despertáis, vuestra cabeza palpita y os encontráis en la sala del trono del palacio.</i>
+EventLost2.button1,{qst:ContinueButton}
+EventBaronDamageChecks3.text,—<i>¡Suficiente! —grita Ardus Ix Erebus—. No os interpondréis más en mis asuntos! Mis sirvientes se ocuparán de vosotros. \n\n Ardus Ix Erebus levanta el hacha sobre su cabeza. De repente desprende un extraño brillo. Un singular sonido emana de todos los rincones de la sala. Empezáis a tener problemas para respirar. Curiosas nubes de polvo inundan la sala. Las nubes de polvo comienzan a hacerse más y más densas y, justo frente a vosotros, de ellas se materializan huesos como por arte de magia. En unos instantes se forma un gigantesco muro de huesos que bloquea el paso hacia Ardus Ix Erebus y el barón. \n\n Manos esqueléticas surgen del muro y os arrastran hacia él. Mientras, más no muertos entran en la estancia a través de la puerta de la sala del trono. Estáis rodeados por no muertos por todos los costados. Con todas vuestras fuerzas lográis detener el ataque. Pero es en vano. Tras varios minutos colapsáis totalmente exhaustos. Aún podéis sentir las frías manos de los no muertos que os atrapan. \n\n Tiempo después, os despertáis. Aún estáis en la sala del trono. El muro de huesos ha desaparecido...</i>
+EventArdusDefeated.text,<i>Ardus Ix Erebus se tambalea y, en cuestión de segundos, sus viejos huesos se desintegran en polvo. Aun así, escucháis su voz: \n\n —No penséis que esto es el final. Mi maestro obtendrá su venganza. Los días del barón están contados y Kyndrithul no escapará. Pero, por ahora, seguiréis con vida. Aunque, nos volveremos a ver. \n\n Debido a la repentina ausencia de su comandante, las hordas de no muertos pierden repentinamente sus poderes y se quedan petrificadas como estatuas en su última posición. \n\n El gravemente herido barón es sujetado por varios guardias que se han apresurado en prestarle ayuda. Pese a la gravedad de las heridas, os indica que os acerquéis con la mano. \n\n —¡Gracias, sois héroes! —susurra—. No solo me habéis salvado a mí, sino a toda la ciudad de un terrible destino. Hace muchos años, casi llevo a la ciudad a su perdición. Y una vez más he sido quien ha sellado el destino de la misma. Si no hubiese estado aquí como el nuevo barón, los no muertos sólo habrían atacado la ciudad.</i>
+EventArdusDefeated.button1,{qst:ContinueButton}
+EventWon.text,<b>¡Has salido victorioso!</b>
+EventWon.button1,{qst:ContinueButton}
+EventArdusDefeatedAndKyndrithulDefeated.button1,{qst:ContinueButton}
+EventArdusDefeatedAndKyndrithulNotDefeated.text,<i>Mientras el barón habla oís la voz de Kyndrithul en vuestras cabezas, pero no podéis verle por ninguna parte. \n\n —Gracias héroes por ayudarme con Ardus y sus huestes de no muertos. No olvidaré lo ocurrido la próxima vez que nos encontremos. Quizás incluso os convierta en uno de los míos. Siempre necesito nuevos siervos. Así que habéis encontrado a Kyndrithul —susurra el barón—. Sabía que era solo cuestión de tiempo que alguien diera con él. Ardus Ix Erebus le perseguirá hasta los confines del mundo si su maestro quiere verle. \n Pero esta vez no me volveré e esconder. Haré todo lo que esté en mis manos para detener a los no muertos. \n Si al menos supiéramos a dónde ha huido. Enviaré a mi gente para que averigüe su paradero.</i>
+EventArdusDefeatedAndKyndrithulSpawned.button1,{qst:ContinueButton}
+EventArdusDefeatedAndKyndrithulNotDefeated.button1,{qst:ContinueButton}
+EventArdusDefeatedAndKyndrithulDefeated.text,—<i>Así que habéis encontrado a Kyndrithul. Sabía que era solo cuestión de tiempo que alguien diera con él. Ardus Ix Erebus le perseguirá hasta los confines del mundo. \n Pero esta vez no me volveré e esconder. Haré todo lo que esté en mis manos para detener a los no muertos. \n Es una lástima que no pudieseis detenerle. \n ¿Decís que quiere ir a Castrohiel? Entonces enviaré allí a mis mejores hombres para encontrarle y acabar con él de una vez por todas.</i>
+EventArdusDefeatedFinalText.text,—<i>La amenaza de Waiquar y sus siervos es aún muy real. Este ataque lo ha dejado bien claro. Espero poder seguir contando con vuestra ayuda para erradicar el mal de este mundo para siempre.</i>
+EventArdusDefeatedFinalText.button1,{qst:ContinueButton}
+EventKyndrithulDefeated.text,—<i>¡No, esto no puede estar pasando! ¡Soy un señor de los vampiros! —grita Kyndrithul—. Parece que mis poderes no están del todo restaurados. Quizás pueda recuperarlos plenamente en Castrohiel. \n\n Con estas palabras, Kyndrithul se abalanza sobre ti para atacarte. Intentas bloquearle, pero nada te golpea. En vez de sentir un impacto, el vampiro ha desaparecido. \n\n Al examinar la piedra en la que le encontraste hallas una gran pila de oro. </i> \n\n Ganas {var:KyndrithulGold} de oro.
+EventKyndrithulDefeated.button1,{qst:ContinueButton}
+EventKyndrithulLeaveChecks.button1,{qst:ContinueButton}
+EventKyndrithulLeaves.text,—<i>Ha sido un gran honor conocerte —comenta Kyndrithul—. Te estaré eternamente agradecido por haberme liberado. Pero ahora ha llegado la hora de despedirse. Hay ciertos asuntos de los que me debo ocupar. \n\n Mientras emite estas últimas palabras, la figura de Kyndrithul comienza a difuminarse frente a tus atónitos ojos. Te abalanzas hacia él e intentas golpearle con tu arma, pero es demasiado tarde. Kyndrithul ha desaparecido.</i> \n\n Descarta a Kyndrithul del juego.
+EventKyndrithulLeaves.button1,{qst:ContinueButton}
+EventMerchantWifeChecks.button1,{qst:ContinueButton}
+EventMerchantWifeKilled.button1,{qst:ContinueButton}
+EventMerchantWifeKilled.text,<i>Las ratas continúan mordisqueando la silla en la que se refugia la asustada esposa del mercader. De repente, una pata de la silla se parte. Con un aterrador grito Cara se precipita hacia la horda de ratas que la rodea. En cuestión de segundos, las ratas saltan sobre ella y la cubren por completo. Has fracasado...
+EventMerchantWifeInDanger.text,<i> Las ratas comienzan a roer la silla. Cara grita: \n\n—¡Ayudadme, por favor! ¡No sé cuánto tiempo más podré aguantar aquí!</i>
+EventMerchantWifeInDanger.button1,{qst:ContinueButton}
+EventMerchantWifeKilledTalk.text,<i>Informas al mercader que su esposa ha fallecido víctima de las ratas. \n\n —¡No! ¡Cara no! ¿Cómo ha podido pasar? ¡Ha sido vuestra culpa! ¿Por qué no la ayudasteis? Quizás no sea demasiado tarde. ¡La encontraré! \n\n El mercader, presa del pánico, corre hacia el palacio. Ya es demasiado tarde cuando os dais cuenta que corre directo hacia una horda de no muertos recién llegados. Los no muertos se abalanzan sobre él y lo despellejan vivo.</i> \n\n Descarta esta ficha.
+EventMerchantWifeKilledTalk.button1,{qst:ContinueButton}
+SpawnMerchantKilledUndead.text,Grupo de {type} como se indica en la pieza de tablero 50A respetando el límite de grupo.
+SpawnMerchantKilledUndead.button1,{qst:ContinueButton}
+EventMerchantWifeHelpedTalk.text,<i>¡Los héroes han regresado! ¡Gracias por encontrar a mi esposa! Tomad esta antigua reliquia familiar. Además, recibiréis todas la monedas de oro que os pueda dar. Claro está, ¡sois bienvenidos si queréis gastarlas en mi puesto!</i> \n\n Obtienes la reliquia {c:QItemRelic}. \n\n Ganas {var:WifeFoundGold} de oro.
+SpawnSecretPassageMonstersFirstSpawn.text,<i>Algo te ha seguido por el pasadizo.</i> \n\n Coloca un grupo de monstruos {type} como se indica.
+EventSpawnSecretPassageMonsters.button1,{qst:ContinueButton}
+SpawnSecretPassageMonstersFirstSpawn.button1,{qst:ContinueButton}
+SpawnSecretPassageMonstersNextSpawn.text,Coloca un grupo de monstruos {type} como se indica, respetando el límite de grupo.
+SpawnSecretPassageMonstersNextSpawn.button1,{qst:ContinueButton}
+Token24ASecretPassageBack.text,<i>Es un pasadizo secreto.</i> \n\n Gastando una acción, un héroe adyacente puede desplazarse por el pasadizo.
+Token24ASecretPassageBack.button1,{action} Moverse a través del pasadizo
+Event24ASecretPassageBack.text,Desplaza el héroe que se mueve por el pasadizo hasta la posición indicada.
+Event24ASecretPassageBack.button1,{qst:ContinueButton}
+EventSpawnSewerMonsters.button1,{qst:ContinueButton}
+SpawnRespawnSewerMonster.text,<i>Parece ser que los monstruos también han encontrado la forma de acceder a los corredores bajo la ciudad.</i> \n\n Coloca un grupo de monstruos {type} como se indica.
+SpawnRespawnSewerMonster.button1,{qst:ContinueButton}
+SpawnRespawnCityGateMonsters.text,<i>Más no muertos aparecen frente al portón.</i> \n Coloca un grupo {type} en la pieza de tablero 95A respetando el límite de grupo.
+EventSpawnGateReinforcements.button1,{qst:ContinueButton}
+SpawnRespawnCityGateMonsters.button1,{qst:ContinueButton}
+SpawnSpawnCityGateMonsters2.text,<i>Más muertos aparecen frente al portón.</i> \n Coloca un grupo {type} en la pieza de tablero 95A respetando el límite de grupo.
+SpawnSpawnCityGateMonsters2.button1,{qst:ContinueButton}
+SpawnInnerCastleMonsters.text,<i>Algunos monstruos ya han invadido ciertas áreas del interior del castillo.</i> \n\n Coloca un grupo {type} en la pieza de tablero 23B respetando el límite de grupo.
+SpawnInnerCastleMonsters.button1,{qst:ContinueButton}
+EventBaronDamageChecks1.text,<i>En medio de la batalla, de repente el barón grita y cae al suelo. \n\n —Al tiempo que luchamos, dispongo de ciertos métodos para extraer las respuestas que requiero del barón. No durará mucho, creedme —espeta Ardus Ix Erebus—. ¡Daos prisa!</i>
+EventBaronDamageChecks1.button1,{qst:ContinueButton}
+EventBaronDamageChecks2.text,<i>Manos esqueléticas aparecen de repente de la nada junto al barón. Lo levantan en el aire al tiempo que tiran de sus miembros en todas direcciones. El barón está demasiado débil como para ni tan siquiera gritar. Apenas un débil suspiro escapa de sus labios. \n\n No durará mucho...</i>
+EventBaronDamageChecks2.button1,{qst:ContinueButton}
+EventHeroStartXp.text,<b>Reglas especiales: Puntos de Experiencia</b> \n\n Cada héroe empieza con {var:StartXp} puntos de experiencia. \n\n Un héroe puede gastar puntos de experiencia en cualquier momento pero no puede cambiar las cartas de clase que ya hubiese comprado a menos que un efecto del juego se lo permita.
+EventHeroStartXp.button1,{qst:ContinueButton}
+TokenMerchant2.button3,Hablar
+EventXpBuyCheck.button1,{qst:ContinueButton}
+EventXpBuy.button1,{qst:ContinueButton}
+EventXpBuyNotEnoughMoney.text,<i>Lo siento pero parece que en este momento no tenéis suficiente dinero para adquirir más conocimientos.</i>
+EventXpBuyNotEnoughMoney.button1,{qst:ContinueButton}
+EventXpBuy.text,Cada héroe gana 1 punto de experiencia. \n\n Un héroe puede gastar puntos de experiencia en cualquier momento pero no puede cambiar las cartas de clase que ya hubiese comprado a menos que un efecto del juego se lo permita.
+EventPotionBuyQuestion.text,¿Estás seguro de que quieres gastar {var:PricePotions} de oro por una poción?
+EventPotionBuyQuestion.button1,No
+EventPotionBuyQuestion.button2,Si
+EventXpBuyQuestion.text,¿Estás seguro de que quieres gastar {var:PriceXp} de oro para que cada héroe gane 1 de experiencia?
+EventXpBuyQuestion.button1,No
+EventXpBuyQuestion.button2,Si
+EventEndPeril.button1,{qst:ContinueButton}
+EventPeril2.button1,{qst:ContinueButton}
+EventPeril3.button1,{qst:ContinueButton}
+EventPeril1.button1,{qst:ContinueButton}
+EventPeril4.button1,{qst:ContinueButton}
+EventPeril5.button1,{qst:ContinueButton}
+EventPeril3.text,<b>Peligro Menor: \n\n Drenaje vital</b> \n\n <i> —¡De prisa, siervos! La vida debe ser derrotada —dice una voz. Alimentaos de todo lo que tenga vida. \n\n Esa voz... ¿será Waiqar? \n\n Un terrible dolor os atenaza todo el cuerpo al tiempo que ante vuestros ojos los no muertos regeneran partes del cuerpo que habían perdido. </i> \n\n Todos los monstruos no muertos recuperan {var:Peril3Hearts} {heart} y cada héroe pierde {var:Peril3Hearts} {heart}.
+EventPeril1.text,<b>Peligro Menor: \n\n Sed de sangre</b> \n\n <i>Aunque los monstruos no muertos no deberían tener sentimientos, parece que éstos disfrutan con los horrores que provocan...</i> \n\n Los ataques de todos los monstruos durante esta ronda ganan: \n\n {surge}: +{var:Peril1ExtraDamage} {heart}.
+EventPeril2.text,<b>Peligro Mayor: \n\n Debilidad</b> \n\n <i>Comenzáis a sentir el agotamiento de toda esta lucha. Algunos de vosotros apenas os podéis tener en pie. </i> \n\n Todos los héroes realizan una prueba de {might}. Todos los héroes que fallen quedan Debilitados.
+EventPeril4.text,<b>Peligro Mayor: \n\n Nube de la plaga \n </b> \n <i>De repente, de los cuerpos de los no muertos salen unas nubes tóxicas. \n </i> \n Todos los héroes que estén envenenados sufren {var:Peril4PoisonDamage} {heart}. A continuación, todos los héroes quedan envenenados.
+EventPeril5.text,<b>Peligro letal:</b> \n\n —<i>¿Aún seguís aquí? —dice de repente una voz que parece proceder de la nada. Es Ardus Ix Erebus—. He conseguido lo que me proponía. ¿Tal vez queráis uniros a mí?. \n\n Unas manos esqueléticas aparecen ante vosotros y os arrastran hacia el suelo. Os desmayáis. \n\n Tiempo después os despertáis. Estáis tumbados en el suelo de una sala enorme. Parece la sala del trono...</i>
+EventPerils.button1,{qst:ContinueButton}
+EventEvent51ASecretPassageNotReady.button1,Seguir
+EventEvent51ASecretPassageReady.button1,{action} Prueba de {awareness}
+EventEvent51ASecretPassageReady.button2,Cancelar
+EventEvent51ASecretPassageReady.text,<i>Encuentras la llave para la puerta, pero para usar la llave con este extraño cierre todavía serán necesarias tus habilidades como cerrajero.</i> \n\n Como acción, un héroe adyacente puede realizar una prueba de {awareness} para abrir la cerradura.
+EventMerchantWifeFoundAndGoldGained.text,—<i>¡Gracias de nuevo por salvar a mi esposa! </i>
+EventMerchantWifeFoundAndGoldGained.button1,Seguir
