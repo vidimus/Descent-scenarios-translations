@@ -1,0 +1,656 @@
+.,Spanish
+ContinueButton,Continuar
+quest.name,La guarida de la Sierpe - Fase de campaña
+quest.description,Fase de campaña
+UIQuest1.text,<b>Buscador de oro</b>\n\n<i>Las huestes de Valyndra están buscando algo.</i>
+UIQuest1.button1,Comenzar encuentro
+UIQuest2.text,<b>Duro despertar</b>\n\n<i>Viajáis a la posada de Ladrillo Mojado, que parece un buen sitio para obtener información sobre el aurium.</i>
+UIQuest2.button1,Comenzar encuentro
+UIQuest3.text,<b>Lo que es tuyo es mío</b> \n\n <i> Debéis encontrar a Jorem en las minas de la Vigilia.</i>
+UIQuest3.button1,Comenzar encuentro
+UIQuest4.text,<b>En la forja</b> \n\n <i>Mientras buscáis a Jorem debéis entrar en la guarida de Valyndra. </i> \n\n Este encuentro es uno de los dos del encuentro final. Si los héroes pierden este encuentro, perderán la campaña. Si ganan este encuentro, tendrán otro encuentro más a continuación.
+UIQuest4.button1,Comenzar encuentro final 1
+UIQuest5.text,EstaAventuraNoseUsa
+UIQuest5.button1,Comenzar encuentro
+UIQuestFinale.text,<b>Armados hasta los dientes</b> \n\n <i>Una nueva y una vieja amenaza requieren toda vuestra atención. </i> Este es el encuentro final. Si los héroes ganan este encuentro, ganarán la campaña.
+UIQuestFinale.button1,Comenzar encuentro final 2
+UICity.text,Después de un día agotador, os apresuráis a regresar a la ciudad.
+UICity.button1,{qst:ContinueButton}
+UICityStartGame.text,<i>En la pequeña ciudad tratáis de encontrar más información acerca de los planes de Valyndra.</i>
+UICityStartGame.button1,{qst:ContinueButton}
+EventTransition.text,<b>Transición al Acto II</b> \n\n Devuelve a la caja del juego todas las cartas de Monstruo, de Lugarteniente y de Agente del Acto I. Durante el resto de la campaña sólo se usarán cartas de Monstruo, de Lugarteniente y de Agente del Acto II. \n\n <i>Adviertes un sustancial incremento en el número de comerciantes que viajan a la ciudad.</i> \n\n Encontrarás más mercaderes disponibles.
+EventTransition.button1,{qst:ContinueButton}
+EventBlackMarketNotEnoughGold.text,Te planteas el buscar a alguien que te pueda dar acceso a material menos legal, pero te das cuenta de que no tienes dinero para eso. \n\n No consigues encontrar a otro mercader.
+EventBlackMarketNotEnoughGold.button1,{qst:ContinueButton}
+EventButtonClick.button1,{qst:ContinueButton}
+EventIconCityStartGame.button1,{qst:ContinueButton}
+EventStartXpAndGold.text,<b>Equipo inicial</b>\n\n Los héroes comienzan la campaña con {var:$%gold} de oro y {var:$%xp} PE.
+EventStartXpAndGold.button1,{qst:ContinueButton}
+EventIconCityStartGame.text,<i>Vuestra búsqueda de Valyndra os ha llevado a una pequeña ciudad a la orilla de un gran lago cerca de las minas de la Vigilia. Allí preguntáis intentando recabar más información.</i>
+EventCityELAct2.button4,Visitar la herrería
+EventBlackSmith.button1,{qst:ContinueButton}
+EventBlackSmithShowOptions.button1,Usar 2 minerales de aurium
+EventBlackSmithNoAurium.text,<i>Lo siento, pero sin materiales para usar no puede hacer nada por vos. \n\n Regresad cuando tengáis algunos materiales. </i>
+EventBlackSmithNoAurium.button1,{qst:ContinueButton}
+EventBlackSmithShowOptions.button2,Usar 3 minerales de aurium
+EventBlackSmithShowOptions.button3,Usar 4 minerales de aurium
+EventBlackSmithItemAlreadyForgedItem2.button1,{qst:ContinueButton}
+EventBlackSmithShowOptions.text,<i>¡Aurium! El material más magnífico de todo Terrinoth. Si lo deseáis puedo forjar para vos algo especial con esto. \n\n ¿Cuánto aurium puedo usar? </i> \n\n En este momento tenéis {var:%CurrentNumberOfAuriumPieces} minerales de aurium. Habéis encontrado {var:%FoundNumberOfAuriumPieces} de {var:%MaximumNumberOfAurium} minerales de aurium en esta campaña.
+EventBlackSmithAuriumUse2.text,Los héroes gana la reliquia {c:QItemAuriumRelic2}.
+EventBlackSmithAuriumUse2.button1,{qst:ContinueButton}
+EventBlackSmithAuriumUse4_2.text,<i>¡Valyndra teme a esta arma más que a nada en el mundo!</i>\n\n Los héroes ganan la reliquia {c:QItemAuriumRelic4_2}.
+EventBlackSmithAuriumUse4.button1,{qst:ContinueButton}
+EventCityELAct2.button3,Mercado negro
+EventCityELAct2.button2,Renovar el mercado
+EventCityELAct2.button1,Dejar la ciudad
+EventCity.button4,Visitar la herrería
+EventCityEL.button4,Visitar la herrería
+EventCityAct2.button4,Visitar la herrería
+EventBlackSmithShowOptions.button4,Vender 1 mineral de aurium
+EventBlackSmithItemAlreadyForgedItem3.text,<i>Lo siento, pero no puedo forjar más objetos con esta cantidad de mineral de aurium.</i>
+EventBlackSmithAuriumUse3.text,Los héroes ganan la reliquia {c:QItemAuriumRelic2}.
+EventBlackSmithAuriumUse3.button1,{qst:ContinueButton}
+EventBlackSmithItemAlreadyForgedItem2.text,<i>Lo siento, pero no puedo forjar más objetos con esta cantidad de mineral de aurium.</i>
+EventBlackSmithItemAlreadyForgedItem3.button1,{qst:ContinueButton}
+EventBlackSmithItemAlreadyForgedItem4.text,<i>Lo siento, pero no puedo forjar más objetos con esta cantidad de mineral de aurium.</i>
+EventBlackSmithItemAlreadyForgedItem4.button1,{qst:ContinueButton}
+EventBlackSmithNotEnoughAuriumItem2.text,<i>No tenéis suficiente mineral de aurium.</i>
+EventBlackSmithNotEnoughAuriumItem2.button1,{qst:ContinueButton}
+EventBlackSmithNotEnoughAuriumItem3.text,<i>No tenéis suficiente mineral de aurium.</i>
+EventBlackSmithNotEnoughAuriumItem3.button1,{qst:ContinueButton}
+EventBlackSmithNotEnoughAuriumItem4.button1,{qst:ContinueButton}
+EventBlackSmithNotEnoughAuriumItem4.text,<i>No tenéis suficiente mineral de aurium.</i>
+EventBlackSmithShowOptions.button5,Cancelar
+EventBlacksmithSellAuriumCheck.button1,Vender
+EventBlacksmithSellAurium.text,El herrero te da {var:AuriumGoldSell} de oro por 1 mineral de aurium.
+EventBlacksmithSellNoAurium.text,No tienes minerales de aurium.
+EventBlacksmithSellNoAurium.button1,{qst:ContinueButton}
+EventBlacksmithSellAurium.button1,{qst:ContinueButton}
+EventBlacksmithSellAuriumCheck.text,¿Estáis seguros de que queréis vender 1 mineral de aurium por {var:AuriumGoldSell} de oro?
+EventBlacksmithSellAuriumCheck.button2,Cancelar
+UIAuriumDebug.text,Aurium: {var:%CurrentNumberOfAuriumPieces}
+EventAuriumDebugAdd.button1,{qst:ContinueButton}
+EventAuriumDebugRemove.button1,{qst:ContinueButton}
+UIAuriumDebug.button1,Añadir Aurium
+UIAuriumDebug.button2,Quitar Aurium
+EventBlackSmithAuriumUse4_2.button1,{qst:ContinueButton}
+EventBlackSmithAuriumUse4.text,<i>¡Esta es sin duda mi mejor obra hasta la fecha! </i>\n\n Los héroes ganan la reliquia {c:QItemAuriumRelic4_1}.\n\n<i> Y además tengo algo aún más especial para vuesas mercedes... </i>
+EventCity.button1,Dejar la ciudad
+EventCity.button2,Renovar el mercado
+EventCity.button3,Ir al mercado negro
+EventCityEL.button1,Dejar la ciudad
+EventCityEL.button2,Renovar el mercado
+EventCityEL.button3,Ir al mercado negro
+EventBlackMarketVisited.text,Después de pagar la tarifa sigues a tu contacto a través de innumerables callejones hasta llegar al mercado negro. \n\n Encuentras otro mercader.
+EventRestockAvailable.text,Debido a vuestros logros anteriores, el campamento ha sido capaz de atraer a varios comerciantes nuevos. \n\n Encuentras a otro mercader.
+EventCityAct2.button1,Dejar la ciudad
+EventCityAct2.button2,Renovar el mercado
+EventCityAct2.button3,Ir al mercado negro
+EventRestock.text,<i>Quizá haya otros mercaderes en la ciudad pero no estás seguro de que tengas tiempo suficiente para buscarlos. </i>\n\n Puedes renovar el mercado {var:%RestockAmount} veces.\n\n ¿Quieres renovar el mercado?
+EventRestock.button1,Sí
+EventRestock.button2,No
+EventLeaveCity.text,¿De verdad quieres dejar la ciudad y partir hacia otra aventura?
+EventLeaveCity.button1,Sí
+EventLeaveCity.button2,No
+EventRestockAvailable.button1,{qst:ContinueButton}
+EventRestockNotAvailable.text,Por desgracia, los mercaderes no tienen nada más que ofrecerte. \n\n No consigues encontrar a otro mercader.
+EventRestockNotAvailable.button1,{qst:ContinueButton}
+EventBlackMarketCheck.text,Os llevará un par de horas encontrar a alguien que esté dispuesto a ofreceros mercancías menos legales. Y que os costará ... \n \n ¿Queréis pagar {var:EventBlackMarket1EntryGold} de Oro para acceder a otras mercancías?
+EventBlackMarketCheck.button1,Sí
+EventBlackMarketCheck.button2,No
+EventBlackMarketAlreadyVisited.text,Ya has visitado el mercado negro. No hay nada más a la venta. \n\n No consigues encontrar a otro mercader.
+EventBlackMarketAlreadyVisited.button1,{qst:ContinueButton}
+EventBlackMarketVisited.button1,{qst:ContinueButton}
+EventTravelEventRoadNothing.text,<b>Camino - No ocurre nada</b> \n\n <i>Viajas por el camino.</i> \n\n Sin efectos.
+EventTravelEventRoadNothing.button1,{qst:ContinueButton}
+EventTravelEventPlainsNothing.text,<b>Llanuras - No ocurre nada</b> \n\n <i>Viajas por las llanuras.</i> \n\n Sin efectos.
+EventTravelEventPlainsNothing.button1,{qst:ContinueButton}
+EventTravelEventForestNothing.text,<b>Bosque - No ocurre nada</b> \n\n <i>Viajas a través de un denso bosque.</i> \n\n Sin efectos.
+EventTravelEventForestNothing.button1,{qst:ContinueButton}
+EventTravelEventWaterNothing.text,<b>Agua - No ocurre nada</b> \n\n <i>Viajas a lo largo del río.</i> \n\n Sin efectos.
+EventTravelEventWaterNothing.button1,{qst:ContinueButton}
+EventTravelEventMountainsNothing.text,<b>Montañas - No ocurre nada</b> \n\n <i>Viajas por las montañas.</i> \n\n Sin efectos.
+EventTravelEventMountainsNothing.button1,{qst:ContinueButton}
+EventTravelEventRoad2.text,<b>Camino - Mercader ambulante:</b> \n\n <i>Os encontráis con un mercader ambulante.</i> \n\n Cada héroe realiza una prueba de {knowledge} y roba 1 carta de Búsqueda si pasa la prueba.
+EventTravelEventRoad2.button1,{qst:ContinueButton}
+EventTravelEventRoad6.text,<b>Camino - Atajo oculto:</b> \n\n <i> ¡Encontráis un atajo oculto que os ahorra mucho tiempo!</i>.\n\n Os saltáis el próximo Evento de Viaje.
+EventTravelEventRoad6.button1,{qst:ContinueButton}
+EventTravelEventRoad7.text,<b>Camino - Sabio errante:</b> \n\n <i>Un sabio viajero os da acceso a su biblioteca personal</i>.\n\n Los jugadores héroes eligen a un héroe para que haga una prueba de {knowledge}. ¿Ha superado la prueba?
+EventTravelEventRoad7.button1,No
+EventTravelEventRoad7.button2,Sí
+EventTravelEventRoad7A.text,<b>Camino - Sabio errante:</b> \n\n <i>Por desgracia no consigues aprender nada interesante de la biblioteca del sabio.</i> \n\n Sin efectos.
+EventTravelEventRoad7A.button1,{qst:ContinueButton}
+EventTravelEventRoad7B.text,<b>Camino - Sabio errante:</b> \n\n <i>Con los libros del sabio aprendes algo acerca de las posibles debilidades del Señor Supremo..</i> \n\n Vuestra moral se incrementa en {var:EventTravelEventRoad7BMorale}.
+EventTravelEventRoad7B.button1,{qst:ContinueButton}
+EventTravelEventRoad9.text,<b>Camino - Los espías del Señor Supremo:</b> \n\n <i>Los espías del Señor Supremo están por todas partes.</i>
+EventTravelEventRoad9.button1,{qst:ContinueButton}
+EventTravelEventRoad9H2.text,<b>Camino - Los espías del Señor Supremo:</b> \n\n Cada héroe realiza una prueba de {knowledge}.\n\n ¿Cuántos héroes han fallado la prueba?
+EventTravelEventRoad9H2.button1,Ninguno
+EventTravelEventRoad9H2.button2,Uno
+EventTravelEventRoad9H2.button3,Dos
+EventTravelEventRoad9H3.text,<b>Camino - Los espías del Señor Supremo:</b> \n\n Cada héroe realiza una prueba de {knowledge}.\n\n ¿Cuántos héroes han fallado la prueba?
+EventTravelEventRoad9H3.button1,Ninguno
+EventTravelEventRoad9H3.button2,Uno
+EventTravelEventRoad9H3.button3,Dos
+EventTravelEventRoad9H3.button4,Tres
+EventTravelEventRoad9H4.text,<b>Camino - Los espías del Señor Supremo:</b> \n\n Cada héroe realiza una prueba de {knowledge}.\n\n ¿Cuántos héroes han fallado la prueba?
+EventTravelEventRoad9H4.button1,Ninguno
+EventTravelEventRoad9H4.button2,Uno
+EventTravelEventRoad9H4.button3,Dos
+EventTravelEventRoad9H4.button4,Tres
+EventTravelEventRoad9H4.button5,Cuatro
+EventTravelEventRoad9A.text,<b>Camino - Los espías del Señor Supremo:</b> \n\n Lográis evitar a los espías del Señor Supremo. \n\n Sin efectos.
+EventTravelEventRoad9A.button1,{qst:ContinueButton}
+EventTravelEventRoad9B.text,<b>Camino - Los espías del Señor Supremo:</b> \n\n El Señor Supremo consigue valiosa información de vuestras intenciones. \n\n Los refuerzos del Señor Supremo llegarán en breve.
+EventTravelEventRoad9B.button1,{qst:ContinueButton}
+EventTravelEventRoad9C.text,<b>Camino - Los espías del Señor Supremo:</b> \n\n El Señor Supremo consigue valiosa información de vuestras intenciones. \n\n Los refuerzos del Señor Supremo llegarán en breve.
+EventTravelEventRoad9C.button1,{qst:ContinueButton}
+EventTravelEventRoad9D.text,<b>Camino - Los espías del Señor Supremo:</b> \n\n El Señor Supremo consigue valiosa información de vuestras intenciones. \n\n Los refuerzos del Señor Supremo llegarán en breve.
+EventTravelEventRoad9D.button1,{qst:ContinueButton}
+EventTravelEventRoad9E.text,<b>Camino - Los espías del Señor Supremo:</b> \n\n El Señor Supremo consigue valiosa información de vuestras intenciones. \n\n Los refuerzos del Señor Supremo llegarán en breve.
+EventTravelEventRoad9E.button1,{qst:ContinueButton}
+EventTravelEventRoad11.text,<b>Camino - Giro equivocado:</b> \n\n <i>Creéis que habéis girado por donde no era...</i> \n\n Cada héroe realiza una prueba de {knowledge} y sufre {var:EventTravelEventRoad11Fatigue} {fatigue} si falla. ¿Han superado la prueba todos los héroes?
+EventTravelEventRoad11.button1,No
+EventTravelEventRoad11.button2,Sí
+EventTravelEventRoad11A.text,<b>Camino - Giro equivocado:</b> \n\n <i>Conseguís encontrar de nuevo el camino correcto.</i> \n\n Sin efectos.
+EventTravelEventRoad11A.button1,{qst:ContinueButton}
+EventTravelEventRoad11B.text,<b>Camino - Giro equivocado:</b> \n\n <i>Sorprendentemente descubrís que se trata de un atajo.</i> \n\n Os saltáis el próximo Evento de Viaje.
+EventTravelEventRoad11B.button1,{qst:ContinueButton}
+EventTravelEventRoad12.text,<b>Camino - Misterioso heraldo:</b> \n\n <i>En vuestro camino hacia vuestro destino os aproximáis a un misterioso heraldo.\n —Obrad con cuidado, héroes—dice la misteriosa figura encapuchada—. ¡Hay servidores del mal por todas partes! ¡Un terrible plan está en marcha, aquí, en los alrededores, y debe ser detenido! ¡Daos prisa!</i> \n\n Vuestra moral se incrementa en {var:EventTravelEventRoad12Morale}.
+EventTravelEventRoad12.button1,{qst:ContinueButton}
+EventTravelEventRoad15.text,<b>Camino - Pergamino tirado:</b> \n\n <i>Os encontráis con un pergamino en el camino.</i> \n\n Los héroes eligen a un mago. Ese mago coloca una de sus fichas de héroe al lado del mapa. Puede descartar esa ficha después de una tirada defensa para añadir un número de {shield} a su resultado igual a su valor de {knowledge}.
+EventTravelEventRoad15.button1,{qst:ContinueButton}
+EventTravelEventRoad17.text,<b>Camino - Mensajero perdido:</b> \n\n <i> Un mensajero perdido está vendiendo secretos.</i> \n\n Los héroes pueden gastar {var:EventTravelEventRoad17GoldNeeded} de Oro (si lo tienen) para averiguar algunos de los secretos del Señor Supremo.
+EventTravelEventRoad17.button1,No
+EventTravelEventRoad17.button2,Sí
+EventTravelEventRoad17A.text,<b>Camino - Mensajero perdido:</b> \n\n <i> No aceptáis la sombría propuesta.</i> \n\n Sin efectos.
+EventTravelEventRoad17A.button1,{qst:ContinueButton}
+EventTravelEventRoad17B.text,<b>Camino - Mensajero perdido:</b> \n\n <i> Averiguáis algunos de los de los secretos del Señor Supremo.</i>. \n\n Seréis capaces de impedir que acudan algunos de los refuerzos del Señor Supremo.
+EventTravelEventRoad17B.button1,{qst:ContinueButton}
+EventTravelEventRoad17C.text,<b>Camino - Mensajero perdido:</b> \n\n <i> No tenéis suficiente oro.</i> \n\n Sin efectos.
+EventTravelEventRoad17C.button1,{qst:ContinueButton}
+EventTravelEventRoad20.text,<b>Camino - Gran árbol:</b> \n\n <i>Un árbol muy alto que os ofrece una ventaja a la hora de explorar los alrededores.</i> \n\n Los jugadores héroes eligen a un héroe para que sufra {var:EventTravelEventRoad20Fatigue} {fatigue} y realice una prueba de {awareness}. ¿Ha pasado la prueba?
+EventTravelEventRoad20.button1,No
+EventTravelEventRoad20.button2,Sí
+EventTravelEventRoad20A.text,<b>Camino - Gran árbol:</b> \n\n <i>No consigues trepar hasta la cima.</i> \n\n Sin efectos.
+EventTravelEventRoad20A.button1,{qst:ContinueButton}
+EventTravelEventRoad20B.text,<b>Camino - Gran árbol:</b> \n\n <i>Desde la cima del árbol tienes una vista excelente.</i>.\n\n Seréis capaces de impedir que acudan algunos de los refuerzos del Señor Supremo.
+EventTravelEventRoad20B.button1,{qst:ContinueButton}
+EventTravelEventRoad22.text,<b>Camino - Viajero sombrío:</b> \n\n <i>Un sombrío viajero se ofrece para daros indicaciones hacia vuestro destino, por un precio.</i> \n\n Los héroes pueden gastar {var:EventTravelEventRoad22Gold} de Oro (si lo tienen). ¿Queréis pagar el precio?
+EventTravelEventRoad22.button1,No
+EventTravelEventRoad22.button2,Sí
+EventTravelEventRoad22A.text,<b>Camino - Viajero sombrío:</b> \n\n <i>No aceptáis la sombría propuesta.</i> \n\n Sin efectos.
+EventTravelEventRoad22A.button1,{qst:ContinueButton}
+EventTravelEventRoad22B.text,<b>Camino - Viajero sombrío:</b> \n\n <i>Pagáis al ávaro viajero y éste os muestra un atajo en vuestro camino.</i> \n\n Os saltáis el próximo Evento de Viaje.
+EventTravelEventRoad22B.button1,{qst:ContinueButton}
+EventTravelEventRoad22C.text,<b>Camino - Viajero sombrío:</b> \n\n <i>No tenéis el oro necesario.</i> \n\n Sin efectos.
+EventTravelEventRoad22C.button1,{qst:ContinueButton}
+EventTravelEventRoad24.text,<b>Camino - Caballero solitario:</b> \n\n <i>Un solitario caballero con brillante armadura plateada bloquea vuestro camino, retando a un duelo a vuestro guerrero más fuerte.</i> \n\n ¿Aceptáis el duelo?
+EventTravelEventRoad24.button1,No
+EventTravelEventRoad24.button2,Sí
+EventTravelEventRoad24A.text,<b>Camino - Caballero solitario:</b> \n\n <i>El caballero no puede disimular su decepción, pero os deja pasar sin haceros mal alguno.</i> \n\n Sin efectos.
+EventTravelEventRoad24A.button1,{qst:ContinueButton}
+EventTravelEventRoad24B.text,<b>Camino - Caballero solitario:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActI}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActI}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventRoad24B.button1,No
+EventTravelEventRoad24B.button2,Sí
+EventTravelEventRoad24C.text,<b>Camino - Caballero solitario:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActII}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActII}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventRoad24C.button1,No
+EventTravelEventRoad24C.button2,Sí
+EventTravelEventRoad24D.text,<b>Camino - Caballero solitario:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventRoad24D.button1,{qst:ContinueButton}
+EventTravelEventRoad24E.text,<b>Camino - Caballero solitario:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventRoad24E.button1,{qst:ContinueButton}
+EventTravelEventRoad24F.text,<b>Camino - Caballero solitario:</b> \n\n <i> Tras unos minutos de lucha, el caballero se rinde. Admirando tu fuerza, te ofrece su arma como muestra de respeto.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero. Gana el arma del caballero.
+EventTravelEventRoad24F.button1,{qst:ContinueButton}
+EventTravelEventRoad26.text,<b>Camino - Árbol con palabras inspiradoras talladas en él:</b> \n\n <i> Un gran árbol que se encuentra a un lado del camino tiene talladas en su corteza unas palabras que resultan inspiradoras.</i> \n\n Cada héroe suma +{var:EventTravelEventRoad26AttributesAdd} a cada uno de sus atributos hasta el final de esta Fase de Viaje.
+EventTravelEventRoad26.button1,{qst:ContinueButton}
+EventTravelEventRoad27.text,<b>Camino - DAD MEDIA VUELTA:</b> \n\n <i> Escrito en sangre sobre un viejo hito del camino hay unas palabras; DAD MEDIA VUELTA.</i> \n\n Cada héroe realiza una prueba de {will}. {var:EventTravelEventRoad27Heroes} o más héroes han fallado la prueba?
+EventTravelEventRoad27.button1,No
+EventTravelEventRoad27.button2,Sí
+EventTravelEventRoad27A.text,<b>Camino - DAD MEDIA VUELTA:</b> \n\n <i> Ignoráis las palabras, que están ahí claramente para impedir que sigáis avanzando. </i> Sin efectos.
+EventTravelEventRoad27A.button1,{qst:ContinueButton}
+EventTravelEventRoad27B.text,<b>Camino - DAD MEDIA VUELTA:</b> \n\n <i> Os tomáis en serio la advertencia, aunque eso supone tomar un desvío. </i> Jugad inmediatamente otro Evento de viaje al azar.
+EventTravelEventRoad27B.button1,{qst:ContinueButton}
+EventTravelEventRoad28MoB.text,<b>Camino - Cementerio antiguo:</b> \n\n <i> Tropezáis con un antiguo cementerio. Una estatua de una figura encapuchada domina sobre la infinidad de lápidas. En las manos de la estatua, un cristal negro emana un inquietante brillo.</i> \n\n ¿Quieren los héroes recolectar el poder del cristal?
+EventTravelEventRoad28MoB.button1,No
+EventTravelEventRoad28MoB.button2,Sí
+EventTravelEventRoad28MoBA.text,<b>Camino - Cementerio antiguo:</b> \n\n <i> No os arriesgáis a tocar el cristal negro. </i> \n\n Sin efectos.
+EventTravelEventRoad28MoBA.button1,{qst:ContinueButton}
+EventTravelEventRoad28MoBB.text,<b>Camino - Cementerio antiguo:</b> \n\n <i> Tocáis el cristal negro...</i> Cada héroe realiza una prueba de {knowledge}. Cada héroe que falle queda Aterrorizado o Enfermo. Si todos los héroes superan la prueba, coloca una ficha de héroe del héroe con el valor más alto de {knowledge} junto al mapa. Durante este turno, ese héroe puede descartar la ficha para que todos los héroes puedan descartar una estado.
+EventTravelEventRoad28MoBB.button1,{qst:ContinueButton}
+EventTravelEventRoad29MoB.text,<b>Camino - Los restos de un carromato:</b> \n\n <i>Encontráis lo que queda de un carromato. Un cofre con un insólito cerrojo permanece incólume entre los despojos. Una voz susurra dentro de vuestra mente, "Por el ogro y el alma en pena, liberad aquello que espera."</i> \n\n ¿Desean los héroes abrir el cofre?
+EventTravelEventRoad29MoB.button1,No
+EventTravelEventRoad29MoB.button2,Sí
+EventTravelEventRoad29MoBA.text,<b>Camino - Los restos de un carromato:</b> \n\n <i> Pasáis de largo, dejando el cofre cerrado. </i> \n\n Sin efectos.
+EventTravelEventRoad29MoBA.button1,{qst:ContinueButton}
+EventTravelEventRoad29MoBB.text,<b>Camino - Los restos de un carromato:</b> \n\n <i> Intentáis abrir el cofre. </i> \n\n Los jugadores héroes eligen a un héroe para que realice pruebas de {might} y {will} (ambas), para abrir el cofre. ¿Ha superado el héroe ambas pruebas?
+EventTravelEventRoad29MoBB.button1,No
+EventTravelEventRoad29MoBB.button2,Sí
+EventTravelEventRoad29MoBC.text,<b>Camino - Los restos de un carromato:</b> \n\n <i> Fallas en tu intento por abrir el cofre, pero algo ha sido liberado...</i> \n\n Si el héroe falló la prueba de {might} queda Aturdido. Si fallo la prueba de {will} queda Aterrorizado.
+EventTravelEventRoad29MoBC.button1,{qst:ContinueButton}
+EventTravelEventRoad29MoBD.text,<b>Camino - Los restos de un carromato:</b> \n\n <i> Conseguís abrir el cofre y en su interior encontráis un objeto.</i> \n\n Ganáis el objeto {c:QItemTravelReward29}.
+EventTravelEventRoad29MoBD.button1,{qst:ContinueButton}
+EventTravelEventRoad30.text,<b>Camino - Batallón de soldados enemigos:</b> \n\n <i> Os alejáis apresuradamente del camino cuando aparece a lo lejos un batallón de soldados enemigos. Os escondéis como podéis en los lindes del camino, rezando para que no os hayan visto.</i> \n\n Cada héroe realiza una prueba de {awareness}. Por cada héroe que falle la prueba, cada héroe sufre {var:EventTravelEventRoad30Fatigue} {fatigue}.
+EventTravelEventRoad30.button1,{qst:ContinueButton}
+EventTravelEventRoad31.text,<b>Camino - Doce caminos se cruzan tu senda:</b> \n\n <i> Doce caminos se extienden a lo largo de la senda que recorréis</i> \n\n Un héroe realiza una prueba de {knowledge} o de {awareness}. ¿Ha superado la prueba?
+EventTravelEventRoad31.button1,Sí
+EventTravelEventRoad31.button2,No
+EventTravelEventRoad31A.text,<b>Camino - Doce caminos se cruzan tu senda:</b> \n\n <i> Averiguas cuál es el correcto. </i> \n\n Sin efectos.
+EventTravelEventRoad31A.button1,{qst:ContinueButton}
+EventTravelEventRoad31B.text,<b>Camino - Doce caminos se cruzan tu senda:</b> \n\n <i> Jugad tres Eventos de viaje adicionales al azar.
+EventTravelEventRoad31B.button1,{qst:ContinueButton}
+EventTravelEventPlains1.text,<b>Llanuras - Menhires cubiertos de musgo:</b> \n\n <i> Os encontráis con unas piedras inhiestas cubiertas de moho.</i> \n\n Cada héroe realiza una prueba de {will} y sufre {var:EventTravelEventPlains1Fatigue} {fatigue} si no la supera. Si todos los héroes pasan la prueba, cada héroe roba 1 carta de Búsqueda.
+EventTravelEventPlains1.button1,{qst:ContinueButton}
+EventTravelEventPlains2.text,<b>Llanuras - Columna de refugiados:</b> \n\n <i> Os cruzáis con una columna de refugiados.</i> \n\n ¿Queréis deteneros y ayudarles?
+EventTravelEventPlains2.button1,No
+EventTravelEventPlains2.button2,Sí
+EventTravelEventPlains2A.text,<b>Llanuras - Columna de refugiados:</b> \n\n <i> Rechazáis ayudarles.</i> \n\n Cada héroe sufre {var:EventTravelEventPlains2AHeart} {heart}.
+EventTravelEventPlains2A.button1,{qst:ContinueButton}
+EventTravelEventPlains2B.text,<b>Llanuras - Columna de refugiados:</b> \n\n <i> Os detenéis y les ayudáis.</i> \n\n Los refuerzos del Señor Supremo llegarán en breve.
+EventTravelEventPlains2B.button1,{qst:ContinueButton}
+EventTravelEventPlains3.text,<b>Llanuras - El humo se eleva en el horizonte:</b> \n\n <i> Veis una columna de humo que se eleva en el horizonte, a lo lejos.</i> \n\n Vuestra moral disminuye en {var:EventTravelEventPlains3Morale}.
+EventTravelEventPlains3.button1,{qst:ContinueButton}
+EventTravelEventPlains4.text,<b>Llanuras - Forajidos sin ley:</b> \n\n <i> Os asaltan unos forajidos.</i> \n\n Los jugadores héroes eligen un héroe para que realice una prueba de {might} para amedrentarlos. Si falla la prueba, cada héroe sufre {var:EventTravelEventPlains4Heart} {heart} durante la pelea.
+EventTravelEventPlains4.button1,{qst:ContinueButton}
+EventTravelEventPlains8.text,<b>Llanuras - Granja en llamas:</b> \n\n <i> Os encontráis una granja ardiendo y os paráis para dar apropiada sepultura a los granjeros.</i> \n\n Los refuerzos del Señor Supremo llegarán en breve.
+EventTravelEventPlains8.button1,{qst:ContinueButton}
+EventTravelEventPlains10.text,<b>Llanuras - Árbol con manzanas doradas:</b> \n\n <i> Hacéis un pequeño descanso en un huerto, en el que descubrís un árbol con manzanas doradas. </i> \n\n Los jugadores héroes eligen un héroe para que realice una prueba de {will}. Si supera la prueba, roba 1 carta de Búsqueda.
+EventTravelEventPlains10.button1,{qst:ContinueButton}
+EventTravelEventPlains11.text,<b>Llanuras - Secuaces alados:</b> \n\n <i> Unos secuaces alados del Señor Supremo caen en picado sobre vosotros. </i> \n\n Un héroe realiza una prueba de {awareness}. Si no supera la prueba, cada héroe sufre {var:EventTravelEventPlains11Heart} {heart} y {var:EventTravelEventPlains11Fatigue} {fatigue}.
+EventTravelEventPlains11.button1,{qst:ContinueButton}
+EventTravelEventPlains12.text,<b>Llanuras - Misterioso heraldo:</b> \n\n <i>En vuestro camino hacia vuestro destino os aproximáis a un misterioso heraldo.\n —Obrad con cuidado, héroes—dice la misteriosa figura encapuchada—. ¡Hay servidores del mal por todas partes! ¡Un terrible plan está en marcha, aquí, en los alrededores, y debe ser detenido! ¡Daos prisa!</i> \n\n Vuestra moral se incrementa en {var:EventTravelEventPlains12Morale}.
+EventTravelEventPlains12.button1,{qst:ContinueButton}
+EventTravelEventPlains13.text,<b>Llanuras - Exploradores del Enemigo:</b> \n\n <i> Os encontráis exploradores del Señor Supremo.</i> \n\n El héroe con el valor más alto en {awareness} debe elegir entre sufrir {var:EventTravelEventPlains13Heart} {heart} o sufrir {var:EventTravelEventPlains13Fatigue} {fatigue}.
+EventTravelEventPlains13.button1,Sufre {var:EventTravelEventPlains13Fatigue} {fatigue}
+EventTravelEventPlains13.button2,Sufre {var:EventTravelEventPlains13Heart} {heart}
+EventTravelEventPlains13A.text,<b>Llanuras - Exploradores del Enemigo:</b> \n\n <i> Hábilmente consigues distraer a los enemigos sin ser detectado.</i> \n\n Sin efectos.
+EventTravelEventPlains13A.button1,{qst:ContinueButton}
+EventTravelEventPlains13B.text,<b>Llanuras - Exploradores del Enemigo:</b> \n\n <i> Emboscáis a uno de los exploradores y lo derrotáis en combate.</i> \n\n Lográis evitar a algunos de los refuerzos del Señor Supremo.
+EventTravelEventPlains13B.button1,{qst:ContinueButton}
+EventTravelEventPlains14.text,<b>Llanuras - Místico trotamundos:</b> \n\n <i> Un místico trotamundos os bendice.</i> \n\n Los héroes eligen a un curandero. El héroe elegido coloca su ficha de héroe al lado del mapa. Puede descartar su ficha para revivir a un héroe. El héroe revivido recupera todos sus {heart}.
+EventTravelEventPlains14.button1,{qst:ContinueButton}
+EventTravelEventPlains15.text,<b>Llanuras - Curandero ambulante:</b> \n\n <i> Un curandero ambulante os ofrece un misterioso método de curación.</i> \n\n Los jugadores héroes eligen un héroe para que sufra {var:EventTravelEventPlains15Heart} {heart}. Otro héroe que elijan recupera todos sus {heart} y descarta todas sus cartas de Estado.
+EventTravelEventPlains15.button1,{qst:ContinueButton}
+EventTravelEventPlains16.text,<b>Llanuras - Emboscada:</b> \n\n <i> Os anticipáis a una emboscada.</i> \n\n Los héroes eligen hasta {var:EventTravelEventPlains16Heroes} héroes diferentes para que sufran {var:EventTravelEventPlains16Heart} {heart} cada uno. Después de la colocación inicial, los jugadores héroes eligen a un grupo de monstruos para que sufra la misma cantidad de {heart}.
+EventTravelEventPlains16.button1,{qst:ContinueButton}
+EventTravelEventPlains19.text,<b>Llanuras - Viajero con túnica:</b> \n\n <i>Un viajero ataviado con una túnica os hace una advertencia.</i> \n\n Los héroes puede escoger sufrir {var:EventTravelEventPlains19Heart} {heart} cada uno para evitar a algunas de las tropas del Señor Supremo. ¿Quieren hacer esto los héroes?
+EventTravelEventPlains19.button1,No
+EventTravelEventPlains19.button2,Sí
+EventTravelEventPlains19A.text,<b>Llanuras - Viajero con túnica:</b> \n\n <i>Ignoráis la advertencia.</i> \n\n Sin efectos.
+EventTravelEventPlains19A.button1,{qst:ContinueButton}
+EventTravelEventPlains19B.text,<b>Llanuras - Viajero con túnica:</b> \n\n <i>Escucháis las terribles historias del viajero ataviado con una túnica.</i> \n\n Los héroes logran evitar parte de los refuerzos del Señor Supremo.
+EventTravelEventPlains19B.button1,{qst:ContinueButton}
+EventTravelEventPlains21LoR.text,<B> Llanuras - Campo estéril:. </b> \n\n <i> Cuando cruzáis a través de un campo estéril sin ningún signo de vida, vuestro grupo es atacado por una oscura energía invisible.</i> \n\n Cada héroe realiza una prueba de {will}. Cada héroe que falle la prueba queda Maldito.
+EventTravelEventPlains21LoR.button1,{qst:ContinueButton}
+EventTravelEventPlains22.text,<b>Llanuras - Violenta tormenta:</b> \n\n <i> Una violenta tormenta retrasa vuestro avance.</i> \n\n Cada héroe sufre {var:EventTravelEventPlains22Fatigue} {fatigue}. A continuación jugad otro Evento de viaje "Llanuras".
+EventTravelEventPlains22.button1,{qst:ContinueButton}
+EventTravelEventPlains24.text,<b>Llanuras - Caballero andante:</b> \n\n <i>Un andante caballero con brillante armadura plateada bloquea vuestro camino, retando a un duelo a vuestro guerrero más fuerte.</i> \n\n ¿Aceptáis el duelo?
+EventTravelEventPlains24.button1,No
+EventTravelEventPlains24.button2,Sí
+EventTravelEventPlains24A.text,<b>Llanuras - Caballero andante:</b> \n\n <i>El caballero no puede disimular su decepción, pero os deja pasar sin haceros mal alguno.</i> \n\n Sin efectos.
+EventTravelEventPlains24A.button1,{qst:ContinueButton}
+EventTravelEventPlains24B.text,<b>Llanuras - Caballero andante:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActI}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActI}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventPlains24B.button1,No
+EventTravelEventPlains24B.button2,Sí
+EventTravelEventPlains24C.text,<b>Llanuras - Caballero andante:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActII}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActII}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventPlains24C.button1,No
+EventTravelEventPlains24C.button2,Sí
+EventTravelEventPlains24D.text,<b>Llanuras - Caballero andante:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventPlains24D.button1,{qst:ContinueButton}
+EventTravelEventPlains24E.text,<b>Llanuras - Caballero andante:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventPlains24E.button1,{qst:ContinueButton}
+EventTravelEventPlains24F.text,<b>Llanuras - Caballero andante:</b> \n\n <i> Tras unos minutos de lucha, el caballero se rinde. Admirando tu fuerza, te ofrece su arma como muestra de respeto.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero. Gana el arma del caballero.
+EventTravelEventPlains24F.button1,{qst:ContinueButton}
+EventTravelEventPlains25MoB.text,<b>Llanuras - Bruja salvaje:</b> \n\n <i> Una bruja salvaje os ofrece una plegaria.</i> \n\n Los jugadores héroes eligen a un héroe para que quede Aterrorizado. Al final del primer turno de ese héroe, todos los monstruos adyacentes a ese héroe quedan Atemorizados.
+EventTravelEventPlains25MoB.button1,{qst:ContinueButton}
+EventTravelEventPlains28MoB.text,<b>Llanuras - Cementerio antiguo:</b> \n\n <i> Tropezáis con un antiguo cementerio. Una estatua de una figura encapuchada domina sobre la infinidad de lápidas. En las manos de la estatua, un cristal negro emana un inquietante brillo.</i> \n\n ¿Quieren los héroes recolectar el poder del cristal?
+EventTravelEventPlains28MoB.button1,No
+EventTravelEventPlains28MoB.button2,Sí
+EventTravelEventPlains28MoBA.text,<b>Llanuras - Cementerio antiguo:</b> \n\n <i> No os arriesgáis a tocar el cristal negro. </i> \n\n Sin efectos.
+EventTravelEventPlains28MoBA.button1,{qst:ContinueButton}
+EventTravelEventPlains28MoBB.text,<b>Llanuras - Cementerio antiguo:</b> \n\n <i> Tocáis el cristal negro...</i> Cada héroe realiza una prueba de {knowledge}. Cada héroe que falle queda Aterrorizado o Enfermo. Si todos los héroes superan la prueba, coloca una ficha de héroe del héroe con el valor más alto de {knowledge} junto al mapa. Durante este turno, ese héroe puede descartar la ficha para que todos los héroes puedan descartar una estado.
+EventTravelEventPlains28MoBB.button1,{qst:ContinueButton}
+EventTravelEventPlains29MoB.text,<b>Llanuras - Los restos de un carromato:</b> \n\n <i>Encontráis lo que queda de un carromato. Un cofre con un insólito cerrojo permanece incólume entre los despojos. Una voz susurra dentro de vuestra mente, "Por el ogro y el alma en pena, liberad aquello que espera."</i> \n\n ¿Desean los héroes abrir el cofre?
+EventTravelEventPlains29MoB.button1,No
+EventTravelEventPlains29MoB.button2,Sí
+EventTravelEventPlains29MoBA.text,<b>Llanuras - Los restos de un carromato:</b> \n\n <i> Pasáis de largo, dejando el cofre cerrado. </i> \n\n Sin efectos.
+EventTravelEventPlains29MoBA.button1,{qst:ContinueButton}
+EventTravelEventPlains29MoBB.text,<b>Llanuras - Los restos de un carromato:</b> \n\n <i> Intentáis abrir el cofre. </i> \n\n Los jugadores héroes eligen a un héroe para que realice pruebas de {might} y {will} (ambas), para abrir el cofre. ¿Ha superado el héroe ambas pruebas?
+EventTravelEventPlains29MoBB.button1,No
+EventTravelEventPlains29MoBB.button2,Sí
+EventTravelEventPlains29MoBC.text,<b>Llanuras - Los restos de un carromato:</b> \n\n <i> Fallas en tu intento por abrir el cofre, pero algo ha sido liberado...</i> \n\n Si el héroe falló la prueba de {might} queda Aturdido. Si fallo la prueba de {will} queda Aterrorizado.
+EventTravelEventPlains29MoBC.button1,{qst:ContinueButton}
+EventTravelEventPlains29MoBD.text,<b>Llanuras - Los restos de un carromato:</b> \n\n <i> Conseguís abrir el cofre y en su interior encontráis un objeto.</i> \n\n Ganáis el objeto {c:QItemTravelReward29}.
+EventTravelEventPlains29MoBD.button1,{qst:ContinueButton}
+EventTravelEventPlains30TctR.text,<b>Llanuras - Buitres silenciosos:</b> \n\n <i>Unos silenciosos buitres se congregan en el cielo sobre vuestras cabezas. Su número va en aumento.</i> \n\n Cada héroe realiza una prueba de {will}. Cada héroe que falle la prueba queda Atemorizado. Cada héroe que pase la prueba elige un grupo de monstruos en el mapa, justo después de la preparación, para que quede Aterrorizado.
+EventTravelEventPlains30TctR.button1,{qst:ContinueButton}
+EventTravelEventForest1.text,<b> Bosque - denso matorral: </b> \n\n <i> Oís a alguien llorando en el centro de un denso matorral </i> \n \n ¿Queréis investigar?
+EventTravelEventForest1.button1,No
+EventTravelEventForest1.button2,Sí
+EventTravelEventForest1A.text,<b> Bosque - denso matorral: </b> \n\n <i>No queréis perder ni un instante investigando en el bosque.</i> \n\n Sin efectos.
+EventTravelEventForest1A.button1,{qst:ContinueButton}
+EventTravelEventForest1B.text,<b> Bosque - denso matorral: </b> \n\n <i> Os abrís paso a través de la espesura, consiguiendo algunas cicatrices durante el camino. No encontráis nada, pero estáis seguros de que habéis hecho lo correcto. </i> \n\n Cada héroe sufre {var:EventTravelEventForest1BHeart} {heart}, pero la moral se incrementa en {var:EventTravelEventForest1BMorale}.
+EventTravelEventForest1B.button1,{qst:ContinueButton}
+EventTravelEventForest2.text,<b> Bosque - Perdidos: </b> \n\n <i> Os habéis perdido.</i> \n\n Los jugadores héroes eligen a un héroe para que haga una prueba de {awareness}. Si falla la prueba, cada héroe sufre {var:EventTravelEventForest2Fatigue} {fatigue}.
+EventTravelEventForest2.button1,{qst:ContinueButton}
+EventTravelEventForest3.text,<b> Bosque - Claro apacible. </b> \n\n <i> De forma inesperada os encontráis un hermoso y tranquilo claro en el bosque. </i> \n\n Cada héroe recupera todos sus {heart} y {fatigue} .
+EventTravelEventForest3.button1,{qst:ContinueButton}
+EventTravelEventForest4.text,<b>Bosque - ¡Telarañas por todas partes!:</b> \n\n <i>¡Todo está cubierto de telarañas!</i> \n\n Cada héroe realiza una prueba de {awareness}. Cada héroe que falle la prueba es emboscado por una serpiente y queda Envenenado. Si todos los héroes fallan, cada héroe sufre {var:EventTravelEventForest4Heart} {heart}.
+EventTravelEventForest4.button1,{qst:ContinueButton}
+EventTravelEventForest5.text,<b> Bosque - Elfos Latari: </b> \n\n <i> Una banda de elfos Latari está siendo acosado por los secuaces del Señor Supremo </i> \n\n Podríais ayudar a los elfos, pero quizá resultéis heridos en la refriega. ¿Queréis ayudarles?
+EventTravelEventForest5.button1,No
+EventTravelEventForest5.button2,Sí
+EventTravelEventForest5A.text,<b>Bosque - Elfos Latari:</b> \n\n <i> A medida que proseguís con vuestro viaje, los ecos de los gritos agonizantes de los elfos resuenan en el bosque.</i> \n\n Vuestra moral disminuye en {var:EventTravelEventForest5AMorale}.
+EventTravelEventForest5A.button1,{qst:ContinueButton}
+EventTravelEventForest5B.text,<b>Bosque - Elfos Latari:</b> \n\n <i> Acudís en su defensa..</i> \n\n Cada héroe sufre {var:EventTravelEventForest5BHeart} {heart}.
+EventTravelEventForest5B.button1,{qst:ContinueButton}
+EventTravelEventForest6.text,<b>Bosque - ¡Los secuaces aparecen!:</b> \n\n <i> Los secuaces del Señor Supremo aparecen de la nada.</i> \n\n Los héroes eligen un atributo. Cada héroe debe realizar una prueba del atributo elegido. Cada héroe que falle sufre {var:EventTravelEventForest6Heart} {heart} y {var:EventTravelEventForest6Fatigue} {fatigue}.
+EventTravelEventForest6.button1,{qst:ContinueButton}
+EventTravelEventForest7.text,<b> Bosque - ¡Arañas!: </b> \n\n <i> ¡Arañas! ¡Por todos los dioses, arañas! </i> \n\n El héroe con la con la menor puntuación en {awareness} queda Envenenado.
+EventTravelEventForest7.button1,{qst:ContinueButton}
+EventTravelEventForest12.text,<b>Bosque - Misterioso heraldo:</b> \n\n <i>En vuestro camino hacia vuestro destino os aproximáis a un misterioso heraldo.\n —Obrad con cuidado, héroes—dice la misteriosa figura encapuchada—. ¡Hay servidores del mal por todas partes! ¡Un terrible plan está en marcha, aquí, en los alrededores, y debe ser detenido! ¡Daos prisa!</i> \n\n Vuestra moral se incrementa en {var:EventTravelEventForest12Morale}.
+EventTravelEventForest12.button1,{qst:ContinueButton}
+EventTravelEventForest13LotW.text,<b>Bosque - Vieja bruja:</b> \n\n <i> Os topáis con una vieja bruja que murmura una maldición antes de desaparecer envuelta en las brumas. </i> \n\n Cada héroe debe realizar una prueba de {will}. Cada héroe que falle sucumbe ante su hechizo y queda En llamas.
+EventTravelEventForest13LotW.button1,{qst:ContinueButton}
+EventTravelEventForest14.text,<b>Bosque - Densa niebla:</b> \n\n <i> Os da la impresión de que la densa niebla os está rodeando. De repente os sentís extrañamente cansados.</i> \n\n Cada héroe debe realizar una prueba de {knowledge}. Cada héroe que falle la prueba debe colocar su ficha de héroe sobre su hoja de héroe. La velocidad de dicho héroe se incrementa en {var:EventTravelEventForest14Speed} durante su primer turno.
+EventTravelEventForest14.button1,{qst:ContinueButton}
+EventTravelEventForest15.text,<b> Bosque - Los bandidos han ocupado este bosque: </b> \n\n <i> Unos bandidos han establecido su guarida en este oscuro bosque.</i> \n\n Cada héroe debe pasar una prueba de {knowledge} o de {will}. ¿Todos los héroes superan su prueba?
+EventTravelEventForest15.button1,No
+EventTravelEventForest15.button2,Sí
+EventTravelEventForest15A.text,<b> Bosque - Los bandidos han ocupado este bosque: </b> \n\n <i>Os tienden una emboscada, pero lográis rechazarlos. Algunos de vosotros habéis sido heridos en la refriega.</i> \n\n Cada héroe que fallase la anterior prueba sufre {var:EventTravelEventForest15AHeart} {heart} y {var:EventTravelEventForest15AFatigue} {fatigue}.
+EventTravelEventForest15A.button1,{qst:ContinueButton}
+EventTravelEventForest15B.text,<b> Bosque - Los bandidos han ocupado este bosque: </b> \n\n <i>Os tienden una emboscada, pero en realidad era una trampa que les habías tendido. Mientras rebuscáis entre sus restos, encontráis el objeto {c:QItemTravelRewardF15}.</i> \n\n Los héroes ganan el objeto {c:QItemTravelRewardF15}.
+EventTravelEventForest15B.button1,{qst:ContinueButton}
+EventTravelEventForest16.text,<b>Bosque - Mercader perdido:</b> \n\n <i>Un mercader perdido os pide indicaciones.</i>
+EventTravelEventForest16.button1,{qst:ContinueButton}
+EventTravelEventForest16H2.text,<b>Bosque - Mercader perdido:</b> \n\n Cada héroe realiza una prueba de {knowledge}.\n\n ¿Cuántos héroes han pasado la prueba?
+EventTravelEventForest16H2.button1,Ninguno
+EventTravelEventForest16H2.button2,Uno
+EventTravelEventForest16H2.button3,Dos
+EventTravelEventForest16H3.text,<b>Bosque - Mercader perdido:</b> \n\n Cada héroe realiza una prueba de {knowledge}.\n\n ¿Cuántos héroes han pasado la prueba?
+EventTravelEventForest16H3.button1,Ninguno
+EventTravelEventForest16H3.button2,Uno
+EventTravelEventForest16H3.button3,Dos
+EventTravelEventForest16H3.button4,Tres
+EventTravelEventForest16H4.text,<b>Bosque - Mercader perdido:</b> \n\n Cada héroe realiza una prueba de {knowledge}.\n\n ¿Cuántos héroes han pasado la prueba?
+EventTravelEventForest16H4.button1,Ninguno
+EventTravelEventForest16H4.button2,Uno
+EventTravelEventForest16H4.button3,Dos
+EventTravelEventForest16H4.button4,Tres
+EventTravelEventForest16H4.button5,Cuatro
+EventTravelEventForest16A.text,<b>Bosque - Mercader perdido:</b> \n\n <i>Desafortunadamente no podéis ayudar al mercader.</i> \n\n Vuestro viaje continúa.
+EventTravelEventForest16A.button1,{qst:ContinueButton}
+EventTravelEventForest16B.text,<b>Bosque - Mercader perdido:</b> \n\n <i>Le dais al mercader unas indicaciones imprecisas.</i> \n\n Los héroes reciben una recompensa de {var:EventTravelEventForest16BGold} de Oro.
+EventTravelEventForest16B.button1,{qst:ContinueButton}
+EventTravelEventForest16C.text,<b>Bosque - Mercader perdido:</b> \n\n <i>Le dais al mercader unas vagas indicaciones.</i> \n\n Los héroes reciben una recompensa de {var:EventTravelEventForest16CGold} de Oro.
+EventTravelEventForest16C.button1,{qst:ContinueButton}
+EventTravelEventForest16D.text,<b>Bosque - Mercader perdido:</b> \n\n <i>Le dais al mercader unas indicaciones bastante precisas.</i> \n\n Los héroes reciben una recompensa de {var:EventTravelEventForest16DGold} de Oro.
+EventTravelEventForest16D.button1,{qst:ContinueButton}
+EventTravelEventForest16E.text,<b>Bosque - Mercader perdido:</b> \n\n <i>Le dais al mercader unas indicaciones exactas.</i> \n\n Los héroes reciben una recompensa de {var:EventTravelEventForest16FGold} de Oro.
+EventTravelEventForest16E.button1,{qst:ContinueButton}
+EventTravelEventForest17.text,<b>Bosque - Llave de oro:</b> \n\n <i> Un extraño hombre os ofrece una llave de oro.</i> \n\n ¿Hay algún explorador en el grupo de héroes?
+EventTravelEventForest17.button1,No
+EventTravelEventForest17.button2,Sí
+EventTravelEventForest17A.text,<b>Bosque - Llave de oro:</b> \n\n <i> El extraño hombre retira su oferta.</i> \n\n Sin efectos.
+EventTravelEventForest17A.button1,{qst:ContinueButton}
+EventTravelEventForest17B.text,<b>Bosque - Llave de oro:</b> \n\n <i> El explorador identifica la llave como un objeto valioso que permite tener acceso a otros objetos. </i> \n\n La próxima vez que visitéis una ciudad, los héroes encontrarán 3 objetos adicionales en el mercado.
+EventTravelEventForest17B.button1,{qst:ContinueButton}
+EventTravelEventForest18.text,<b>Bosque - Bestia salvaje:</b> \n\n <i> Una bestia salvaje os tiende una emboscada y a ti se te pilla desarmado. Deberás pelear con tus puños.</i> \n\n {rnd:hero} realiza una prueba de {might}. Si falla la prueba, sufre {heart} igual a su puntuación en {might}.
+EventTravelEventForest18.button1,{qst:ContinueButton}
+EventTravelEventForest22.text,<b>Bosque - Explorador goblin:</b> \n\n <i> ¡Un explorador goblin trata de huir para avisar a sus camaradas! </i> \n\n Un héroe con un Arma a distancia lanza los dados del arma. Si el alcance total de la tirada es menos de {var:EventTravelEventForest22DiceResult}, cada héroe sufre {var:EventTravelEventForest22Heart} {heart}.
+EventTravelEventForest22.button1,{qst:ContinueButton}
+EventTravelEventForest23.text,<b>Bosque - Explorador goblin:</b> \n\n <i> ¡Un explorador goblin trata de huir para avisar a sus camaradas! </i> \n\n Un héroe con un Arma a distancia lanza los dados del arma. Si el alcance total de la tirada es menos de {var:EventTravelEventForest23DiceResult}, cada héroe sufre {var:EventTravelEventForest23Heart} {heart}.
+EventTravelEventForest23.button1,{qst:ContinueButton}
+EventTravelEventForest23TT.text,<b>Bosque - Horripilante gusano de la plaga:</b> \n\n <i> ¡Os ataca un horripilante gusano de la plaga!</i> \n\n {rnd:hero} sufre {var:EventTravelEventForest23TTHeart} {heart} y queda Debilitado.
+EventTravelEventForest23TT.button1,{qst:ContinueButton}
+EventTravelEventForest24.text,<b>Bosque - Caballero errante:</b> \n\n <i>Un errante caballero con brillante armadura plateada bloquea vuestro camino, retando a un duelo a vuestro guerrero más fuerte.</i> \n\n ¿Aceptáis el duelo?
+EventTravelEventForest24.button1,No
+EventTravelEventForest24.button2,Sí
+EventTravelEventForest24A.text,<b>Bosque - Caballero errante:</b> \n\n <i>El caballero no puede disimular su decepción, pero os deja pasar sin haceros mal alguno.</i> \n\n Sin efectos.
+EventTravelEventForest24A.button1,{qst:ContinueButton}
+EventTravelEventForest24B.text,<b>Bosque - Caballero errante:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActI}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActI}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventForest24B.button1,No
+EventTravelEventForest24B.button2,Sí
+EventTravelEventForest24C.text,<b>Bosque - Caballero errante:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActII}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActII}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventForest24C.button1,No
+EventTravelEventForest24C.button2,Sí
+EventTravelEventForest24D.text,<b>Bosque - Caballero errante:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventForest24D.button1,{qst:ContinueButton}
+EventTravelEventForest24E.text,<b>Bosque - Caballero errante:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventForest24E.button1,{qst:ContinueButton}
+EventTravelEventForest24F.text,<b>Bosque - Caballero errante:</b> \n\n <i> Tras unos minutos de lucha, el caballero se rinde. Admirando tu fuerza, te ofrece su arma como muestra de respeto.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero. Gana el arma del caballero.
+EventTravelEventForest24F.button1,{qst:ContinueButton}
+EventTravelEventForest25.text,<b>Bosque - Explorador goblin:</b> \n\n <i> ¡Un explorador goblin trata de huir para avisar a sus camaradas! </i> \n\n Un héroe con un Arma a distancia lanza los dados del arma. Si el alcance total de la tirada es menos de {var:EventTravelEventForest25DiceResult}, cada héroe sufre {var:EventTravelEventForest25Heart} {heart}.
+EventTravelEventForest25.button1,{qst:ContinueButton}
+EventTravelEventForest25MoB.text,<b>Bosque - Un misterioso relicario:</b> \n\n <i> Un extraño relicario brilla en el sucio suelo del bosque.</i> \n\n Los héroes eligen a un héroe para que haga una prueba de {knowledge}. ¿Ha superado la prueba?
+EventTravelEventForest25MoB.button1,No
+EventTravelEventForest25MoB.button2,Sí
+EventTravelEventForest25MoBA.text,<b>Bosque - Un misterioso relicario:</b> \n\n <i> Eres incapaz de abrirlo.</i> \n\n Cada héroe sufre {fatigue} igual al número de {shield} de la tirada que excedan la puntuación de {knowledge} del héroe que realizó la prueba.
+EventTravelEventForest25MoBA.button1,{qst:ContinueButton}
+EventTravelEventForest25MoBB.text,<b>Bosque - Un misterioso relicario:</b> \n\n <i> Consigues abrir el relicario.</i> \n\n En su interior encuentras {var:EventTravelEventForest25MoBBGold} de Oro.
+EventTravelEventForest25MoBB.button1,{qst:ContinueButton}
+EventTravelEventForest26.text,<b>Bosque - Lluvia reciente:</b> \n\n <i> La lluvia reciente ha dejado el bosque hecho un auténtico barrizal.</i> \n\n Cada héroe realiza una prueba de {might}. Cada héroe que no supere la prueba ve reducida su velocidad en {var:EventTravelEventForest26Speed} durante su primer turno.
+EventTravelEventForest26.button1,{qst:ContinueButton}
+EventTravelEventForest27.text,<b>Bosque - Explorador goblin:</b> \n\n <i> ¡Un explorador goblin trata de huir para avisar a sus camaradas! </i> \n\n Un héroe con un Arma a distancia lanza los dados del arma. Si el alcance total de la tirada es menos de {var:EventTravelEventForest27DiceResult}, cada héroe sufre {var:EventTravelEventForest27Heart} {heart}.
+EventTravelEventForest27.button1,{qst:ContinueButton}
+EventTravelEventForest28MoB.text,<b>Bosque - Cementerio antiguo:</b> \n\n <i> Tropezáis con un antiguo cementerio. Una estatua de una figura encapuchada domina sobre la infinidad de lápidas. En las manos de la estatua, un cristal negro emana un inquietante brillo.</i> \n\n ¿Quieren los héroes recolectar el poder del cristal?
+EventTravelEventForest28MoB.button1,No
+EventTravelEventForest28MoB.button2,Sí
+EventTravelEventForest28MoBA.text,<b>Bosque - Cementerio antiguo:</b> \n\n <i> No os arriesgáis a tocar el cristal negro. </i> \n\n Sin efectos.
+EventTravelEventForest28MoBA.button1,{qst:ContinueButton}
+EventTravelEventForest28MoBB.text,<b>Bosque - Cementerio antiguo:</b> \n\n <i> Tocáis el cristal negro...</i> Cada héroe realiza una prueba de {knowledge}. Cada héroe que falle queda Aterrorizado o Enfermo. Si todos los héroes superan la prueba, coloca una ficha de héroe del héroe con el valor más alto de {knowledge} junto al mapa. Durante este turno, ese héroe puede descartar la ficha para que todos los héroes puedan descartar una estado.
+EventTravelEventForest28MoBB.button1,{qst:ContinueButton}
+EventTravelEventForest29MoB.text,<b>Bosque - Los restos de un carromato:</b> \n\n <i>Encontráis lo que queda de un carromato. Un cofre con un insólito cerrojo permanece incólume entre los despojos. Una voz susurra dentro de vuestra mente, "Por el ogro y el alma en pena, liberad aquello que espera."</i> \n\n ¿Desean los héroes abrir el cofre?
+EventTravelEventForest29MoB.button1,No
+EventTravelEventForest29MoB.button2,Sí
+EventTravelEventForest29MoBA.text,<b>Bosque - Los restos de un carromato:</b> \n\n <i> Pasáis de largo, dejando el cofre cerrado. </i> \n\n Sin efectos.
+EventTravelEventForest29MoBA.button1,{qst:ContinueButton}
+EventTravelEventForest29MoBB.text,<b>Bosque - Los restos de un carromato:</b> \n\n <i> Intentáis abrir el cofre. </i> \n\n Los jugadores héroes eligen a un héroe para que realice pruebas de {might} y {will} (ambas), para abrir el cofre. ¿Ha superado el héroe ambas pruebas?
+EventTravelEventForest29MoBB.button1,No
+EventTravelEventForest29MoBB.button2,Sí
+EventTravelEventForest29MoBC.text,<b>Bosque - Los restos de un carromato:</b> \n\n <i> Fallas en tu intento por abrir el cofre, pero algo ha sido liberado...</i> \n\n Si el héroe falló la prueba de {might} queda Aturdido. Si fallo la prueba de {will} queda Aterrorizado.
+EventTravelEventForest29MoBC.button1,{qst:ContinueButton}
+EventTravelEventForest29MoBD.text,<b>Bosque - Los restos de un carromato:</b> \n\n <i> Conseguís abrir el cofre y en su interior encontráis un objeto.</i> \n\n Ganáis el objeto {c:QItemTravelReward29}.
+EventTravelEventForest29MoBD.button1,{qst:ContinueButton}
+EventTravelEventForest30.text,<b> Bosque - Una joven pareja:. </b> \n\n <i> Una joven pareja rebusca entre los restos carbonizados de su cabaña </i> \n\n ¿Quieren los héroes gastar {var:EventTravelEventForest30Gold} de Oro (si lo tienen) para ayudarles?
+EventTravelEventForest30.button1,No
+EventTravelEventForest30.button2,Sí
+EventTravelEventForest30A.text,<b> Bosque - Una joven pareja: </b> \n\n <i> No tenéis tiempo para ayudar a la gente del lugar </i> \n\n Sin efectos.
+EventTravelEventForest30A.button1,{qst:ContinueButton}
+EventTravelEventForest30B.text,<b> Bosque - Una joven pareja:</b> \n\n <i>Después de ayudar a la pareja, esta promete que hablarán a los demás de vuestro heroico gesto. </i> \n\n Vuestra moral aumenta en {var:EventTravelEventForest30Morale}.
+EventTravelEventForest30B.button1,{qst:ContinueButton}
+EventTravelEventForest30C.text,<b> Bosque - Una joven pareja: </b> \n\n <i> No tenéis el oro necesario para ayudarles.</i> \n\n Sin efectos.
+EventTravelEventForest30C.button1,{qst:ContinueButton}
+EventTravelEventWater4.text,<b>Agua - Algo brilla:</b> \n\n <i>¡Algo brilla en el fondo de un estanque!</i> \n\n Los héroes eligen a un héroe para que realice una prueba de {awareness} para que se sumerja y lo busque. Si supera la tirada, roba una carta de Búsqueda.
+EventTravelEventWater4.button1,{qst:ContinueButton}
+EventTravelEventWater5.text,<b>Aguar - Cadáveres abotargados:</b> \n\n <i> Unos cadáveres hinchados flotan en el agua. Al acercaros a ellos, ¡comienzan a gemir y se alzan! </i> \n\n Cada héroe realiza una prueba de {will}. Cada héroe que falle se ve rodeado por los zombis y queda Enfermo.
+EventTravelEventWater5.button1,{qst:ContinueButton}
+EventTravelEventWater7.text,<b>Agua - Pestilente miasma:</b> \n\n <i>Unos pestilentes efluvios emanan del agua.</i> \n\n El héroe con la puntuación más baja en {might} queda Enfermo.
+EventTravelEventWater7.button1,{qst:ContinueButton}
+EventTravelEventWater8.text,<b>Agua - Misteriosa figura envuelta en una túnica:</b> \n\n <i> Una misteriosa figura que porta una túnica se ofrece para llevaros en su bote.</i> \n\n No sabéis si el extraño es de fiar, pero seguramente os ayudará a recuperar fuerzas el viajar en el bote. ¿Aceptáis la propuesta?
+EventTravelEventWater8.button1,No
+EventTravelEventWater8.button2,Sí
+EventTravelEventWater8A.text,<b>Agua - Misteriosa figura envuelta en una túnica:</b> \n\n <i> No os arriesgáis. </i> \n\n Sin efectos.
+EventTravelEventWater8A.button1,{qst:ContinueButton}
+EventTravelEventWater8B.text,<b>Agua - Misteriosa figura envuelta en una túnica:</b> \n\n <i>El extraño no es muy hablador, pero está atento a todas vuestras conversaciones...</i> \n\n Cada héroe recupera toda la {fatigue}, pero los refuerzos del Señor Supremo llegarán en breve.
+EventTravelEventWater8B.button1,{qst:ContinueButton}
+EventTravelEventWater9.text,<b> Agua - La lluvia de la noche anterior: </b> \n\n <i> Después de la lluvia de la noche anterior, los ríos van crecidos y las aguas bajan muy bravas. </i> \n\n Cada héroe realiza una prueba de {knowledge}. Cada héroe que no supere la tirada sufre {var:EventTravelEventWater9Fatigue} {fatigue}.
+EventTravelEventWater9.button1,{qst:ContinueButton}
+EventTravelEventWater10.text,<b> Agua - Tentáculos: </b> \n\n <i> Unos tentáculos emergen del agua e intentan zambullir a los héroes. </i> \n\n Cada héroe realiza una pruebas de {might}. Cada héroe que no supere la prueba sufre {var:EventTravelEventWater10Fatigue! } {fatigue}. Si todos los héroes fallan, cada héroe sufre además {var:EventTravelEventWater10Heart} {heart}.
+EventTravelEventWater10.button1,{qst:ContinueButton}
+EventTravelEventWater11.text,<b> Agua - Barquero: </b> \n\n <i> El cansancio hace mella en vosotros después del largo viaje. Un simpático barquero se ofrece a llevaros. </i> \n\n Podéis elegir entre pagar {var:EventTravelEventWater11Gold} de Oro (si lo tenéis) o continuar vuestra agotadora marcha a pie.
+EventTravelEventWater11.button1,Sufrir fatiga
+EventTravelEventWater11.button2,Gastar oro
+EventTravelEventWater11A.text,<b> Agua - Barquero: </b> \n\n <i> Continuar vuestro recorrido a pie resulta especialmente agotador. </i> \n\n Cada héroe sufre {var:EventTravelEventWater11AFatigue} {fatigue}. .
+EventTravelEventWater11A.button1,{qst:ContinueButton}
+EventTravelEventWater11B.text,<b> Agua - Barquero: </b> \n\n <i> Viajar de esta manera es costoso, pero más rápido </i> \n\n Pagáis al barquero por su servicio {var:EventTravelEventWater11Gold} de Oro.
+EventTravelEventWater11B.button1,{qst:ContinueButton}
+EventTravelEventWater11C.text,<b> Agua - Barquero:. </b> \n\n <i> Puesto que no tenéis el oro necesario debéis continuar vuestro viaje a pie. El trayecto resulta ser bastante agotador. </i> \n\n Cada héroe sufre {var:EventTravelEventWater11CFatigue} {fatigue}.
+EventTravelEventWater11C.button1,{qst:ContinueButton}
+EventTravelEventWater12.text,<b>Agua - Misterioso heraldo:</b> \n\n <i>En vuestro camino hacia vuestro destino os aproximáis a un misterioso heraldo.\n —Obrad con cuidado, héroes—dice la misteriosa figura encapuchada—. ¡Hay servidores del mal por todas partes! ¡Un terrible plan está en marcha, aquí, en los alrededores, y debe ser detenido! ¡Daos prisa!</i> \n\n Vuestra moral se incrementa en {var:EventTravelEventWater12Morale}.
+EventTravelEventWater12.button1,{qst:ContinueButton}
+EventTravelEventWater14.text,<b> Agua - Renovados: </b> \n\n <i> Os sentís con vuestras fuerzas renovadas. </i> \n\n Los héroes eligen a un guerrero. Este coloca una de sus fichas de héroe a un lado del mapa. Puede descartar esta ficha al comienzo de su turno. Si lo hace, podrá usar sus habilidades durante ese turno sin sufrir {fatigue}.
+EventTravelEventWater14.button1,{qst:ContinueButton}
+EventTravelEventWater18LoR.text,<b> Agua - La mujer en la ribera. </b> \n\n <i> Una mujer está sentada a la orilla del agua susurrando de forma incoherente. A medida que os acercáis, sus palabras comienzan a infundiros terror. </i> \n\n Cada héroe realiza una prueba de {knowledge}. Cada héroe que no supere la prueba queda Maldito.
+EventTravelEventWater18LoR.button1,{qst:ContinueButton}
+EventTravelEventWater19.text,<b> Agua - Niebla tenebrosa: </b> \n\n <i> Una tenebrosa niebla oscura se ha asentado sobre el agua. </i> \n\n Vuestra moral disminuye {var:EventTravelEventWater19Morale}.
+EventTravelEventWater19.button1,{qst:ContinueButton}
+EventTravelEventWater20LoR.text,<b> Agua - El agua se torna oscura: </b> \n\n <i> El agua se vuelve negra y desprende un hedor insoportable. </​​i> \n\n Los héroes escogen a un héroe que no tenga ninguna carta de Estado para que realice una prueba de su atributo con la puntuación más baja. Si la prueba fracasa, el héroe queda Maldito.
+EventTravelEventWater20LoR.button1,{qst:ContinueButton}
+EventTravelEventWater21.text,<b> Agua - El regateo con un comerciante: </b> \n\n <i> El regateo con un comerciante que viaja desafortunadamente os causaría un retraso </i> \n\n Los héroes podrían conseguir un artículo si le dedican un tiempo al regateo. ¿Desean los héroes regatear con el comerciante?
+EventTravelEventWater21.button1,No
+EventTravelEventWater21.button2,Sí
+EventTravelEventWater21A.text,<b> Agua - El regateo con un comerciante: </b> \n\n <i> No tenéis tiempo para esto.</i> \n\n Sin efectos.
+EventTravelEventWater21A.button1,{qst:ContinueButton}
+EventTravelEventWater21B.text,<b> Agua - El regateo con un comerciante: </b> \n\n <i> Os lleva horas negociar un precio </i> \n\n Los refuerzos del Señor Supremo llegarán más pronto y los héroes ganan el artículo. {c:QitemTravelRewardW21}.
+EventTravelEventWater21B.button1,{qst:ContinueButton}
+EventTravelEventWater23.text,<b>Agua - Aguas corrompidas:</b> \n\n <i> Algo ha emponzoñado estas aguas.</i> \n\n Cada héroe realiza una prueba de {might}. Cada héroe que falle la prueba queda Envenenado.
+EventTravelEventWater23.button1,{qst:ContinueButton}
+EventTravelEventWater24.text,<b>Agua - Caballero solitario:</b> \n\n <i>Un solitario caballero con brillante armadura plateada bloquea vuestro camino, retando a un duelo a vuestro guerrero más fuerte.</i> \n\n ¿Aceptáis el duelo?
+EventTravelEventWater24.button1,No
+EventTravelEventWater24.button2,Sí
+EventTravelEventWater24A.text,<b>Agua - Caballero solitario:</b> \n\n <i>El caballero no puede disimular su decepción, pero os deja pasar sin haceros mal alguno.</i> \n\n Sin efectos.
+EventTravelEventWater24A.button1,{qst:ContinueButton}
+EventTravelEventWater24B.text,<b>Agua - Caballero solitario:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActI}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActI}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventWater24B.button1,No
+EventTravelEventWater24B.button2,Sí
+EventTravelEventWater24C.text,<b>Agua - Caballero solitario:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActII}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActII}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventWater24C.button1,No
+EventTravelEventWater24C.button2,Sí
+EventTravelEventWater24D.text,<b>Agua - Caballero solitario:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventWater24D.button1,{qst:ContinueButton}
+EventTravelEventWater24E.text,<b>Agua - Caballero solitario:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventWater24E.button1,{qst:ContinueButton}
+EventTravelEventWater24F.text,<b>Agua - Caballero solitario:</b> \n\n <i> Tras unos minutos de lucha, el caballero se rinde. Admirando tu fuerza, te ofrece su arma como muestra de respeto.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero. Gana el arma del caballero.
+EventTravelEventWater24F.button1,{qst:ContinueButton}
+EventTravelEventWater25.text,<b>Agua - Acogedora laguna:</b> \n\n <i> Entre las ensombrecidas aguas encuentras una profunda pero acogedora laguna.</i> \n\n Cada héroe debe elegir entre sufrir {var:EventTravelEventWater25Heart1} {heart} y recuperar {var:EventTravelEventWater25Fatigue1} {fatigue} o sufrir {var:EventTravelEventWater25Fatigue2} {fatigue} y recuperar {var:EventTravelEventWater25Heart1} {heart}.
+EventTravelEventWater25.button1,{qst:ContinueButton}
+EventTravelEventWater27.text,<b>Agua - Voraces sanguijuelas:</b> \n\n <i> El agua está infestada de sanguijuelas.</i> \n\n Cada héroe realiza una prueba de {awareness}. Cada héroe que falle la prueba queda Enfermo.
+EventTravelEventWater27.button1,{qst:ContinueButton}
+EventTravelEventWater28MoB.text,<b>Agua - Cementerio antiguo:</b> \n\n <i> Tropezáis con un antiguo cementerio. Una estatua de una figura encapuchada domina sobre la infinidad de lápidas. En las manos de la estatua, un cristal negro emana un inquietante brillo.</i> \n\n ¿Quieren los héroes recolectar el poder del cristal?
+EventTravelEventWater28MoB.button1,No
+EventTravelEventWater28MoB.button2,Sí
+EventTravelEventWater28MoBA.text,<b>Agua - Cementerio antiguo:</b> \n\n <i> No os arriesgáis a tocar el cristal negro. </i> \n\n Sin efectos.
+EventTravelEventWater28MoBA.button1,{qst:ContinueButton}
+EventTravelEventWater28MoBB.text,<b>Agua - Cementerio antiguo:</b> \n\n <i> Tocáis el cristal negro...</i> Cada héroe realiza una prueba de {knowledge}. Cada héroe que falle queda Aterrorizado o Enfermo. Si todos los héroes superan la prueba, coloca una ficha de héroe del héroe con el valor más alto de {knowledge} junto al mapa. Durante este turno, ese héroe puede descartar la ficha para que todos los héroes puedan descartar una estado.
+EventTravelEventWater28MoBB.button1,{qst:ContinueButton}
+EventTravelEventWater29MoB.text,<b>Agua - Los restos de un carromato:</b> \n\n <i>Encontráis lo que queda de un carromato. Un cofre con un insólito cerrojo permanece incólume entre los despojos. Una voz susurra dentro de vuestra mente, "Por el ogro y el alma en pena, liberad aquello que espera."</i> \n\n ¿Desean los héroes abrir el cofre?
+EventTravelEventWater29MoB.button1,No
+EventTravelEventWater29MoB.button2,Sí
+EventTravelEventWater29MoBA.text,<b>Agua - Los restos de un carromato:</b> \n\n <i> Pasáis de largo, dejando el cofre cerrado. </i> \n\n Sin efectos.
+EventTravelEventWater29MoBA.button1,{qst:ContinueButton}
+EventTravelEventWater29MoBB.text,<b>Agua - Los restos de un carromato:</b> \n\n <i> Intentáis abrir el cofre. </i> \n\n Los jugadores héroes eligen a un héroe para que realice pruebas de {might} y {will} (ambas), para abrir el cofre. ¿Ha superado el héroe ambas pruebas?
+EventTravelEventWater29MoBB.button1,No
+EventTravelEventWater29MoBB.button2,Sí
+EventTravelEventWater29MoBC.text,<b>Agua - Los restos de un carromato:</b> \n\n <i> Fallas en tu intento por abrir el cofre, pero algo ha sido liberado...</i> \n\n Si el héroe falló la prueba de {might} queda Aturdido. Si fallo la prueba de {will} queda Aterrorizado.
+EventTravelEventWater29MoBC.button1,{qst:ContinueButton}
+EventTravelEventWater29MoBD.text,<b>Agua - Los restos de un carromato:</b> \n\n <i> Conseguís abrir el cofre y en su interior encontráis un objeto.</i> \n\n Ganáis el objeto {c:QItemTravelReward29}.
+EventTravelEventWater29MoBD.button1,{qst:ContinueButton}
+EventTravelEventWater31TctR.text,<b> Agua - glóbulos de la sangre:. </b> \n\n <i> Unos glóbulos de sangre borbotean desde las ignotas profundidades, llenando el aire con una pútrida niebla escarlata. </i> \n\n Cada héroe realiza una prueba de {knowledge} . Cada héroe que no supere la tirada queda Enfermo y realiza una prueba de {will}. Cada héroe que falle de nuevo queda Atemorizado.
+EventTravelEventWater31TctR.button1,{qst:ContinueButton}
+EventTravelEventMountains1.text,<b>Montaña - Escarpes sin tregua:</b> \n\n <i> Una fiera tormenta os pilla en mitad de unos traicioneros escarpes.</i> \n\n Cada héroe sufre {var:EventTravelEventMountains1Heart} {heart} y {var:EventTravelEventMountains1Fatigue} {fatigue}.
+EventTravelEventMountains1.button1,{qst:ContinueButton}
+EventTravelEventMountains3.text,<b>Montañas - Aparece un Ettin:</b> \n\n <i> ¡Os ataca un ettin de las montañas!</i> \n\n Cada héroe realiza una prueba de {might} y si no supera la tirada sufre {var:EventTravelEventMountains3Heart1} {heart}. Si todos los héroes fallan la tirada, cada héroe sufre {var:EventTravelEventMountains3HeartAll} {heart} adicionales.
+EventTravelEventMountains3.button1,{qst:ContinueButton}
+EventTravelEventMountains5.text,<b> Montañas - Enano de Dunwarr: </b> \n\n <i> Un enano de Dunwarr está enterrando a su hermano. Os avisa de los peligros que tenéis por delante. </i> \n\n Los héroes pueden saltarse el siguiente Evento de Viaje.
+EventTravelEventMountains5.button1,{qst:ContinueButton}
+EventTravelEventMountains6.text,<b>Montañas - ¡Los secuaces aparecen!:</b> \n\n <i> Los secuaces del Señor Supremo hacen acto de presencia.</i> \n\n Los héroes eligen un atributo. Cada héroe debe realizar una prueba del atributo elegido. Cada héroe que no supere la prueba sufre {var:EventTravelEventMountains6Heart} {heart} y {var:EventTravelEventMountains6Fatigue} {fatigue}.
+EventTravelEventMountains6.button1,{qst:ContinueButton}
+EventTravelEventMountains8.text,<b> Montañas - Cueva misteriosa: </b> \n\n <i> Ante vosotros está la entrada de una misteriosa cueva. </i> \n\n Comprobar el interior de la cueva os tomaría algún tiempo.. ¿Queréis explorar la cueva?
+EventTravelEventMountains8.button1,No
+EventTravelEventMountains8.button2,Sí
+EventTravelEventMountains8A.text,<b> Montañas - Cueva misteriosa: </b> \n\n <i> No tenéis tiempo para revisar la cueva </i> \n\n Sin efectos.
+EventTravelEventMountains8A.button1,{qst:ContinueButton}
+EventTravelEventMountains8B.text,<b> Montañas - Cueva misteriosa: </b> \n\n <i> Os lleva algún tiempo, pero al final encontráis un tesoro en el interior de la cueva. </i> \n\n Un héroe roba una carta de Búsqueda pero los refuerzos del Señor Supremo llegarán más pronto.
+EventTravelEventMountains8B.button1,{qst:ContinueButton}
+EventTravelEventMountains9.text,<b> Montañas - Deslizamientos: </b> \n\n <i> Se produce un deslizamiento de tierra </i> \n\n Cada héroe realiza una prueba de {might}!. Cada héroe que no supere la prueba sufre {var:EventTravelEventMountains9Fatigue} {fatigue}.
+EventTravelEventMountains9.button1,{qst:ContinueButton}
+EventTravelEventMountains10.text,<b> Montañas - Las flechas pasan volando: </b> \n\n <i> Las flechas vuelan desde detrás de las rocas que tenéis al frente. </i> \n\n Cada héroe realiza una prueba de {awareness} y sufre {var:EventTravelEventMountains10Heart1} {heart} si no supera la prueba. Si todos los héroes fallan, cada héroe sufre {var:EventTravelEventMountains10Heart2} {heart} adicionales.
+EventTravelEventMountains10.button1,{qst:ContinueButton}
+EventTravelEventMountains12.text,<b>Montañas - Misterioso heraldo:</b> \n\n <i>En vuestro camino hacia vuestro destino os aproximáis a un misterioso heraldo.\n —Obrad con cuidado, héroes—dice la misteriosa figura encapuchada—. ¡Hay servidores del mal por todas partes! ¡Un terrible plan está en marcha, aquí, en los alrededores, y debe ser detenido! ¡Daos prisa!</i> \n\n Vuestra moral se incrementa en {var:EventTravelEventMountains12Morale}.
+EventTravelEventMountains12.button1,{qst:ContinueButton}
+EventTravelEventMountains13.text,<b> Montañas - Misterioso bufón: </b> \n\n <i> Un misterioso bufón aparece y os presenta una oferta irresistible... </i> \n\n Un héroe realiza una prueba de cada uno de sus atributos ({will}, {awareness}, {knowledge} y {might}. ¿Todas las pruebas han sido superadas?
+EventTravelEventMountains13.button1,No
+EventTravelEventMountains13.button2,Sí
+EventTravelEventMountains13A.text,<b> Montañas - Misterioso bufón: </b> \n\n <i> El bufón se ríe alocadamente mientras observa tu fracasado intento. </i> \n\n Sin efectos.
+EventTravelEventMountains13A.button1,{qst:ContinueButton}
+EventTravelEventMountains13B.text,<b> Montañas - Misterioso bufón: </b> \n\n <i> El bufón está impresionado por tu experiencia y mantiene su promesa. </i> \n\n El héroe recibe el artículo {c:QitemTravelRewardM13}.
+EventTravelEventMountains13B.button1,{qst:ContinueButton}
+EventTravelEventMountains16.text,<b>Montañas - Ensimismado con las riquezas:</b> \n\n <i> A medida que recorréis el sendero de la montaña, os preguntáis qué riquezas os aguardarán. </i> \n\n Los jugadores roban {var:EventTravelEventMountains16TopCards} cartas de la parte superior del mazo de Búsqueda, devolviendo al fondo del mazo cualquier carta de <i>Poción</i> que encuentren. El resto de cartas las devuelven al mazo colocándolas como deseen en la parte superior del mazo.
+EventTravelEventMountains16.button1,{qst:ContinueButton}
+EventTravelEventMountains17.text,<b>Montañas - Sendero montañoso:</b> \n\n <i> Recorrer el sendero montañoso está siendo dolorosamente agotador.</i> \n\n El héroe con la puntuación más baja en {might} realiza una prueba de {might}. Si falla la prueba, coloca su ficha de héroe en su hoja de héroe. Su velocidad tiene un -{var:EventTravelEventMountains17Speed} hasta que realice una acción de Descansar.
+EventTravelEventMountains17.button1,{qst:ContinueButton}
+EventTravelEventMountains18.text,<b>Montañas - Cofre cerrado con un sello rúnico:</b> \n\n <i> Encontráis un cofre sellado con una runa.</i> \n\n Cada héroe realiza una prueba de {knowledge}. Si al menos {var:EventTravelEventMountains18Heroes} héroes pasan la prueba, los héroes pueden buscar una Poción curativa en el mazo de Búsqueda y robarla. A continuación, deben barajar el mazo de Búsqueda.
+EventTravelEventMountains18.button1,{qst:ContinueButton}
+EventTravelEventMountains19.text,<b>Montañas - Terreno pedregoso:</b> \n\n <i> A medida que os adentráis en la pista montañosa, el terreno pedregoso se abre paso bajo tus pies.</i> \n\n Cada héroe realiza una prueba de {might}. Cada héroe que falle la prueba queda Aturdido. Si todos los héroes fallan la prueba, cada héroe sufre {var:EventTravelEventMountains19Heart} {heart}.
+EventTravelEventMountains19.button1,{qst:ContinueButton}
+EventTravelEventMountains20.text,<b>Montañas - Capturando a un espía:</b> \n\n <i> Capturar a un espía no está resultando fácil.</i> \n\n Cada héroe sufre {var:EventTravelEventMountains20Fatigue} {fatigue}, pero vuestra moral se incrementa en {var:EventTravelEventMountains20Morale}.
+EventTravelEventMountains20.button1,{qst:ContinueButton}
+EventTravelEventMountains21.text,<b>Montañas - Malvados secuaces:</b> \n\n <i>Los malvados secuaces se hacen más fuertes.</i> \n\n Colocad una ficha de {fatigue} junto al mapa. Descartad esta ficha durante la primera activación de un monstruo líder. Ese monstruo gana {var:EventTravelEventMountains21MovementPoints} puntos adicionales de movimiento.
+EventTravelEventMountains21.button1,{qst:ContinueButton}
+EventTravelEventMountains23.text,<b>Montañas - Espía capturado:</b> \n\n <i> Un espía capturado os revela muchos secretos.</i> \n\n Seréis capaces de evitar a algunos de los refuerzos del Señor Supremo.
+EventTravelEventMountains23.button1,{qst:ContinueButton}
+EventTravelEventMountains24.text,<b>Montañas - Caballero andante:</b> \n\n <i>Un andante caballero con brillante armadura plateada bloquea vuestro camino, retando a un duelo a vuestro guerrero más fuerte.</i> \n\n ¿Aceptáis el duelo?
+EventTravelEventMountains24.button1,No
+EventTravelEventMountains24.button2,Sí
+EventTravelEventMountains24A.text,<b>Montañas - Caballero andante:</b> \n\n <i>El caballero no puede disimular su decepción, pero os deja pasar sin haceros mal alguno.</i> \n\n Sin efectos.
+EventTravelEventMountains24A.button1,{qst:ContinueButton}
+EventTravelEventMountains24B.text,<b>Montañas - Caballero andante:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActI}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActI}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventMountains24B.button1,No
+EventTravelEventMountains24B.button2,Sí
+EventTravelEventMountains24C.text,<b>Montañas - Caballero andante:</b> \n\n <i>El caballero se muestra complacido y se prepara para el duelo.</i> \n\n El caballero empuña su arma {c:QItemTravelReward24ActII}. Un héroe realiza un ataque con un arma cuerpo a cuerpo contra un dado gris de defensa. Este héroe es a su vez objetivo de un ataque con el arma {c:QItemTravelReward24ActII}, usando su reserva de dados de defensa normal. ¿Ha sufrido el héroe más {heart} que el caballero?
+EventTravelEventMountains24C.button1,No
+EventTravelEventMountains24C.button2,Sí
+EventTravelEventMountains24D.text,<b>Montañas - Caballero andante:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventMountains24D.button1,{qst:ContinueButton}
+EventTravelEventMountains24E.text,<b>Montañas - Caballero andante:</b> \n\n <i> Tras una breve lucha, te rindes ante el caballero.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero.
+EventTravelEventMountains24E.button1,{qst:ContinueButton}
+EventTravelEventMountains24F.text,<b>Montañas - Caballero andante:</b> \n\n <i> Tras unos minutos de lucha, el caballero se rinde. Admirando tu fuerza, te ofrece su arma como muestra de respeto.</i> \n\n El héroe que peleó contra el caballero sufre el {heart} causado por el ataque del caballero. Gana el arma del caballero.
+EventTravelEventMountains24F.button1,{qst:ContinueButton}
+EventTravelEventMountains26MoB.text,<b> Montañas - Figuras sobrenaturales: </b> \n\n <i> Unas figuras sobrenaturales rondan vuestro campamento. Figuras sobrenaturales frecuentan la orilla de sus héroes campings </i> \n\n Los héroes eligen a un héroe para que realice una prueba de {awareness}. Si supera la prueba, queda Aterrorizado. Si falla la prueba, otro héroe queda Aterrorizado.
+EventTravelEventMountains26MoB.button1,{qst:ContinueButton}
+EventTravelEventMountains27MoB.text,<b> Montañas - El olor de la carne quemada: </b> \n\n <i> El hedor de la carne quemada os llega procedente de una pira funeraria abandonada </i> \n\n Los héroes eligen a un héroe para que haga una prueba de {awareness}. Si supera la tirada, ese héroe roba una carta de Búsqueda y queda Aterrorizado.
+EventTravelEventMountains27MoB.button1,{qst:ContinueButton}
+EventTravelEventMountains28MoB.text,<b>Montañas - Cementerio antiguo:</b> \n\n <i> Tropezáis con un antiguo cementerio. Una estatua de una figura encapuchada domina sobre la infinidad de lápidas. En las manos de la estatua, un cristal negro emana un inquietante brillo.</i> \n\n ¿Quieren los héroes recolectar el poder del cristal?
+EventTravelEventMountains28MoB.button1,No
+EventTravelEventMountains28MoB.button2,Sí
+EventTravelEventMountains28MoBA.text,<b>Montañas - Cementerio antiguo:</b> \n\n <i> No os arriesgáis a tocar el cristal negro. </i> \n\n Sin efectos.
+EventTravelEventMountains28MoBA.button1,{qst:ContinueButton}
+EventTravelEventMountains28MoBB.text,<b>Montañas - Cementerio antiguo:</b> \n\n <i> Tocáis el cristal negro...</i> Cada héroe realiza una prueba de {knowledge}. Cada héroe que falle queda Aterrorizado o Enfermo. Si todos los héroes superan la prueba, coloca una ficha de héroe del héroe con el valor más alto de {knowledge} junto al mapa. Durante este turno, ese héroe puede descartar la ficha para que todos los héroes puedan descartar una estado.
+EventTravelEventMountains28MoBB.button1,{qst:ContinueButton}
+EventTravelEventMountains29MoB.text,<b>Montañas - Los restos de un carromato:</b> \n\n <i>Encontráis lo que queda de un carromato. Un cofre con un insólito cerrojo permanece incólume entre los despojos. Una voz susurra dentro de vuestra mente, "Por el ogro y el alma en pena, liberad aquello que espera."</i> \n\n ¿Desean los héroes abrir el cofre?
+EventTravelEventMountains29MoB.button1,No
+EventTravelEventMountains29MoB.button2,Sí
+EventTravelEventMountains29MoBA.text,<b>Montañas - Los restos de un carromato:</b> \n\n <i> Pasáis de largo, dejando el cofre cerrado. </i> \n\n Sin efectos.
+EventTravelEventMountains29MoBA.button1,{qst:ContinueButton}
+EventTravelEventMountains29MoBB.text,<b>Montañas - Los restos de un carromato:</b> \n\n <i> Intentáis abrir el cofre. </i> \n\n Los jugadores héroes eligen a un héroe para que realice pruebas de {might} y {will} (ambas), para abrir el cofre. ¿Ha superado el héroe ambas pruebas?
+EventTravelEventMountains29MoBB.button1,No
+EventTravelEventMountains29MoBB.button2,Sí
+EventTravelEventMountains29MoBC.text,<b>Montañas - Los restos de un carromato:</b> \n\n <i> Fallas en tu intento por abrir el cofre, pero algo ha sido liberado...</i> \n\n Si el héroe falló la prueba de {might} queda Aturdido. Si fallo la prueba de {will} queda Aterrorizado.
+EventTravelEventMountains29MoBC.button1,{qst:ContinueButton}
+EventTravelEventMountains29MoBD.text,<b>Montañas - Los restos de un carromato:</b> \n\n <i> Conseguís abrir el cofre y en su interior encontráis un objeto.</i> \n\n Ganáis el objeto {c:QItemTravelReward29}.
+EventTravelEventMountains29MoBD.button1,{qst:ContinueButton}
+EventTravelEventMountains31.text,<b> Montañas - Sarcófago tallado en un acantilado: </b> \n\n <i> Os topáis con un enorme sarcófago tallado en una de la caras de un acantilado. </i> \n\n Los héroes eligen un número de héroes para que realicen una prueba de {might}. Cada héroe que no supere la prueba sufre {var:EventTravelEventMountains31Heart} {heart}. ¿Han superado la prueba {var:EventTravelEventMountains31Heroes} o más héroes?
+EventTravelEventMountains31.button1,No
+EventTravelEventMountains31.button2,Sí
+EventTravelEventMountains31A.text,<b> Montañas - Sarcófago tallado en un acantilado: </b> \n\n <i> No sois capaces de abrir el sarcófago. </i> \n\n Sin efectos.
+EventTravelEventMountains31A.button1,{qst:ContinueButton}
+EventTravelEventMountains31B.text,<b> Montañas - Sarcófago tallado en un acantilado: </b> \n\n <i> Dentro del sarcófago encontráis algunas monedas de oro </i> \n\n El grupo gana {var:EventTravelEventMountains31BGold} de Oro.
+EventTravelEventMountains31B.button1,{qst:ContinueButton}
+EventTravelEventThreat.text,<i>Las fuerzas del Señor Supremo han seguido vuestro rastro y os pisan los talones.</i> \n\n Resuelve un evento especial de viaje para enfrentaros a ellas.
+EventTravelEventThreat.button1,{qst:ContinueButton}
+EventTravelEventThread1.text,<I> Una cuerda mágica ha atado a uno de los héroes. Intentáis liberarlo. </i> \n\n El héroe con la puntuación más baja en {knowledge} realiza una prueba de {knowledge}. Si falla la prueba, queda Paralizado.
+EventTravelEventThread2.text,<I> Una nube venenosa de color verde se forma alrededor de vosotros. </i> \n\n Cada héroe realiza una prueba de {will}. Cada héroe que no supere la prueba queda Envenenado.
+EventTravelEventThread3.text,<I> Un grupo de arqueros goblins os divisan. Una lluvia de flechas cae sobre vosotros. </i> \n\n Cada héroe realiza una prueba de {awareness}. Cada héroe que no supere la prueba sufre {var:EventTravelEventThread3Heart} {heart}.
+EventTravelEventThread4.text,<i>Os habéis metido en una trifulca y algunos habéis resultado heridos.</i> \n\n Los héroes eligen a dos héroes para que cada uno de ellos sufra {var:TravelEventThread4Heart} {heart}.
+EventTravelEventThread5.text,<I> Un dragón de la sombra da una pasada por encima de vuestras cabezas. Una enorme lengua de fuego sale de sus fauces. </i> \n\n Efectuad un ataque de un dragón de la sombra líder contra cada héroe. El ataque tiene {surge}+{TravelEventThread5Heart var}{heart}. \n\n Se aplican las reglas normales de defensa.
+EventTravelEventThread1.button1,{qst:ContinueButton}
+EventTravelEventThread2.button1,{qst:ContinueButton}
+EventTravelEventThread3.button1,{qst:ContinueButton}
+EventTravelEventThread4.button1,{qst:ContinueButton}
+EventTravelEventThread5.button1,{qst:ContinueButton}
+EventKnightReward.button1,{qst:ContinueButton}
+EventKnightRewardAct2.text,Los héroes ganan el objeto: \n\n{c:QItemTravelReward24ActII}
+EventKnightRewardAct2.button1,{qst:ContinueButton}
+EventKnightRewardAct1.text,Los héroes ganan el objeto: \n\n{c:QItemTravelReward24ActI}
+EventKnightRewardAct1.button1,{qst:ContinueButton}

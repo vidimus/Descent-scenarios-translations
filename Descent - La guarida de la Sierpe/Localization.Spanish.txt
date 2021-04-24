@@ -1,0 +1,13 @@
+.,Spanish
+ContinueButton,Continuar
+UIIntro.uitext,<i>Con el reciente resurgir de traiciones internas y de políticos dados a las intrigas, en la rural baronía de Rhynn abundan los rumores. Con las incursiones de monstruos, muertos vivientes y los antiguos artefactos recuperados, uno no puede alejarse en demasía de la seguridad de las murallas de Arhynn sin oír hablar de la destrucción que asola Terrinoth. \n\n Sin embargo, últimamente los rumores se han centrado en un terror más antiguo que ha vuelto a aparecer: Valyndra, madre de los terribles híbridos de dragón que andan como si fuesen hombres. Se dice que la autoproclamada Reina Sierpe está uniendo sus fuerzas con otras fuerzas malignas. Teniendo en cuenta que su guarida de los Montes Cardos podría abastecer a varios ejércitos, esto no presagia nada bueno. \n\n Peor aún, hay quien dice que Valyndra se ha enterado del reciente descubrimiento de aurium en la mina de la Vigilia; dicen que brilla como el oro y que se forja como el mejor acero. No osáis pensar siquiera en las terribles consecuencias que acarrearía que Valyndra se hiciese con un mineral tan poderoso...</i>\n
+UIStart.uitext,Inicio
+quest.name,La guarida de la Sierpe
+quest.description,<i>La traicionera Reina Sierpe Valyndra ha despertado de su letargo y ha liberado a sus abyectos esbirros híbridos para que quemen y saqueen a placer. Su sed de oro la ha sacado de su guarida, ¡y ahora es el turno de unos pocos héroes valientes para que destruyan a sus crueles sirvientes y la devuelvan a su guarida!</i> \n\n Compatibilidad: Por favor, usa la última versión disponible de Valkyrie para jugar esta campaña. \n\n Por favor, informa de cualquier error o problema que encuentres en la siguiente dirección: https://github.com/ValkDes/ValkyrieLOTW/issues.
+quest.authors,\n\n <i>Autor: Tantum</i> \n\n Traducción al español: Vidimus y Damiau\n\n
+quest.synopsys,Una adaptación digital de la campaña de Descent <b>«La guarida de la Sierpe»</b>
+quest.authors_short,Tantum
+EventStart.button1,{qst:ContinueButton}
+EventInitializeCampaign.button1,{qst:ContinueButton}
+EventCampaignPhaseStart.button1,{qst:ContinueButton}
+EventMissionStart.button1,{qst:ContinueButton}

@@ -1,0 +1,349 @@
+.,Spanish
+ContinueButton,Continuar
+SearchButton,{action} Buscar
+quest.name,La guarida de la Sierpe - En la forja
+EventStart.button1,{qst:ContinueButton}
+EventStartRound.button1,{qst:ContinueButton}
+EventEndRound.button1,{qst:ContinueButton}
+Token1_Search2Players1.text,<i>Hay algo entre las cenizas.</i>
+Token1_Search2Players2.text,<i>En un rincón hay un saco.</i>
+Token1_Search3Players.text,<i>En el rincón hay un pequeño objeto.</i>
+Token1_Search4Players.text,<i>El dragón ha removido el suelo, dejando algo al descubierto.</i>
+EventTokenSearch2Players1.text,Encuentras {var:TokenSearch2Players1Gold} de oro. \n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players1.button1,{qst:ContinueButton}
+EventTokenSearch2Players2.text,Encuentras {var:TokenSearch2Players2Gold} de oro. \n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players2.button1,{qst:ContinueButton}
+EventTokenSearch3Players.text,Encuentras {var:TokenSearch3PlayersGold} de oro. \n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch3Players.button1,{qst:ContinueButton}
+EventTokenSearch4Players.text,Encuentras {var:TokenSearch4PlayersGold} de oro. \n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch4Players.button1,{qst:ContinueButton}
+Token1_Search2Players1.button1,{qst:SearchButton}
+Spawn1_HybridSentinels.text,Coloca el grupo {type} como se indica.
+Token1_Search3Players.button1,{qst:SearchButton}
+Token1_Search2Players2.button1,{qst:SearchButton}
+Event2_VictoryEncounter2.text,<i>Jorem resopla con fuerza mientras salís de la guarida de la sierpe. \n\n —¡Cuidado con eso! Me alegra ver estas armas fuera del alcance de la Reina Sierpe, ¡pero prefiero que no dejemos un rastro de armamento que puedan seguir nuestros perseguidores! \n\n Regresáis a un lugar seguro llevando las armas de Jorem. \n\n A pesar de la pesada carga, sabéis que habéis hecho un gran favor a la baronía de Rhynn rescatando a Jorem. ¡Pero ojalá el artesano ayudase a llevar una parte! </i>\n\n <b>Los héroes han ganado este encuentro!</b>
+EventDefeatEncounter1.button1,{qst:ContinueButton}
+EventStartEncounter2.button1,{qst:ContinueButton}
+Event2_DefeatEncounter2.text,<i>La risa de Valyndra hace que la mismísima montaña tiemble, como si unas pesadas piedras cayesen desde el cielo. No os queda más remedio que retiraros cuando todo lo que hay a vuestro alrededor se derrumba.</i>
+TokenDebug.button1,Victoria
+TokenDebug.button2,Derrota
+TokenDebug.text,Haz clic en un botón para simular que ganas o que pierdes
+EventNoMorale_1.button1,{qst:ContinueButton}
+EventEndEncounter1.button1,{qst:ContinueButton}
+EventSetup.button1,{qst:ContinueButton}
+EventIntroduction.text,<i>Habéis seguido varios rastros falsos durante vuestra búsqueda de Jorem Tolk, pero al menos habéis logrado mantenernos cerca de las fuerzas de Valyndra. Cada vez que habéis encontrado una de sus partidas de guerra (o las ruinas que dejan a su paso), se os han escapado, dando una pista con la que continuar vuestra búsqueda. \n Ahora, los esbirros de la Reina Sierpe han cometido un grave error que ha proporcionado a vuestro grupo la oportunidad perfecta para seguirlos de vueltas a la guarida de Valyndra. \n\n Visteis dos dragones menores fuera del pequeño puesto avanzado enano dónde os reabastecíais. Quién sabe que andan buscando, pero no tenéis ninguna duda de que los enviaba Valyndra, ¡iban acompañados por una banda de sus malignos híbridos! \n\n Su vuelo no pasa desapercibido, y tras una andanada de arpones enanos, dos de los dragones fueron heridos y cayeron con un golpe sordo en el bosque cercano. \n Corréis a los bosques sin demora, esperando que las necias bestias os lleven de vuelta a su señora...</i>
+EventIntroduction.button1,{qst:ContinueButton}
+EventVictoryPart1.text,<i>Es fácil engañar a los debilitados Dragones, y lográis escapar de la batalla con suficiente información como para encontrar la guarida de Valyndra. \n\n —Estará esperando —advierte uno de los centinelas híbridos mientras se eleva por los aires—. ¡Venid si os atrevéis!</i>
+EventVictoryPart1.button1,{qst:ContinueButton}
+EventDefeatPart1.text,<i>¡Derrotados de nuevo! Las abrumadoras huestes de Valyndra os obligan a retroceder y os veis obligados a escudriñar todos los caminos en busca de algún rastro. </i>
+EventDefeatPart1.button1,{qst:ContinueButton}
+EventDefeatEncounter2.button1,{qst:ContinueButton}
+EventPlaceTiles1.text,Coloca las piezas 31A, 34A, 1 extensión (a la derecha de 31A), 1 terminal y la entrada como se indica. \n\n Coloca 2 puertas como se indica. \n\n Colocad a los héroes en la entrada.
+EventPlaceTiles1.button1,{qst:ContinueButton}
+Token1_Search4Players.button1,{qst:SearchButton}
+Spawn1_HybridSentinels.button1,{qst:ContinueButton}
+EventPlaceSearchTokens_1_2Players1.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchTokens_1_2Players1.button1,{qst:ContinueButton}
+EventObjective1.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Seguir los rastros de los dragones de las sombras hasta la guarida de Valyndra.
+EventObjective1.button1,{qst:ContinueButton}
+Door1_34A.text,<i>Detrás de este portalón se oye el sonido de una respiración.</i>
+Door1_34A.button1,{action} Abrir
+Door1_25A.text,<i>Al otro lado de este portalón oyes el sonido de una respiración.</i>
+Door1_25A.button1,{action} Abrir
+Door1_32A.text,<i>Un pequeño portalón bloquea el camino.</i>
+Door1_32A.button1,{action} Abrir
+Door1_33A.button1,{action} Abrir
+EventPlaceTiles3.text,Coloca las piezas 2A, 5A, 23A, 1 extensión y 1 terminal como se indica.
+Door1_23A.button1,{qst:ContinueButton}
+EventRemoveDoor32A.text,Descarta la puerta.
+EventRemoveDoor32A.button1,{qst:ContinueButton}
+EventPlaceTiles2.text,Coloca las piezas 32A, 33A, 35A, 2 conectores, 1 terminal y la salida como se indica.
+EventPlaceTiles2.button1,{qst:ContinueButton}
+EventRemoveDoor33A.text,Descarta la puerta.
+EventRemoveDoor33A.button1,{qst:ContinueButton}
+Door1_33A.text,<i>Al otro lado del portalón oyes el sonido de agua corriente.</i>
+EventPlaceTiles3.button1,{qst:ContinueButton}
+EventPlaceDoor23ASouthToNorth.text,Coloca dos puertas como se indica.
+EventPlaceDoor23ASouthToNorth.button1,{qst:ContinueButton}
+EventObjective3.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Seguir los rastros de los dragones de las sombras hasta la guarida de Valyndra o derrotar a los dragones de las sombras.
+EventObjective3.button1,{qst:ContinueButton}
+EventObjective2.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Seguir los rastros hasta la guarida de Valyndra.
+EventObjective2.button1,{qst:ContinueButton}
+EventPlaceTiles4.text,Coloca las piezas 3A, 25A, 28A y 1 terminal como se indica.
+EventPlaceTiles4.button1,{qst:ContinueButton}
+EventRemoveDoor34A.text,Descarta la puerta.
+EventRemoveDoor34A.button1,{qst:ContinueButton}
+EventPlaceDoorNorthEast.text,Coloca una puerta como se indica.
+EventPlaceDoorNorthEast.button1,{qst:ContinueButton}
+Spawn1_ShadowDragons1.button1,{qst:ContinueButton}
+Spawn1_OpenGroup1.text,Coloca el grupo {type} en la pieza 35A como se indica.
+ShadowDragonsRulesText,Los Dragones de las Sombras intentaran alcanzar la entrada. Sólo pueden realizar una acción de movimiento al final de cada turno usando una activación especial. \n\n Tan pronto como un Dragón de las Sombras alcance la entrada haz clic en una de las fichas resaltadas y elige <b>Los Dragones de las Sombras han alcanzado la entrada</b>. \n\n Si ambos Dragones han alcanzado la entrada los héroes pierden el encuentro.
+EventSpecialRulesShadowDragons.text,Los Dragones de las Sombras intentaran alcanzar la entrada o salida(Elige la más cercana).Sólo pueden realizar una acción de movimiento al final de cada turno usando una activación especial. \n\n Tan pronto como un Dragón de las Sombras alcance la entrada/salida haz clic en una de las fichas resaltadas y elige <b>Los Dragones de las Sombras han alcanzado la entrada/salida</b>. \n\n Si ambos Dragones han alcanzado la entrada/salida los héroes pierden el encuentro.
+EventSpecialRulesShadowDragons.button1,{qst:ContinueButton}
+EventObjective2B.button1,{qst:ContinueButton}
+Door1_25AEastToNorth.text,<i>Al otro lado del portalón oyes el sonido de agua corriente.</i>
+EventObjective2B.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Seguir los rastros de los dragones de las sombras hasta la guarida de Valyndra o derrotar a los dragones de las sombras.
+EventRemoveEastToNorthWest.text,Descarta la puerta.
+EventRemoveEastToNorthWest.button1,{qst:ContinueButton}
+EventRemoveDoor25A.text,Descarta la puerta.
+EventRemoveDoor25A.button1,{qst:ContinueButton}
+Door1_33AEastToSouth.text,<i>Sale humo de este portalón.</i>
+EventPlaceDoorNorthEastToSouthEast.text,Coloca dos puertas como se indica.
+EventPlaceDoorNorthEastToSouthEast.button1,{qst:ContinueButton}
+EventPlaceDoorNorthEastToNorthWest.text,Coloca una puerta como se indica.
+EventPlaceDoorNorthEastToNorthWest.button1,{qst:ContinueButton}
+EventRemoveDoorNorthWestToSouthEast.text,Descarta la puerta.
+EventRemoveDoorNorthWestToSouthEast.button1,{qst:ContinueButton}
+Door1_23A.text,<i> Este portalón está cerrada con llave.</i>
+Door2_31B.button1,{action} Abrir
+Door2_31B.text,<i>Desde detrás de esta puerta os llegan sonidos de herramientas y metal fundido.</i>
+Door2_35B.text,<i>Desde detrás de esta puerta os llegan sonidos de herramientas y metal fundido.</i>
+Door2_35B.button1,{action} Abrir
+Door2_05B.button1,{action} Abrir
+Event2_PlaceTiles2.text,Coloca las piezas 5B, 31B, 34B, 35B y la salida como se indica.
+Event2_RemoveWesternDoors.text,Descarta todas las puertas.
+Event2_RemoveWesternDoors.button1,{qst:ContinueButton}
+Door2_05B.text,<i>Desde detrás de esta puerta os llegan sonidos de herramientas y metal fundido.</i>
+Event2_PlaceTiles2.button1,{qst:ContinueButton}
+Door2_12B.button1,{qst:ContinueButton}
+Event2_PlaceTiles3.button1,{qst:ContinueButton}
+Door2_32B.text,<i> Esta puerta está cerrada con llave.</i>
+Event2_PlaceTiles3.text,Descarta la puerta. \n\n Coloca la pieza 12B y 1 terminal como se indica.
+Door2_32B.button1,{qst:ContinueButton}
+Door2_12B.text,<i> Esta puerta está cerrada con llave.</i>
+Event2_PlaceTiles4.text,Coloca las piezas 26B, 32B y 3 terminales como se indica.
+Event2_PlaceTiles4.button1,{qst:ContinueButton}
+Event2_PlaceTiles1.text,Coloca las piezas 3B, 4B, 16B, 2 extensiones (a la derecha de 3B y 16B) y 1 terminal como se indica. \n\n Coloca 3 puertas. \n\n Coloca a los héroes en la entrada..
+Event2_PlaceTiles1.button1,{qst:ContinueButton}
+Event2_Setup.text,Deja aparte las siguientes piezas: \n\n 3B, 4B, 5B, \n 12B, 16B, \n 26B, \n 31A, 32B, 34B, 35B, \n 5 terminales, \n 2 conectores y la salida.
+Event2_Start.button1,{qst:ContinueButton}
+Event2_Setup.button1,{qst:ContinueButton}
+Event2_Introduction.text,<i>Para ser un lugar de leyenda, la guarida de Valyndra es relativamente sencilla y prosaica. Una sutil entrada tallada en las piedras de los Montes Cardos es la única indicación de que podría haber algo de interés en las montañas. \n\n Os adentráis en la entrada con cuidado, esperando que se active una trampa a cada paso que dais en los dominios de la Reina Sierpe. Lo único que os recibe es el frío silencio de las montañas. \n\n Mientras continuáis, oís el rítmico sonido del martillo y el yunque que resuenan por toda la estancia.¡Jorem! No podéis evitar atravesar corriendo la distancia que queda hacia la luz de las antorchas que marca el umbral entre la seguridad que dejáis atrás y la mortal guarida de la sierpe. Nada más pisar la luz, oís una voz que restalla desde la oscuridad que tenéis delante.</i>
+Event2_Introduction.button1,{qst:ContinueButton}
+EventSetup.text,Deja aparte las siguientes piezas: \n\n 2A, 3A (3B se usará en el encuentro 2), 5A, \n 23A, 25A, 28A, \n 31A, 32A, 33A, 34A, 35A, \n un conector, \n cuatro terminales, \n la entrada y la salida.
+Spawn1_OpenGroup1.button1,{qst:ContinueButton}
+Spawn1_ShadowDragons2.button1,{qst:ContinueButton}
+EventPlaceSearchToken3Players.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchToken3Players.button1,{qst:ContinueButton}
+Spawn1_ShadowDragons2.text,Coloca un monstruo del grupo {type} como se indica (<b>ignorando los límites de monstruos</b>). \n\n <b>Reglas Especiales: Guardia Real de Valyndra</b> \n\n Todos los monstruos del grupo {type} tienen {var:DragonHealth} de Vida adicional por cada héroe.
+EventSpecialRulesShadowDragons2_1.text,Los Dragones de las Sombras intentarán alcanzar la entrada o salida(Elige la más cercana).Sólo pueden realizar una acción de movimiento al final de cada turno usando una activación especial. \n\n Tan pronto como un Dragón de las Sombras alcance la entrada/salida haz clic en una de las fichas resaltadas y elige <b>Los Dragones de las Sombras han alcanzado la entrada/salida</b>. \n\n Si ambos Dragones han alcanzado la entrada/salida los héroes pierden el encuentro.
+EventPlaceSearchToken4Players.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchToken4Players.button1,{qst:ContinueButton}
+EventPlaceSearchTokens2Players.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchTokens2Players.button1,{qst:ContinueButton}
+Token2_Aurium.button1,{action} Buscar
+Event2_EndRound.button1,{qst:ContinueButton}
+Spawn2_OpenGroup1.text,Coloca el grupo {type} en la pieza 3B como se indica.
+EventSpecialRulesShadowDragons2_1.button1,{qst:ContinueButton}
+ActivationShadowDragons1.ability,Todos los ataques de los Dragones de las Sombras cuentan como ataques a distancia. \n\n Reduce la cantidad de {heart} infligido por cada ataque de este grupo a {var:DragonAttackReduced}.
+ActivationShadowDragons1.master,{action} Ataca al héroe más cercano.
+ActivationShadowDragons1.minion,{action} Ataca al héroe más cercano.
+EventSearchAurium.text,<i>¡Encuentras un trozo de mineral de aurium! \n\n Quizá alguien os pueda crear con él algo de equipo. </i> \n\n Ganas {var:%FoundNumberOfAuriumPieces} de {var:%MaximumNumberOfAurium} trozos de aurium. \n\n Retira esta ficha.
+EventSearchAurium.button1,{qst:ContinueButton}
+EventReinforcements.button1,{qst:ContinueButton}
+Spawn1_ReinforcementsHybridSentinels.text,Coloca un monstruo del grupo {type} en la entrada o la salida (si ya hay un grupo en alguno de los dos sitios), dependiendo de donde haya más héroes cercanos, respetando el límite de monstruos.
+Spawn1_ReinforcementsHybridSentinels.button1,{qst:ContinueButton}
+EventEndRoundEvents.button1,{qst:ContinueButton}
+Token1_ShadowDragonsExit1.button1,{qst:ContinueButton}
+EventShadowDragonsExitReached.button2,Cancelar
+Token1_ShadowDragonsExit2.button1,{qst:ContinueButton}
+EventShadowDragonsExitReached.button1,Los Dragones alcanzan la entrada/salida
+EventNoMorale_1.text,<i>Mientras los secuaces de Valyndra os obligan a retroceder, veis la última sombra del dragón desaparecer de vuestra vista.</i>
+EventDragonsExitReached2.text,<i>Con asombrosa velocidad, el último Dragón de las Sombras desaparece de vuestra vista.</i>
+EventDragonsExitReached2.button1,{qst:ContinueButton}
+EventDragonsReachedExit.button1,{qst:ContinueButton}
+EventDragonsExitReached1.button1,{qst:ContinueButton}
+EventDragonsExitReached1.text,<i>No sois capaces de parar al Dragón de las Sombras. Extiende sus alas y se aleja volando.</i>
+EventShadowDragonsExitReached.text,Si un Dragón de las Sombras alcanza la entrada/salida haz clic y elige <b>Un Dragón de las Sombras alcanzó la entrada/salida</b>. \n\n Si ambos Dragones han alcanzado la entrada/salida los héroes pierden el encuentro.
+EventObjective4.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Seguir los rastros de los dragones de las sombras hasta la guarida de Valyndra o derrotar a los dragones.
+EventObjective4.button1,{qst:ContinueButton}
+TokenShadowDragonTest2.button1,{qst:ContinueButton}
+TokenShadowDragonTest1.button1,{qst:ContinueButton}
+EventShadowDragonTest.text,Un héroe adyacente a un Dragón de las Sombras puede llevar a cabo una acción especial para seguir el rastro de los dragones realizando una prueba de {awareness} o {knowledge}. \n\n Para realizar esta prueba elige <b>Seguir el rastro</b>. \n\n Para ganar este encuentro los héroes necesitan al menos seguir {var:TargetTrails} rastros con éxito.
+EventShadowDragonTest.button1,{action} Seguir el rastro
+EventShadowDragonTest.button2,Cancelar
+EventFollowTrailTest.text,Prueba de {awareness} o de {knowledge}. \n\n ¿Has superado la prueba?
+EventFollowTrailTest.button1,Superación
+EventFollowTrailTest.button2,Fallo
+EventFollowTrailTestPassed.text,<i>Un rápido examen de los rastros te da más pistas sobre el escondite de Valyndra.</i> \n\n Has seguido {var:TrailsFollowed} de {var:TargetTrails} rastros.
+EventFollowTrailTestPassed.button1,{qst:ContinueButton}
+EventFollowTrailTestFailed.text,<i>Los ataques de los dragones no os dejan concentraros para poder sacar alguna pista de los rastros. </i>
+EventFollowTrailTestFailed.button1,{qst:ContinueButton}
+EventAllTrailsFollowed.text,Has seguido todos los rastros.
+EventAllTrailsFollowed.button1,{qst:ContinueButton}
+EventSpecialRulesShadowDragons2.text,<b>Reglas Especiales: Siguiendo el rastro del dragón</b> \n\n Un héroe adyacente a un Dragón de las Sombras puede llevar a cabo una acción especial para seguir el rastro de los dragones realizando una prueba de {awareness} o {knowledge}. \n\n Si el héroe pasa la prueba el Dragón de las Sombras no podrá efectuar acciones de movimiento esta ronda. \n\n Para realizar esta prueba haz clic en una de estas fichas azules y elige <b>Seguir el rastro</b>. \n\n Los héroes necesitan al menos seguir {var:TargetTrails} rastros con éxito para ganar este encuentro. Sólo podéis llevar a cabo dos pruebas por dragón. De manera que tendréis que encontrar dos dragones para finalizar el encuentro. \n\n <b>Reglas Especiales: Siguiendo el rastro de muerte</b> \n\n Además los héroes pueden ganar este encuentro localizando y matando a todos los Dragones de las Sombras.
+EventSpecialRulesShadowDragons2.button1,{qst:ContinueButton}
+EventSpecialRulesShadowDragons2_2.button1,{qst:ContinueButton}
+EventSpecialRulesShadowDragons2_2.text,<b>Reglas Especiales: Siguiendo el rastro del dragón</b> \n\n Un héroe adyacente a un Dragón de las Sombras puede llevar a cabo una acción especial para seguir el rastro de los dragones realizando una prueba de {awareness} o {knowledge}. \n\n Si el héroe pasa la prueba el Dragón de las Sombras no podrá efectuar acciones de movimiento esta ronda. \n\n Para realizar esta prueba haz clic en una de estas fichas azules y elige <b>Seguir el rastro</b>. \n\n Los héroes necesitan al menos seguir {var:TargetTrails} rastros con éxito para ganar este encuentro. Sólo podéis llevar a cabo dos pruebas por dragón. De manera que tendréis que encontrar dos dragones para finalizar el encuentro. \n\n <b>Reglas Especiales: Siguiendo el rastro de muerte</b> \n\n Además los héroes pueden ganar este encuentro localizando y matando a todos los Dragones de las Sombras.
+EventShadowDragonsDefeated2.button1,{qst:ContinueButton}
+EventShadowDragonsDefeated.button1,{qst:ContinueButton}
+EventMoveShadowDragons.button1,{qst:ContinueButton}
+EventMoveShadowDragonsExecuteAction.text,Ejecuta la siguiente acción para el grupo de Dragones de las Sombras \n {action} Confronta la entrada/salida (elige la que esté más cerca).
+EventMoveShadowDragonsExecuteAction.button1,{qst:ContinueButton}
+EventMoveShadowDragonsNoAction.text,Los Dragones de las Sombras no moverán este turno al ser detenidos por los héroes.
+EventMoveShadowDragonsNoAction.button1,{qst:ContinueButton}
+EventDefeatEncounter1.text,<i>¡Derrotados de nuevo! Las abrumadoras huestes de Valyndra os obligan a retroceder y os veis obligados a escudriñar todos los caminos en busca de algún rastro. </i> \n\n <b> ¡Los héroes han perdido este encuentro!</b>
+EventStartEncounter2.text,Retira todas las piezas y monstruos del encuentro 1. \n\n Coloca la entrada. Coloca todos los héroes en la entrada. \n\n Transición al encuentro 2: \n\n 1. Los héroes conservan todo el Daño, Estados, fichas de valor, fichas de elixir, fichas de héroe sobre las cartas de clase y las fichas de conocimiento que tuvieran al final del encuentro anterior. \n 2. Los héroes recuperan toda la fatiga sufrida el encuentro anterior. \n 3. Los héroes colocan su Hoja de Héroe boca arriba. \n 4. Los héroes conservan todas las cartas de búsqueda. Las cartas de búsqueda usadas permanecen boca abajo. \n 5. Los héroes descartan todas las fichas de bardo de su carta de clase . \n 6. Cualquier héroe fuera de combate puede realizar una acción gratuita de ponerse en pie y entonces recuperar toda su {fatigue}. Después todos los héroes deben terminar su turno haciendo clic en su icono de héroe sin realizar ninguna acción. \n\n Finalmente se continuará con los preparativos del encuentro 2.
+Event2_Introduction2.text,<i>—Bienvenidos a mi guarida, desventurados héroes. Quizá hayáis venido a uniros a mi ejército. Si es así, id a ver a  mis lacayos. Esperan ansiosos porque os unáis a ellos... —la voz se torna en una carcajeante risa. \n\n Debéis salvar a Jorem y salir de aquí. Nadie ha vuelto jamás de la guarida de Valyndra...</i>
+Event2_Introduction2.button1,{qst:ContinueButton}
+Event2_VictoryEncounter2.button1,{qst:ContinueButton}
+Event2_DefeatEncounter2.button1,{qst:ContinueButton}
+Token2TokenSearch2Players1.button1,{action} Buscar
+Token2TokenSearch2Players1.text,<I> Valyndra ha acumulado grandes cantidades de tesoros. Algunos de ellos se encuentran dispersos por toda la habitación. </ I>
+Token2TokenSearch3Players.text,<i>Hay un pequeño objeto brillante en el rincón.</i>
+Token2TokenSearch3Players.button1,{action} Buscar
+Token2TokenSearch4Players.button1,{action} Buscar
+Token2TokenSearch4Players.text,<i>Cerca de la columna hay una pila de oro.</i>
+Token2TokenSearch2Players2.text,<i>En el centro de la cámara, un objeto sobresale de uno de los montones de oro.</i>
+Token2TokenSearch2Players2.button1,{action} Buscar
+Event2_TokenSearch2Players1.text,Encuentras {var:TokenSearch2Players12Gold} de oro. \n\n Roba una carta de Búsqueda y descarta esta ficha.
+Event2_TokenSearch2Players1.button1,{qst:ContinueButton}
+Event2_TokenSearch3Players.text,Encuentras {var:TokenSearch3Players2Gold} de oro. \n\n Roba una carta de Búsqueda y descarta esta ficha.
+Event2_TokenSearch3Players.button1,{qst:ContinueButton}
+Event2_TokenSearch2Players2Aurium.button1,{qst:ContinueButton}
+Event2_TokenSearch4Players.text,Encuentras {var:TokenSearch4Players2Gold} de oro. \n\n Roba una carta de Búsqueda y descarta esta ficha.
+Event2_TokenSearch4Players.button1,{qst:ContinueButton}
+TokenDebug2.button1,Ganar el Encuentro I
+TokenDebug2.button2,Perder el Encuentro 1
+TokenDebug2.text,Haz clic en un botón para simular que ganas o que pierdes
+Event2_PlaceAurium.text,Coloca una ficha de Búsqueda como se indica.
+Event2_PlaceAurium.button1,{qst:ContinueButton}
+Token2_Aurium.text,<i>En el rincón más alejado de la habitación descansa un objeto oculto por una manta.</i>
+Event2_JoremUnlockDoor.button1,{qst:ContinueButton}
+Event2_PlaceSearchTokens3or4Players.text,Coloca dos fichas de Búsqueda como se indica.
+Event2_PlaceSearchTokens3or4Players.button1,{qst:ContinueButton}
+Event2_PlaceSearchTokens2Players.text,Coloca una ficha de Búsqueda como se indica.
+Event2_PlaceSearchTokens2Players.button1,{qst:ContinueButton}
+Event2_Objective1.button1,{qst:ContinueButton}
+Event2_Objective1.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Encontrar a Jorem.
+Spawn2_OpenGroup1.button1,{qst:ContinueButton}
+Spawn2_HybridSentinels.button1,{qst:ContinueButton}
+Spawn1_ShadowDragons1.text,Coloca un monstruo del grupo {type} como se indica (<b>ignorando el límite de monstruos</b>). \n\n <b>Reglas Especiales</b> \n\n Todos los monstruos del grupo {type} tienen {var:DragonHealth} de vida adicional por cada héroe.
+Spawn2_OpenGroup2.text,Coloca el grupo {type} en la pieza 4B como se indica.
+Spawn2_HybridSentinels.text,Coloca el grupo {type} en la pieza 31B como se indica.
+Spawn2_OpenGroup2.button1,{qst:ContinueButton}
+Event2_SearchToken4Players.button1,{qst:ContinueButton}
+Event2_PlaceJoremTolk.text,Coloca una ficha de Aldeano como se indica. \n\n <i>Éste es Jorem Tolk.</i>
+Event2_SearchToken4Players.text,Coloca una ficha de Búsqueda como se indica.
+Event2_PlaceJoremTolk.button1,{qst:ContinueButton}
+Event2_JoremTolkRules1.button1,{qst:ContinueButton}
+Event2_Objective2.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Liberar a Jorem.
+Event2_JoremTolkRules1.text,<b>Reglas Especiales: Liberar a Jorem</b> \n\n Un héroe adyacente a Jorem Tolk puede realizar una prueba de {knowledge} para liberarlo. \n\n Haz clic en la ficha y elige <b>Liberar a Jorem Tolk</b> para hacer la prueba.
+Event2_Objective2.button1,{qst:ContinueButton}
+Token2JoremTolk.text,Este es Jorem Tolk. \n\n <b>Reglas especiales</b> \n\n Un héroe adyacente a Jorem Tolk puede realizar una prueba de {knowledge} para liberarlo. \n\n Elige <b>Liberar a Jorem Tolk</b> para comenzar la prueba.
+Token2JoremTolk.button1,{action} Liberar a Jorem Tolk
+Event2_FreeJoremTest.text,Realiza una prueba de {knowledge}. \n\n ¿Has superado la prueba?
+Event2_FreeJoremTest.button1,Superación
+Event2_FreeJoremTest.button2,Fallo
+Event2_FreeJoremTestFailed.text,<i>En la confusión de la batalla, no te puedes concentrar adecuadamente para desatar a Jorem.</i>
+Event2_FreeJoremTestFailed.button1,{qst:ContinueButton}
+Event2_FreeJoremTestPassed.button1,{qst:ContinueButton}
+Event2_FreeJoremTestPassed.text,<i>Aliviado, Jorem se quita los grilletes. \n\n —¡Gracias por el rescate! Creí que tendría que forjar armas para estos monstruos hasta el fin de mis días! Me gustaría irme de aquí lo antes posible, pero primero tenemos que llevarnos de aquí tanto equipo como sea posible. Aunque sólo cayese una pequeña parte de este equipo en las garras de Valyndra, todo Terrinoth estaría en peligro.</i>
+Event2_JoremTolkRules.text,<b>Reglas Especiales: Jorem Tolk</b> \n\n Jorem Tolk se convierte en una miniatura controlada por los héroes. Es considerada como un héroe pero los monstruos no pueden tomarlo como objetivos de ataques o recibir daño alguno. \n\n La aplicación indicará cuándo activar Jorem Tolk al comienzo de cada ronda. \n\n <b>Atributos de Jorem Tolk :</b> \n\n Vida: Ilimitada \n Velocidad: {var:JoremTolkSpeed}
+Event2_JoremTolkRules.button1,{qst:ContinueButton}
+Event2_JoremTolkRules2.text,Jorem Tolk puede realizar una acción de movimiento por turno. \n\n Tan pronto como Jorem haya alcanzado la salida y hayáis conseguido suficientes alijos de armas haz clic en una de esas fichas y elige <b>Jorem alcanzó la salida</b> para ganar este encuentro.
+Event2_JoremTolkRules2.button1,{qst:ContinueButton}
+TokenJoremExit2.text,"Tan pronto como Jorem haya alcanzado la salida y hayáis recogido suficientes alijos de armas elige
+<b>Jorem alcanzó la salida</b> para ganar este encuentro."
+TokenJoremExit2.button1,Jorem ha alcanzado la salida
+TokenJoremExit1.text,"Tan pronto como Jorem haya alcanzado la salida y hayáis recogido suficientes alijos de armas elige
+<b>Jorem alcanzó la salida</b> para ganar este encuentro."
+TokenJoremExit1.button1,Jorem ha alcanzado la salida
+Event2_Objective3.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Reunir {var:TargetWeaponCaches} alijos de armas y ayudar a Jorem a escapar.
+Event2_Objective3.button1,{qst:ContinueButton}
+Event2_WeaponCacheRules.text,Coloca tres fichas de Objetivo como e indica. \n\n Estas fichas representan Alijos de Armas. \n\n <b>Reglas Especiales: Alijos de Armas</b> \n\n Un héroe adyacente puede acarrear un Alijo de Armas usando una acción. Para hacer esto haz clic en un Alijo de Armas y elige <b>Acarrear Alijo de Armas</b>. \n\n Los héroes deben reunir al menos {var:TargetWeaponCaches} Alijos de Armas. Las recompensas de esta misión aumentarán por cada Alijo de Armas que los héroes acarreen .
+Event2_WeaponCacheRules.button1,{qst:ContinueButton}
+Event2_PlaceSearchToken2Players2.text,Coloca una ficha de Búsqueda como se indica.
+Event2_PlaceSearchToken2Players2.button1,{qst:ContinueButton}
+Event2_EndRoundEvents.button1,{qst:ContinueButton}
+Event2_JoremUnlockDoor.text,<i>Jorem Tolk apunta a una puerta cercana y dice:\n\n —Hace un rato vi a algunos de los secuaces de Valyndra llevando uno de los alijos de armas a la habitación tras esta puerta. Dejadme ayudaros a abrirla. Antes de mi vida como minero trabajaba en otros menesteres —en cuestión de segundos ha abierto la cerradura</i> \n\n La puerta ha sido desbloqueada y puede ser abierta por los héroes.
+Door2_12Unlocked.text,<i>Jorem Tolk ha abierto esta puerta.</i>
+Event2_JoremActions.button1,{qst:ContinueButton}
+Door2_12Unlocked.button1,{action} Abrir
+Event2_JoremActivationDisabled3.text,<i>Agotado por la vorágine de la batalla, Jorem se detiene de pronto. \n\n —¡Dadme un momento! Estaré bien en un minuto. Esta pequeña poción hace maravillas. Podéis tomar un poco si queréis. \n\n Todos los héroes a {var:JoremActivationDisabled3Spaces} o menos espacios de Jorem ganan {var:JoremActivationDisabled3Heart} {heart}. \n\n Jorem Tolk no puede ser activado este turno.
+Event2_JoremReachedExitCachesMissing.text,<i>Jorem se detiene en la salida y grita: \n\n —¡Esperaré aquí hasta que hayáis conseguido suficientes alijos de Armas. No podemos irnos sin ellos!</i> \n\n No habéis conseguido suficientes Alijos de Armas. Sin los suficientes Alijos no podéis ganar este encuentro.
+Event2_JoremReachedExitCachesMissing.button1,{qst:ContinueButton}
+Event2_JoremTolkActivation.button1,{qst:ContinueButton}
+Event2_JoremReachedExitTest.button1,{qst:ContinueButton}
+Event2_StartRound.button1,{qst:ContinueButton}
+Event2_JoremActions.text,El héroe que terminó el último turno de la ronda puede ahora activar a Jorem Tolk. \n\n <b>Atributos de Jorem Tolk :</b> \n\n Vida: Ilimitada \n Velocidad: {var:JoremTolkSpeed} \n\n Jorem Tolk puede realizar una acción de movimiento por turno.
+Event2_StartRoundEvents.button1,{qst:ContinueButton}
+Event2_JoremActivationDisabled.button1,{qst:ContinueButton}
+EventValyndraAppears.text,<i>El suelo comienza a temblar y un gran portalón se abre de golpe.</i> \n\n Descarta la puerta.
+EventValyndraAppears.button1,{qst:ContinueButton}
+Spawn2_Valyndra.button1,{qst:ContinueButton}
+Event2_PlaceWeaponCache2.text,Coloca una ficha de Objetivo como se señala. \n\n Este es el alijo de armas.
+Event2_PlaceWeaponCaches3.button1,{qst:ContinueButton}
+Spawn2_Valyndra.text,<i>—¡¿Es que tengo que hacerlo todo yo?! —grazna Valyndra mientras sale de las sombras y desciende desde de lo alto.</i> \n\n Coloca {type} como se indica. \n\n En lugar de rescatar a Jorem y acarrear los Alijos de Armas los héroes también pueden intentar derrotar a Valyndra para ganar este encuentro.
+Event2_Objective4.button1,{qst:ContinueButton}
+Event2_PlaceWeaponCaches3.text,Coloca 3 fichas de Objetivo como se indica. \n\n Estas fichas representan los alijos de armas.
+Event2_Objective4.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Reunir {var:TargetWeaponCaches} alijos de armas y ayudar a Jorem a escapar o derrotar a Valyndra.
+Event2_PlaceWeaponCache2.button1,{qst:ContinueButton}
+Event2_Objective3B.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Reunir {var:TargetWeaponCaches} alijos de armas y ayudar a Jorem a escapar o derrotar a Valyndra.
+Event2_Objective3B.button1,{qst:ContinueButton}
+Event2_Objective3A.text,Preparativos completados. \n\n <b>Objetivo</b>: \n\n Reunir {var:TargetWeaponCaches} alijos de armas y ayudar a Jorem a escapar.
+Event2_Objective3A.button1,{qst:ContinueButton}
+Spawn2_GoblinArcherAurium.text,<i>Un goblin de aspecto increíblemente vetusto está sentado en lo alto de algo. \n\n —¡Mi tesssoro! Digo... ¡sssu tesssoro! ¡Sssí, pertenece a ssssu Majessstad! ¿Lo queréisss? ¡Puesss no lo tendréisss!</i> \n\n Coloca un monstruo líder del grupo {type} como se indica.
+Spawn2_GoblinArcherAurium.button1,{qst:ContinueButton}
+EventJoremUnlockDoorCheck.button1,{qst:ContinueButton}
+Spawn2_ShadowDragons.text,<i>Un fuerte estruendo os llega de donde está la salida. Parece que estos son los dragones de la sombra que no pudiste impedir que huyesen... </i> \n\n Coloca {var:NumberOfDragonsReachedExit} monstruo(s) del grupo {type} en la pieza 34B (respetando los límites de monstruos).
+EventShadowDragonsReturn.button1,{qst:ContinueButton}
+Spawn2_ShadowDragons.button1,{qst:ContinueButton}
+TokenWeaponCache4.button1,{qst:ContinueButton}
+TokenWeaponCache5.button1,{qst:ContinueButton}
+Event2_WeaponCachesEnoughCollected.text,<i>—¡Es suficiente, no seáis demasiados avariciosos! —grita Jorem—. ¡Salgamos de aquí antes de que Reina Sierpe nos mate a todos!</i> \n\n Ahora puedes ganar el encuentro tan pronto como Jorem Tolk alcance la salida, haz clic en una de estas fichas y elige <b>Jorem alcanzó la salida</b>.
+TokenWeaponCache7.button1,{qst:ContinueButton}
+Event2_CollectWeaponCacheCheck.button1,{action} Acarrear Alijo de Armas
+TokenWeaponCache1.button1,{qst:ContinueButton}
+TokenWeaponCache3.button1,{qst:ContinueButton}
+Event2_RemoveCache1.button1,{qst:ContinueButton}
+TokenWeaponCache2.button1,{qst:ContinueButton}
+TokenWeaponCache6.button1,{qst:ContinueButton}
+Event2_CollectWeaponCacheCheck.button2,Cancelar
+Event2_CollectWeaponCacheCheck.text,Esto es un Alijo de Armas. \n\n Un héroe adyacente puede acarrear un Alijo de Armas usando una acción. Para hacer esto haz clic y elige <b>Acarrear Alijo de Armas</b>. \n\n Los héroes han conseguido {var:WeaponCachesCollected} de los {var:TargetWeaponCaches} Alijos de Armas que necesitan.
+Event2_CollectWeaponCacheCollected.button1,{qst:ContinueButton}
+Event2_RemoveCache.button1,{qst:ContinueButton}
+Event2_WeaponCachesEnoughCollected.button1,{qst:ContinueButton}
+Event2_CollectWeaponCacheCollected.text,<i>Te haces con un alijo de armas.</i> \n\n Coloca esta ficha sobre la hoja de héroe que ejecutó esta acción.
+Event2_JoremReachedExitAllCachesCollected.button1,{qst:ContinueButton}
+Event2_VictoryPart2.text,<i>Joven resopla con fuerza mientras salís de la guarida de la sierpe. \n\n—¡Cuidado con eso! Me alegra ver estas armas fuera del alcance de la Reina Sierpe, ¡pero prefiero que no dejemos un rastro de armamento que pueden seguir nuestros perseguidores! \n\n Regresáis a un lugar seguro llevando las armas de Jorem. A pesar de la pesada carga, sabéis que habéis hecho un gran favor a la baronía de Rhynn rescatando a Jorem. ¡Pero ojalá el artesano ayudase a llevar una parte!</i>
+Event2_WonEncounter2.button1,{qst:ContinueButton}
+Event2_ShadowDragonsReturnDragonCount2Players.button1,{qst:ContinueButton}
+Event2_EndEncounter2.text,Los héroes ganan {var:RewardAllGold} de oro ({var:RewardGold} de oro + {var:GoldPerObjective} de oro por cada alijo recogido) y {var:RewardFame} de fama.
+Event2_NoMorale_2.button1,{qst:ContinueButton}
+EventDefeatEncounter2.text,<i>La risa de Valyndra hace estremecerse la misma montaña, haciendo caer pesadas rocas. No tenéis otra opción que retiraos mientras el mundo se derrumba a vuestro alrededor. Solo podéis esperar que vuestro fracaso de hoy no le dé a Valyndra la ventaja que necesita para conquistar todo Terrinoth...</i>
+Event2_EndEncounter2.button1,{qst:ContinueButton}
+Event2_ValyndraDefeated.button1,{qst:ContinueButton}
+Event2_ValyndraDefeated.text,—<i>¡Esto no ha terminado todavía! —grita Valyndra. \n\n Las llamas arrojadas por sus fauces bloquean el camino. A pesar de sus heridas, consigue rápidamente escabullirse en la oscuridad. </i>
+Event2_NoMorale_2.text,<i>Mientras se os mantiene arrinconados, veis como los sirvientes de Valyndra se ponen su equipo y se alejan orgullosos. </i>
+EventNoMorale.button1,{qst:ContinueButton}
+Event2_VictoryPart2.button1,{qst:ContinueButton}
+Spawn2_Reinforcements1.button1,{qst:ContinueButton}
+Event2_Reinforcements.button1,{qst:ContinueButton}
+Spawn2_Reinforcements2.text,Coloca un monstruo del grupo {type} en la pieza 31B como se indica (respetando el límite de monstruos).
+Spawn2_Reinforcements1.text,Coloca un monstruo del grupo {type} en la pieza 31B como se indica (respetando el límite de monstruos).
+Spawn2_Reinforcements2.button1,{qst:ContinueButton}
+Event2_JoremActivationDisabled1.text,<i>—¡Jorem es mío! —un chorro de fuego sale de la boca de Valyndra directamente hacia Jorem. \n\n Consigues arrojarte hacía él y repeler el ataque. Pero algunas de las llamas os alcanzan a ti y a Jorem y le hacen gritar de dolor.</i> \n\n El héroe más cercano a Jorem Tolk pierde {var:JoremActivationDisabled1Damage} {heart}. \n\n Jorem Tolk no puede activarse este turno.
+Event2_JoremActivationDisabled1.button1,{qst:ContinueButton}
+Event2_JoremActivationDisabled2.text,<i>Demasiado tarde te das cuenta de cómo uno de los sirvientes de Valyndra saca una botella de líquido verde de su bolsillo y se la lanza a Jorem. El líquido se solidifica de inmediato y hace imposible seguir avanzando..</i> \n\n Todos los héroes que se encuentren a {var:JoremActivationDisabled2Spaces} casillas de Jorem quedan inmovilizados. \n\n Jorem Tolk no puede ser activado este turno.
+Event2_JoremActivationDisabled2.button1,{qst:ContinueButton}
+Event2_JoremActivationDisabled3.button1,{qst:ContinueButton}
+Event2_JoremActivationDisabled4.text,<i>Desde lejos puedes ver a un monstruo corriendo hacia Jorem. Corres para ayudarle, pero a los pocos pasos el alijo de armas que llevas a la espalda se enreda y te golpeas con fuerza contra el suelo.</i> \n\n Todos los héroes que lleven un alijo de armas pierden{var:JoremActivationDisabled4Heart} {heart}. \n\n Jorem Tolk no puede activarse este turno.
+Event2_JoremActivationDisabled4.button1,{qst:ContinueButton}
+Event2_TokenSearch2Players2Aurium.text,<i>¡Encuentras un trozo de mineral de aurium! \n\n Quizá alguien os pueda crear con él algo de equipo. </i> \n\n Ganas {var:%FoundNumberOfAuriumPieces} de {var:%MaximumNumberOfAurium} trozos de aurium. \n\n Retira esta ficha.
+Event2TokenSearch2Players1Test.text,<i>Al acercarte a los tesoros, una sustancia legamosa de color verde cae del techo sobre ti. Notas como tu cuerpo se petrifica. </i> \n\n El héroe que realizó esta acción de búsqueda debe hacer una prueba de {will}. \n\n ¿Ha superado el héroe la prueba?
+Event2TokenSearch2Players1Test.button1,Superación
+Event2TokenSearch2Players1Test.button2,Fallo
+Event2TokenSearch2Players1TestPassed.text,<i>Poniendo todo tu empeño consigues mover los dedos. A continuación todo el brazo. Lanzas la mucosidad hacia las profundidades de la caverna. </i>
+Event2TokenSearch2Players1TestPassed.button1,{qst:ContinueButton}
+Event2TokenSearch2Players1TestFailed.text,<i>Tus amigos corren a auxiliarte y con su ayuda consigues desprenderte de la sustancia legamosa. Donde la mucosidad ha tocado tu piel se han formado manchas oscuras. \n\n El héroe que hizo la prueba queda Enfermo.
+Event2TokenSearch2Players1TestFailed.button1,{qst:ContinueButton}
+Door1_33AEastToSouth.button1,{action} Abrir
+Door1_25AEastToNorth.button1,{action} Abrir
+EventShadowDragonsDefeated2.text,<i>Exhausto, el último dragón de la sombra se derrumba.</i>
+EventShadowDragonsDefeated1.text,<i>Con sus últimas fuerzas, el dragón trata de elevarse. En ese momento le asestáis el golpe de gracia, quedando sobre el suelo, inerte. Os tomáis vuestro tiempo examinando el cadáver en busca de rastros.</i>
+EventShadowDragonsDefeated1.button1,{qst:ContinueButton}
+EventFollowTrailMaximumReached.text,No puedes seguir más rastros si no encuentras antes a otro dragón de las sombras.
+EventFollowTrailMaximumReached.button1,{qst:ContinueButton}
+EventHybridSentinelsRemoveRedDoor.text,<i>Otro centinela híbrido aparece de repente y hace astillas el gran portalón. Tran pronto como había aparecido, desaparece de nuevo. </i> \n\n Descarta la puerta roja.
+EventHybridSentinelsRemoveRedDoor.button1,{qst:ContinueButton}

@@ -1,0 +1,204 @@
+.,Spanish
+ContinueButton,Continuar
+SearchButton,{action} Buscar
+quest.name,La guarida de la Sierpe - Buscador de oro
+EventStart.button1,{qst:ContinueButton}
+EventStartRound.button1,{qst:ContinueButton}
+EventEndRound.button1,{qst:ContinueButton}
+TokenSearch2Players1.button1,{qst:SearchButton}
+TokenSearch2Players2.button1,{qst:SearchButton}
+TokenSearch3Players.button1,{qst:SearchButton}
+TokenSearch4Players.button1,{qst:SearchButton}
+EventTokenSearch2Players1.text,Encuentras {var:TokenSearch2Players1Gold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players1.button1,{qst:ContinueButton}
+EventTokenSearch2Players2.text,Encuentras {var:TokenSearch2Players2Gold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players2.button1,{qst:ContinueButton}
+EventFoundAurium.text,<i>¡Encuentras un trozo de mineral de aurium! \n\n Quizá alguien os pueda hacer algo de equipo con él. .</i>\n\n Ganas {var:%FoundNumberOfAuriumPieces} de {var:%MaximumNumberOfAurium} mineral de aurium.\n\n Descarta esta ficha.
+EventFoundAurium.button1,{qst:ContinueButton}
+EventTokenSearch4Players.text,Encuentras {var:TokenSearch4PlayersGold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch4Players.button1,{qst:ContinueButton}
+TokenSearch4Players.text,<i>Parece que el minero ha perdido algo.</i>
+TokenSearch3Players.text,<i>Un objeto carbonizado descansa sobre el suelo.</i>
+TokenSearch2Players2.text,<i>Ves algo en la pila de huesos.</i>
+TokenSearch2Players1.text,<i>Hay algo en la linde de un campo quemado.</i>
+EventVictory.button1,{qst:ContinueButton}
+EventDefeat.text,<i>Valyndra se eleva graznando salvajemente. \n\n —Una pena. Realmente esperaba encontrar hoy un desafío. ¡Venid, mis súbditos! ¡Debemos encontrar a ese escurridizo Jorem Tolk y ver qué don podría crear a partir de este metal y que sea digno del ejército de la Reina Sierpe! </i>\n\n <b> ¡Los héroes han perdido este encuentro!</b></i>
+EventDefeat.button1,{qst:ContinueButton}
+EventVictory.text,<i>Un joven minero sale de entre los ardientes restos de la caravana con un pesado morral envuelto en cuero. \n\n —Ha estado a punto de lograrlo —dice mientras acuna el objeto como si fuera un bebé—. Jorem Tolk me envió para que llevara esto a los barones —dice con nerviosismo—. Pero no estoy hecho para esto. ¡Oí decir a los hombres dragón que era allí donde iban a ir a continuación! ¡Tomad! —os entrega la pesada carga—. Jorem estará en la posada del Ladrillo Mojado. ¡Llevadle esto y decidle que tenga cuidado! \n\n Tras decir esto, el joven minero se escabulle y os quedáis preguntándoos hacia dónde se va a la posada del Ladrillo Mojado... </i>. \n\n <b>Los héroes han ganado el encuentro!</b>
+TokenDebug.button1,Victoria
+TokenDebug.button2,Derrotado
+TokenDebug.text,Pulsa un botón para simular que pierdes o que ganas.
+EventNoMorale.text,<i>Los ataques de Valyndra y sus sirvientes son demasiado poderosos. Os desplomáis sobre el suelo, agotados.</i>
+EventNoMorale.button1,{qst:ContinueButton}
+EventEndEncounter1.text,Los héroes ganan {var:RewardGold} de oro ({var:RewardGoldWon} de oro + {var:GoldPerObjective} de oro por cada minero que siga vivo). \n\n Además, los héroes ganan {var:RewardXp} PE y {var:RewardFame} de Fama.
+EventEndEncounter1.button1,{qst:ContinueButton}
+EventSetup.button1,{qst:ContinueButton}
+EventIntroduction.text,<i>Unas huellas de carreta se salen bruscamente del camino principal, sacando a vuestro grupo de héroes de su rumbo actual. Pero así es la vida de un héroe. Vivís para servir a la gente. Seguís las sinuosas huellas de carreta con cautela y oís gritos de pánico que piden ayuda a lo lejos. Nada más salir de una pequeña arboleda os recibe una llamarada desde lo alto. Os agacháis justo a tiempo y cuando levantáis la vista veis la forma de una enorme dragona roja... \n\n —¡Héroes insensatos! —brama una bestial voz desde el cielo—. Haríais bien hoy en ocuparos de vuestros asuntos. Mis súbditos no dudarán en mostrar su lealtad hacia mí si interferís en mis asuntos... \n\n Y diciendo esto, la gran dragona extiende sus alas y desaparece entre los árboles. Volvéis a oír los gritos a lo lejos. \n\n —¡Esconde la armadura! ¡No dejes que ella encuentre el descubrimiento de Jorem! —oís mientras no dejáis de pensar en qué será lo que ha llamado la atención de una dragona...
+EventIntroduction.button1,{qst:ContinueButton}
+EventPlaceTilesSouth.button1,{qst:ContinueButton}
+Door16AWest.text,<i>El camino está bloqueado con unos tablones. Os llevará algún tiempo quitarlos de enmedio.</i>
+Door16AWest.button1,{action} Abrir
+Door16AEast.text,<i>Unos cascotes de piedra bloquean el camino.</i>
+Door16AEast.button1,{action} Abrir
+DoorWestToNorth.text,<i>Una puerta de madera bloquea el camino.</i>
+EventPlaceTilesWest.text,Coloca las piezas 8A, 22A, 35A y una terminal como se indica.
+EventPlaceTilesWest.button1,{qst:ContinueButton}
+EventPlaceWestToNortherDoor.text,Coloca una puerta como se indica.
+EventPlaceWestToNortherDoor.button1,{qst:ContinueButton}
+EventPlaceTilesNorth.text,Coloca las piezas 2A, 6A, 9A y una terminal como se indica.
+EventPlaceTilesNorth.button1,{qst:ContinueButton}
+EventPlaceTilesEast.text,Coloca las piezas 12A, 20A y 21A como se indica.
+EventPlaceTilesEast.button1,{qst:ContinueButton}
+EventOpenedDoorWest.text,Descarta la puerta.
+EventOpenedDoorWest.button1,{qst:ContinueButton}
+EventRemoveDoorEastToNorth.button1,{qst:ContinueButton}
+EventRemoveDoorEastToNorth.text,Descarta la puerta.
+EventPlaceDoorNorthToWest.text,Coloca una puerta como se indica.
+EventPlaceDoorNorthToWest.button1,{qst:ContinueButton}
+DoorNorthToWest.text,<i>Una puerta de madera bloquea el camino.</i>
+DoorNorthToWest.button1,{action} Abrir
+DoorNorthToEast.text,<i>Una puerta de madera bloquea el camino.</i>
+DoorNorthToEast.button1,{action} Abrir
+EventPlaceDoorNorthToEast.text,Coloca una puerta como se indica.
+EventPlaceDoorNorthToEast.button1,{qst:ContinueButton}
+EventPlaceTilesSouth.text,Coloca la entrada, 16A, 24A y 27A, un conector (a la izquierda de 16A) y una terminal como se indica. \n\n Coloca 2 puertas como se indica. \n\n Colocad a los héroes en la entrada.
+EventRemoveNorthToWestDoor.text,Descarta la puerta.
+EventRemoveNorthToWestDoor.button1,{qst:ContinueButton}
+EventRemoveDoorNorthToWest.text,Descarta la puerta.
+EventRemoveDoorNorthToWest.button1,{qst:ContinueButton}
+EventRemoveDoorNorthToEast.text,Descarta la puerta.
+EventRemoveDoorNorthToEast.button1,{qst:ContinueButton}
+EventRemoveDoorWestToNorth.text,Descarta la puerta.
+EventRemoveDoorWestToNorth.button1,{qst:ContinueButton}
+EventPlaceDoorEastToNorth.text,Coloca una puerta como se indica.
+EventPlaceDoorEastToNorth.button1,{qst:ContinueButton}
+DoorEastToNorth.text,<i>Una puerta de madera bloquea el camino.</i>
+DoorEastToNorth.button1,{action} Abrir
+EventRemoveDoorEast.text,Descarta la puerta.
+EventRemoveDoorEast.button1,{qst:ContinueButton}
+EventPlaceTilesWestEnd.button1,{qst:ContinueButton}
+SpawnOpenGroup1.button1,{qst:ContinueButton}
+ValyndrasShadowRules,<b>Reglas especiales: la sombra de Valyndra</b>\n 1. La sombra de Valyndra no se trata como si fuera una miniatura de monstruo. \n 2. Se activará como si fuera un monstruo normal. \n 3. La sombra se mueve ignorando miniaturas y terreno (incluyendo las rocas). \n4. No tiene que terminar su movimiento en una casilla vacía. \n 5. Cuando ataque, usa la carta de Lugarteniente de Valyndra para resolver el ataque. \n 6. Su velocidad es {var:ValyndraMovementSpeed}.\n 7. Sólo puede ejecutar una orden de movimiento por turno.
+EventPlaceValyndrasShadowWest.text,Coloca una ficha de Objetivo rojo. \n\n Representa a la sombra de Valyndra. \n\n {qst:ValyndrasShadowRules}
+EventPlaceValyndrasShadowWest.button1,{qst:ContinueButton}
+MinerRules,<b>Reglas especiales: Mineros</b>\n\n Los mineros sólo pueden ser atacados por la sombra de Valyndra o por Valyndra.\n\n Los mineros tienen las siguientes características:\n\n Vida: {var:MinerHealth}\n Velocidad: {var:MinerSpeed}\n Defensa: 1 dado gris
+EventPlaceMinerWest.button1,{qst:ContinueButton}
+EventPlaceMinerWest.text,<i>Al norte observáis a un hombre que trata desesperadamente de huir de los sirvientes de Valyndra. ¿Será ese uno de los mineros?</i>\n\n Coloca una ficha de Aldeano como se indica. La ficha representa a un minero. \n\n{qst:MinerRules}
+EventPlaceSearchTokenWest.button1,{qst:ContinueButton}
+SpawnOpenGroup1.text,Coloca el grupo {type} como se indica.
+SpawnOpenGroup2.text,Coloca el grupo {type} como se indica.
+SpawnOpenGroup2.button1,{qst:ContinueButton}
+EventPlaceValyndrasShadowEast.text,Coloca una ficha de Objetivo rojo. \n\n Representa a la sombra de Valyndra. \n\n {qst:ValyndrasShadowRules}
+EventPlaceTilesEastEnd.button1,{qst:ContinueButton}
+EventPlaceValyndrasShadowEast.button1,{qst:ContinueButton}
+EventPlaceMinerEast.text,<i>Un hombre asustado se acurruca en un rincón, delante de una charca con un carromato destrozado. \n\n —¡Ayudadme! —grita—. Estaba a punto de mover un carromato lleno de escombros cuando esas criaturas aparecieron! </i>\n\n Coloca una ficha de Aldeano como se indica. Esta ficha es un minero. \n\n{qst:MinerRules}
+EventPlaceMinerEast.button1,{qst:ContinueButton}
+EventPlaceSearchTokenEast.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchTokenEast.button1,{qst:ContinueButton}
+EventPlaceTilesNorthEnd.button1,{qst:ContinueButton}
+CustomMonsterValyndrasShadow.info,{qst:ValyndrasShadowRules}
+SpawnValyndrasShadowRespawn.text,<i>Tus armas golpean atravesando la sombra de Valyndra sin causarle efecto alguno</i>. \n\n La sombra de Valyndra no puede ser derrotada.
+CustomMonsterValyndrasShadow.monstername,La sombra de Valyndra
+EventValyndrasShadowDefeated.button1,{qst:ContinueButton}
+SpawnValyndrasShadowWest.button1,{qst:ContinueButton}
+SpawnValyndrasShadowRespawn.button1,{qst:ContinueButton}
+SpawnValyndrasShadowEast.button1,{qst:ContinueButton}
+SpawnValyndra.text,—<i>¡Ah, así que os atrevéis a desafiarme! ¡Que así sea! ¡Venid y enfrentaros a la poderosa Valyndra, necios! ¡La Reina Sierpe nunca rechaza un desafío! \n\n Mientras tomáis conciencia de que estáis cara a cara con la legendaria Reina Sierpe, no podéis evitar daros cuenta de que los esbirros de la dragona buscan algo desesperadamente entre las ruinas de la caravana...</i>\n\n Descarta la ficha de Objetivo rojo (la sombra de Valyndra).\n\n Coloca el grupo {type} como se indica.
+SpawnValyndra.button1,{qst:ContinueButton}
+EventPlaceMinersNorth.text,<i>Más mineros tratan de ponerse a salvo de la dragona. No podrán seguir evitando al monstruo durante mucho tiempo. </i>\n\n Coloca dos fichas de Aldeano como se indica. Las fichas representan a mineros. \n\n <b>Reglas especiales: Valyndra</b>\n\n Valyndra ya no atacará a los mineros en su activación normal. En su lugar, al final de cada turno Valyndra tendrá una activación adicional en la que atacará automáticamente a un minero.
+EventPlaceMinersNorth.button1,{qst:ContinueButton}
+EventPlaceBoulders.text,<i>El camino de uno de los mineros está bloqueado por grandes rocas. Pero esas rocas no detendrán a una dragona... </i>\n\n Coloca 4 fichas de Objetivo como se indica. Estas fichas representan las rocas.\n\n<b>Reglas especiales: Rocas</b>\n\n 1. Las rocas bloquean la línea de visión y el movimiento (excepto para Valyndra, ver el punto 5.). \n 2. Un héroe adyacente a una ficha de roca puede realizar una acción especial para intentar quitar la roca del mapa realizando una prueba de {might}. \n 3. Si supera la prueba, la roca es descartada del mapa. \n 4. Si falla la prueba, pierde la acción y la roca permanece en su sitio. \n 5. <b>Las rocas no bloquean el movimiento de Valyndra.</b>
+EventPlaceBoulders.button1,{qst:ContinueButton}
+EventPlaceSearchTokensNorth3OrMorePlayers.button1,{qst:ContinueButton}
+EventPlaceSearchTokensNorth2Players.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchTokensNorth3OrMorePlayers.text,Coloca dos fichas de Búsqueda como se indica.
+EventPlaceSearchTokensNorth2Players.button1,{qst:ContinueButton}
+EventObjective3.button1,{qst:ContinueButton}
+EventValyndraDefeated.button1,{qst:ContinueButton}
+EventObjective1.text,Preparativos completados, \n\n <b>Objetivo:</b>: \n\n Encuentra a Valyndra.
+EventObjective1.button1,{qst:ContinueButton}
+EventObjective2East.text,Preparativos completados, \n\n <b>Objetivo:</b>: \n\n Encuentra a la verdadera Valyndra antes de que la sombra de Valyndra mate a todos los mineros (los héroes no perderán inmediatamente el encuentro cuando todos los mineros estén muertos).
+EventObjective2West.text,Preparativos completados, \n\n <b>Objetivo:</b>: \n\n Encuentra a la verdadera Valyndra antes de que la sombra de Valyndra mate a todos los mineros (los héroes no perderán inmediatamente el encuentro cuando todos los mineros estén muertos).
+EventObjective2West.button1,{qst:ContinueButton}
+EventObjective2East.button1,{qst:ContinueButton}
+EventRemoveDoorsNorth.text,Descarta todas las puertas de la parte norte.
+EventRemoveDoorsNorth.button1,{qst:ContinueButton}
+DoorWestToNorth.button1,{action} Abrir
+EventObjective3.text,Preparativos completados, \n\n <b>Objetivo:</b>: \n\n Derrotar a Valyndra antes de que mate a los mineros (los héroes no perderán inmediatamente el encuentro cuando todos los mineros estén muertos).
+SpawnFireImp.button1,{qst:ContinueButton}
+SpawnFireImp.text,<i>Oís la voz de Valyndra, pero no la veis por ningún lado. \n\n —<i>¡Vosotros, los de ahí! Capturad a esos intrusos y detenedlos antes de que puedan interrumpir mi labor. \n\n Unas criaturas de fuego se mueven hacia vosotros con una sonrisa aviesa</i>. Coloca un grupo de {type} en el lugar señalado.
+EventCheckMinerKilled.text,<b>Características del minero</b>\n\n Los mineros sólo pueden ser atacados por la sombra de Valyndra.\n\n Los mineros tienen las siguientes características:\n\n Vida: {var:MinerHealth}\n Velocidad: {var:MinerSpeed}\n Defensa: 1 dado gris\n\n\n<b> ¿Valyndra ha matado a este minero?</b>
+TokenMiner1_West.button1,{qst:ContinueButton}
+EventMiner1Killed.button1,{qst:ContinueButton}
+EventCheckMinerKilled.button1,Minero asesinado
+EventCheckMinerKilled.button2,Cancelar
+EventMinerKilledChoose.button1,{qst:ContinueButton}
+EventRemoveMinerToken2.button1,{qst:ContinueButton}
+EventRemoveMinerTokenText.button1,{qst:ContinueButton}
+EventRemoveMinerToken1.button1,{qst:ContinueButton}
+EventRemoveMinerTokenText.text,<i>Gritando mientras agoniza, el minero cae al suelo.</i>\n\n Descarta esta ficha.
+EventRemoveMinerToken4.button1,{qst:ContinueButton}
+EventRemoveMinerToken3.button1,{qst:ContinueButton}
+TokenMiner2_North.button1,{qst:ContinueButton}
+EventMiner2Killed.button1,{qst:ContinueButton}
+TokenMiner3_North.button1,{qst:ContinueButton}
+EventMiner3Killed.button1,{qst:ContinueButton}
+TokenMiner4_East.button1,{qst:ContinueButton}
+EventMiner4Killed.button1,{qst:ContinueButton}
+EventAllMinersKilled.button1,{qst:ContinueButton}
+EventPlaceSearchTokenWest.text,Coloca una ficha de Búsqueda como se indica.
+ActivationValyndrasShadow.minion,{action} Se confronta con el minero más cercano \n {action} Ataca a un minero adyacente \n {action} Se confronta con el héroe más cercano \n {action} Ataca a un héroe adyacente
+ActivationValyndrasShadow.ability,La sombra de Valyndra sólo puede moverse y atacar a los mineros.
+EventBoulderTest.text,<i>Una gran piedra bloquea la ruta del minero. </i>\n\n Un héroe adyacente puede realizar una prueba de {might} para quitar de enmedio la piedra.
+TokenBoulder1.button1,{qst:ContinueButton}
+EventBoulderTest.button1,{action} Prueba de {might}
+EventBoulderTest.button2,Cancelar
+EventBoulderTestCheck.text,<i>Tratas de echar a rodar la piedra</i>. \n\n ¿Has superado la prueba?
+EventBoulderTestCheck.button1,Superación
+EventBoulderTestCheck.button2,Fallo
+EventBoulderTestPassedText.text,<i>Haces rodar la piedra</i>. \n\n Descarta esta ficha.
+EventBoulderTestPassed1.button1,{qst:ContinueButton}
+EventBoulderTestPassedText.button1,{qst:ContinueButton}
+EventBoulderTestPassed2.button1,{qst:ContinueButton}
+EventBoulderTestFailedText.text,No eres capaz de mover los cascotes.
+EventBoulderTestFailedText.button1,{qst:ContinueButton}
+TokenBoulder2.button1,{qst:ContinueButton}
+EventJoremsDiscovery1.button1,{qst:ContinueButton}
+EventJoremsDiscoveryText.text,Coloca una ficha de Objetivo blanco como se indica.\n\n Es el descubrimiento de Jorem.\n\n <b>Reglas Especiales: el descubrimiento de Jorem</b>\n\n Al final de cada turno Valyndra moverá automáticamente el descubrimiento de Jorem en dirección a la entrada. \n\n Los héroes perderán el encuentro si la ficha llega a la entrada.
+EventJoremsDiscoveryText.button1,{qst:ContinueButton}
+EventJoremsDiscovery3.button1,Button1
+EventJoremsDiscovery2.button1,Button1
+EventJoremsDiscovery4.button1,Button1
+EventObjective4.button1,{qst:ContinueButton}
+EventObjective4.text,Preparativos completados, \n\n <b>Objetivo:</b>: \n\n Derrota a Valyndra antes de que el descubrimiento de Jorem alcance la salida.
+EventValyndraMinerAttack.button1,{qst:ContinueButton}
+EventMoveJoremsDiscovery.text,<b>Robando el descubrimiento de Jorem</b>\n\n Mueve la ficha de Objetivo blanco que representa el descubrimiento de Jorem {var:JoremsDiscoveryMovement} espacios en dirección a la entrada. \n\n ¿Ha llegado la ficha a la entrada (elegir <b>Sí, la ficha ha llegado a la entrada</b> hará que el encuentro termine)?
+EventMoveJoremsDiscovery.button2,No, la ficha no ha llegado a la entrada.
+EventValyndraMinerAttack.text,<b>Ataque de Valyndra</b>\n\n La velocidad de Valyndra aumenta a 8 para las siguientes acciones. \n\n Valyndra realiza inmediatamente las siguientes acciones: \n\n {action} Se confronta con el minero más cercano. \n {action} Ataca al minero más cercano. \n\n Si un minero ha muerto a causa de este ataque, haz clic en esta ficha y elige <b>Minero muerto</b> como primera acción del próximo turno.
+EventEndRoundEvents.button1,{qst:ContinueButton}
+EventMoveJoremsDiscovery.button1,Sí, la ficha ha llegado a la entrada.
+EventStartRoundEvents.button1,{qst:ContinueButton}
+EventSpawnReinforcements.button1,{qst:ContinueButton}
+SpawnReinforcementOpenGroup2.button1,{qst:ContinueButton}
+SpawnReinforcementOpenGroup1.button1,{qst:ContinueButton}
+SpawnReinforcementOpenGroup1.text,Coloca un monstruo del grupo {type} en la entrada, respetando los límites de monstruos. \n\n Pulsa <b>Límite de monstruos ya alcanzado</b> si el límite de monstruos se ha alcanzado ya.
+SpawnReinforcementOpenGroup1.button2,Ya se ha alcanzado el límite de monstruos
+SpawnReinforcementImps.button1,{qst:ContinueButton}
+SpawnReinforcementImps.button2,Ya se ha alcanzado el límite de monstruos
+SpawnReinforcementOpenGroup2.button2,Ya se ha alcanzado el límite de monstruos
+EventSpawnReinforcementsFinished.button1,{qst:ContinueButton}
+SpawnReinforcementOpenGroup2.text,Coloca un monstruo del grupo {type} en la entrada, respetando los límites de monstruos. \n\n Pulsa <b>Límite de monstruos ya alcanzado</b> si el límite de monstruos se ha alcanzado ya.
+SpawnReinforcementImps.text,Coloca un monstruo del grupo {type} en la entrada, respetando los límites de monstruos. \n\n Pulsa <b>Límite de monstruos ya alcanzado</b> si el límite de monstruos se ha alcanzado ya.
+EventOtherDoorOpens.button1,{qst:ContinueButton}
+EventEasternDoorOpens.button1,{qst:ContinueButton}
+EventWesternDoorOpens.text,<i>Más sirvientes de Valyndra acuden atraídos por el ruido del combate.</i>
+EventWesternDoorOpens.button1,{qst:ContinueButton}
+EventEasternDoorOpens.text,<i>Más sirvientes de Valyndra acuden atraídos por el ruido del combate.</i>
+EventSetup.text,Deja aparte las siguientes piezas: \n\n 2A, 8A, 9A, \n12A, 16A, \n20A, 21A, 22A, 23A, 24A, 25A, 27A, \n35A, \n la entrada, 2 conectores y 2 terminales.
+EventSearch2Players2Test.button1,Superación
+EventSearch2Players2Test.button2,Fallo
+EventSearch2Players2TestPassed.text,<i>Lanzas un tajo y troceas en pedacitos la mano con tu arma.</i>
+EventSearch2Players2TestPassed.button1,{qst:ContinueButton}
+EventSearch2Players2TestFailed.text,<i>Lanzas un golpe, pero eres demasiado lento. La mano tu agarra del brazo y te lo aprieta con una fuerza terrible. Sólo tras un gran esfuerzo consigues sacudírtela de encima. </i>\n\n El héroe que realizó la prueba pierde {var:Search2Players2TestFailedDamage} {heart}.
+EventSearch2Players2TestFailed.button1,{qst:ContinueButton}
+EventSearch2Players2Test.text,<i>Cuando tocas los huesos</i>

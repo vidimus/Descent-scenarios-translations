@@ -1,0 +1,317 @@
+.,Spanish
+ContinueButton,Continuar
+SearchButton,{action} Buscar
+quest.name,La guarida de la Sierpe - Armados hasta los dientes
+EventStart.button1,{qst:ContinueButton}
+EventStartRound.button1,{qst:ContinueButton}
+EventEndRound.button1,{qst:ContinueButton}
+Token1_Search2Players1.text,<i>Justo enfrente de la cabaña hay un pequeño objeto en el suelo.</i>
+Token1_Search2Players2.text,<i>Hay un objeto colocado cerca de la puerta.</i>
+Token1_Search3Players.text,<i>Entre unos tableros de madera parece que hay algo.</i>
+Token1_Search4Players.text,<i>Hay algo escondido en un pequeño hueco de una roca.</i>
+EventTokenSearch2Players1.text,Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players1.button1,{qst:ContinueButton}
+EventTokenSearch2Players2.text,Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players2.button1,{qst:ContinueButton}
+EventTokenSearch3Players.text,Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch3Players.button1,{qst:ContinueButton}
+EventTokenSearch4Players.text,Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch4Players.button1,{qst:ContinueButton}
+Token1_Search4Players.button1,{qst:SearchButton}
+Token1_Search3Players.button1,{qst:SearchButton}
+Token1_Search2Players2.button1,{qst:SearchButton}
+EventVictoryPart2.button1,{qst:ContinueButton}
+TokenDebug.button1,Victoria
+TokenDebug.button2,Derrota
+TokenDebug.text,Haz clic en este botón para simular que ganas o que pierdes el encuentro 2.
+EventNoMoraleEncounter1.text,<i>Habéis fracasado tratando de detener a Splig y a sus tropas.</i>
+EventNoMorale.button1,{qst:ContinueButton}
+EventSetup.button1,{qst:ContinueButton}
+EventIntroduction2.button1,{qst:ContinueButton}
+EventIntroductionInnkeeperDead.button1,Continuar
+Token1_Search2Players1.button1,{qst:SearchButton}
+EventVictoryPart1.text,<i>—Hum —suelta Splig mientras se deja caer sobre el suelo con su amplio trasero—. Héroes entrometidos. ¡Siempre husmeando en mis asuntos reales! \n\n Después de atar a Splig en un árbol cercano, usando para ello toda vuestra cuerda, le arrebatáis de sus orondas manos la carta sellada. Es del amo de Splig, ¡solicitando una alianza con la Reina Sierpe! \n\n ¡Debéis daros prisa antes de que Valyndra una sus fuerzas y forme un ejército aún más grande! \n\n —¡Al menos dejadme algún tentempié! —suplica Splig cuando os alejáis a toda prisa.</i>
+EventVictoryPart1.button1,{qst:ContinueButton}
+EventDefeatPart1.text,<i>Splig, cuya sorprendente velocidad ya no es sólo una leyenda para vosotros, deja tras de sí una gran nube de polvo mientras se dirige en vuestra dirección. Antes de que lo perdáis de vista, se da la vuelta y os suelta: \n\n —¡No hay nada que pueda detener al Rey de todos los goblins! \n\n Antes de marcharse, emplea un momento en realizar un particularmente grosero bailecito, tras el cual desaparece.</i>
+EventDefeatPart1.button1,{qst:ContinueButton}
+EventPlaceTiles1.text,Coloca la entrada y la pieza 13A como se indica. \n\n Coloca una puerta como se indica. \n\n Colocad los héroes en la entrada.
+EventPlaceTiles1.button1,{qst:ContinueButton}
+EventPlaceTiles2.text,Descarta la puerta. \n\n Coloca las piezas 8A, 17A, 20A y 35A.\n\n Coloca dos puertas como se indica.
+EventPlaceTiles3.text,Descarta todas las puertas. \n\n Coloca las piezas 3A, 9A, 15A, 19A, 23A, una extensión (a la derecha de la pieza 9A) y dos terminales como se indica. \n\n Coloca una puerta roja como se indica.
+Door1_23A.button1,{action} Abrir
+Door1_18A.button1,{qst:ContinueButton}
+Door2_32B.button1,{action} Abrir
+Door2_28B.button1,{action} Abrir
+EventPlaceTiles2.button1,{qst:ContinueButton}
+Door1_09A.button1,{action} Abrir
+EventPlaceTiles3.button1,{qst:ContinueButton}
+EventPlaceTiles4.text,Descarta la puerta roja.\n\n Coloca las piezas 18A, 25A, 33A y la salida.
+EventPlaceTiles4.button1,{qst:ContinueButton}
+Door1_13A.button1,{action} Abrir
+Door1_13A.text,<i>De detrás de la puerta te llega un ligero olor a humo.</i>
+Door1_09A.text,<i>La puerta lleva hacia el interior del cañón.</i>
+Door1_23A.text,<i>La puerta lleva hacia el interior del cañón.</i>
+Door1_18A.text,La puerta está cerrada con llave.
+Event2_Setup.text,Deja aparte las siguientes piezas: : \n\n4A, 9B, \n12B, 16A, \n23A, 28A\n31B, 32B, 33B, 35B, \n cuatro terminales, \n dos transiciones \n un conector, \n la entrada y la salida.
+Event2_Setup.button1,{qst:ContinueButton}
+EventSetup.text,Deja aparte las siguientes piezas: :\n\n3A, 8A, 9A, \n13A, 15A, 17A, 18A, 19A, \n20A, 23A, 25A, \n33A, 35A, \n dos terminales, \n una transición \n la entrada y la salida.
+Event2_Introduction.text,<i>Al aproximaros a los derruidos muros del castillo, descubrís a los centinelas híbridos patrullando el camino. ¡Os descubren inmediatamente! \n\n —¡Cerrad las puertas del castillo! —brama una voz—. ¡A las armas! ¡A las armas! </i>
+Event2_Introduction.button1,{qst:ContinueButton}
+Event2_PlaceTiles1.text,Coloca las piezas 4A, 16A, 23A, dos transiciones y dos terminales como se indica. \n\n Coloca dos puertas como se indica.
+Event2_PlaceTiles1.button1,{qst:ContinueButton}
+Door2_04A.text,<i>Las puertas del castillo están firmemente selladas.</i>
+Event2_PlaceTiles3.text,Descarta ambas puertas amarillas. \n\n Coloca las fichas 12B, 28B, 31B, 33B, 35B, una transición (a la derecha de la pieza 31B), dos terminales y la salida como se indica.
+Door2_23A.text,<i>Las puertas del castillo están firmemente selladas.</i>
+Door2_23A.button1,{qst:ContinueButton}
+Door2_32B.text,<i>Esta puerta desprende un increíble calor. </i>
+Door2_28B.text,<i>La puerta conduce hacia el interior del castillo.</i>
+EventBatteringRamRules.button1,{qst:ContinueButton}
+EventBatteringRamRules.text,<b>Reglas Especiales: Ariete</b> \n\n Como acción, un héroe adyacente al ariete puede realizar una prueba de {might} o de {knowledge} para mover / usar el ariete. \n\n Los héroes necesitan mover el ariete {var:BatteringRamTargetValue} veces y a continuación realizar una prueba final de  {might} o de {knowledge} para abrirse paso a través de la puerta del castillo. \n\n Para realizar la prueba, haz clic en la ficha y selecciona <b>Mover / usar el ariete</b>.
+Event2_PlaceTiles2.text,Descarta ambas puertas rojas. \n\n Coloca las piezas 9B y 32B, y una terminal como se indica. \n\n Coloca dos puertas como se indica.
+Event2_PlaceTiles2.button1,{qst:ContinueButton}
+Door2_04A.button1,{qst:ContinueButton}
+Event2_PlaceTiles3.button1,{qst:ContinueButton}
+SpawnOpenGroup1.text,Coloca el grupo {type} en la pieza 13A.
+SpawnOpenGroup1.button1,{qst:ContinueButton}
+EventPlaceSignalFire1.text,Coloca dos fichas de Objetivo como se indica. \n\n Estas fichas son las almenaras.
+EventPlaceSignalFire1.button1,{qst:ContinueButton}
+EventObjective1.text,Preparativos completados. \n\n <b>Objetivo</b>:\n\n Encontrar a Splig.
+EventObjective1.button1,{qst:ContinueButton}
+SpawnFireImps.button1,{qst:ContinueButton}
+SpawnOpenGroup2.text,Coloca el grupo {type} en la pieza 8A (respetando los límites de monstruos).
+SpawnFireImps.text,Coloca el grupo {type} en la pieza 35A.
+SpawnOpenGroup2.button1,{qst:ContinueButton}
+EventPlaceSearchToken2Players1.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchToken2Players1.button1,{qst:ContinueButton}
+EventSignalFireRules.text,<b>Reglas Especiales: Almenaras</b> \n\n Un héroe puede atacar una almenara como si fuera un monstruo. La almenara lanza {var:SignalFireDefenseDiceGrey} dado(s) gris(es) de defensa. Si los héroes logran infligir al menos 1 de daño a la almenara, haz clic en la ficha y selecciona  <b>Almenara destruida</b>. \n\n Los héroes tiene que destruir todas las almenaras antes de que sean encendidas.
+EventSignalFireRules.button1,{qst:ContinueButton}
+EventObjective2.text,Preparativos completados. \n\n <b>Objetivo</b>:\n\n Destruir tantas almenaras como sea posible antes de que sean encendidas.
+EventObjective2.button1,{qst:ContinueButton}
+SpawnOpenGroup3East.button1,{qst:ContinueButton}
+SpawnOpenGroup3West.text,Coloca el grupo {type} en la pieza 19A (respetando los límites de monstruos).
+EventPlaceSearchTokens2_2Players.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchTokens2.button1,{qst:ContinueButton}
+EventPlaceSearchTokens2_2Players.button1,{qst:ContinueButton}
+EventPlaceSearchTokens2_3Players.text,Coloca fichas de búsqueda como se indica.
+EventPlaceSearchTokens2_3Players.button1,{qst:ContinueButton}
+EventPlaceSearchTokens2_4Players.text,Coloca fichas de búsqueda como se indica.
+EventPlaceSearchTokens2_4Players.button1,{qst:ContinueButton}
+EventPlaceSignalFire2.text,Coloca las fichas de Objetivo como se indica. \n\n Estas fichas son las almenaras.
+EventPlaceSignalFire2.button1,{qst:ContinueButton}
+SpawnSpligWithoutDoor.button1,{qst:ContinueButton}
+EventPlaceSpligOrSignalFires.button1,{qst:ContinueButton}
+EventSignalFiresTargetDestroyedReached.button1,{qst:ContinueButton}
+EventObjective3.text,Preparativos completados. \n\n <b>Objetivo</b>:\n\n Destruir tantas almenaras como sea posible antes de que sean encendidas.
+EventObjective3.button1,{qst:ContinueButton}
+EventOpenRedDoor.text,<i>—¡Abrid la puerta! ¡El Rey de los todos los goblins ha llegado! —exige Splig. Como nada parece moverse, el Rey de todos los goblins continúa gritando—. ¡Sirvientes! ¡Venid y encended más almenaras! ¡Si Valyndra no se mueve, pronto toda Terrinoth sabrá que ella está aquí!
+EventOpenRedDoor.button1,{qst:ContinueButton}
+EventObjective4.text,Preparativos completados. \n\n <b>Objetivo</b>:\n\n Derrotar a Splig antes de que alcance la salida.
+EventObjective4.button1,{qst:ContinueButton}
+EventSpligExitRules.text,Coloca dos fichas de Objetivo como se indica. \n\n Tan pronto como Splig alcance la salida, haz clic sobre una de estas fichas y elige <b>Splig ha llegado a la salida</b> para terminar este encuentro.
+EventSpligExitRules.button1,{qst:ContinueButton}
+TokenSpligReachedExit2.button1,{qst:ContinueButton}
+TokenSpligReachedExit1.button1,{qst:ContinueButton}
+EventSpligExitCheck.button1,Splig llegó a la salida
+EventSpligExitCheck.button2,Cancelar
+EventSpligExitCheck.text,Tan pronto como Splig alcance la salida, haz clic sobre una de estas fichas y elige <b>Splig ha llegado a la salida</b> para terminar este encuentro.
+Token1_SignalFire2.button1,{qst:ContinueButton}
+Token1_SignalFire1.button1,{qst:ContinueButton}
+Token1_SignalFire4.button1,{qst:ContinueButton}
+Token1_SignalFire3.button1,{qst:ContinueButton}
+EventSignalFireCheck.button1,Almenara destruida
+EventSignalFireCheck.button2,Cancelar
+EventSignalFireCheck.text,Esta es una almenara. \n\n Un héroe puede atacar a una almenara como si fuera un monstruo. La almenara lanza {var:SignalFireDefenseDiceGrey} dado(s) de defensa gris(es). \n\n Si los héroes logran infligir al menos 1 {heart}, selecciona la opción <b>Almenara destruida</b>.
+ActivationSpligExit.minion,{action} Enfrenta la salida. \n{action} Ataca al héroe más cercano. \n{action} Enfrenta la salida. \n{action} Ataca al héroe más cercano.
+ActivationSpligExit.ability,Todos los ataques de Splig cuentan como ataques a distancia.
+CustomMonsterSplig.monstername,Splig
+EventSignalFireDestroyed.button1,{qst:ContinueButton}
+EventSignalFireRemove.button1,{qst:ContinueButton}
+EventSignalFireDestroyed.text,<i>La almenara se viene abajo.</i>
+EventRemoveSignalFire1.button1,{qst:ContinueButton}
+EventSignalFireRemove.text,Descarta la ficha de Objetivo.
+EventRemoveSignalFire4.button1,{qst:ContinueButton}
+SpawnSpligWithDoor.text,<i>Cuando ya no queda ninguna almenara, Splig aparece nuevamente sin previo aviso. \n\n —¿Por qué sigue todavía cerrada la puerta? —grita—. Si Valyndra me deniega el acceso, ¡entonces tendré que entrar por mi cuenta! </i> \n\n Coloca a {type} como se indica.
+SpawnSpligWithDoor.button1,{qst:ContinueButton}
+EventRemoveRemainingSignalFires.text,Descarta todas las fichas de Objetivo (almenaras) que queden.
+EventRemoveRemainingSignalFires.button1,{qst:ContinueButton}
+SpawnSpligWithoutDoor.text,<i>¡Es hora de completar mi misión! ¡Nos vemos luego, héroes! —dice Splig al tiempo que sale corriendo hacia la entrada del castillo de Maebury.</i> \n\n Coloca a {type} como se indica. \n\n {type} tratará de alcanzar la salida. Los héroes deben detenerle.
+EventAllSingalFiresLit.button1,{qst:ContinueButton}
+EventRedDoorRules.button1,{qst:ContinueButton}
+EventRedDoorRules.text,Splig atacará la puerta usando una acción especial al final de cada ronda. \n\n Splig deberá atacar la puerta durante {var:SignalFiresDestroyed} rondas debido al número de almenaras que los héroes han destruido. \n\n Después, Splig se dirigirá hacia la salida.
+EventObjective5.text,Preparativos completados. \n\n <b>Objetivo</b>:\n\n Derrotar a Splig antes de que destruya la puerta y se dirija a la salida.
+EventObjective5.button1,{qst:ContinueButton}
+EventAllSignalFiresDestroyedOrLit.button1,{qst:ContinueButton}
+EventSpligDoorAttackIncrease.text,<i>Splig la emprende a golpes contra la puerta, usando sólo sus manos. No os podíais imaginar que tuviese tanta fuera. </i>
+EventSpligDoorAttack.button1,{qst:ContinueButton}
+EventSpligDoorAttackIncrease.button1,{qst:ContinueButton}
+EventSpligRedDoorDestroyed.text,<i>Splig logra su propósito con una sorprendente furia. La hoja derecha de la puerta se derrumba y el camino queda expedito. Al final de un pequeño camino puedes ver la entrada al castillo de Maebury.</i>
+EventSpligRedDoorDestroyed.button1,{qst:ContinueButton}
+EventIsSpligEndRoundEvent.button1,{qst:ContinueButton}
+EventSignalFireBurningDown.button1,{qst:ContinueButton}
+EventLightSignalFire1.button1,{qst:ContinueButton}
+EventLightSignalFireFinished4.button1,{qst:ContinueButton}
+EventLightSignalFireFinished4.text,Descarta esta ficha.
+EventLightSignalFireFinished3.text,Descarta esta ficha.
+EventLightSignalFireFinished1.text,Descarta esta ficha.
+EventLightSignalFireFinished2.text,Descarta esta ficha.
+EventAllSingalFiresLit.text,<i>Cuando la última almenara es encendida, algo se levanta cerca de la puerta. A medida que se abre lentamente, surgido de la nada, aparece Splig, otra vez. ¿Dónde estaban escondidos los goblins? </i>
+EventLightSignalFire1.text,La almenara ha sido activada por {var:SignalFireValue1} de {var:TimeToLightSignalFire} puntos
+EventLightSignalFire2.text,La almenara ha sido activada por {var:SignalFireValue2} de {var:TimeToLightSignalFire} puntos
+EventLightSignalFire3.text,La almenara ha sido activada por {var:SignalFireValue3} de {var:TimeToLightSignalFire} puntos
+EventLightSignalFire4.text,La almenara ha sido activada por {var:SignalFireValue4} de {var:TimeToLightSignalFire} puntos
+EventLightSignalFire4.button1,{qst:ContinueButton}
+EventSignalFireCheckEndRound.button1,{qst:ContinueButton}
+EventLightSignalFire3.button1,{qst:ContinueButton}
+EventLightSignalFire2.button1,{qst:ContinueButton}
+EventLightSignalFireFinished1.button1,{qst:ContinueButton}
+EventLightSignalFireFinished2.button1,{qst:ContinueButton}
+EventLightSignalFireFinished3.button1,{qst:ContinueButton}
+SpawnOpenGroup3East.text,Coloca el grupo {type} en la pieza 13A (respetando los límites de monstruos).
+SpawnOpenGroup3West.button1,{qst:ContinueButton}
+EventDoor23AOpened.button1,{qst:ContinueButton}
+EventToken2_Search3Players.button1,{qst:ContinueButton}
+Token2_Search3Players.button1,{action} Buscar
+Token2_Search2Players2.text,<i>Un objeto sobresale entre la basura.</i>
+Token2_Search3Players.text,<i>En el borde del foso hay algo en una plataforma.</i>
+Token2_Search2Players2.button1,{action} Buscar
+Token2_Search2Players1.text,<i>Un pequeño interruptor sobresale de la pared, pasando casi desapercibido.</i>
+Token2_Search2Players1.button1,{action} Buscar
+Token2_Search4Players.text,<i>Hay algo atrapado entre los huesos de una gran criatura.</i>
+Token2_Search4Players.button1,{action} Buscar
+EventToken2_Search3Players.text,Roba una carta de Búsqueda y descarta esta ficha.
+Event2_Search4Players.text,Roba una carta de Búsqueda y descarta esta ficha.
+Event2_Search4Players.button1,{qst:ContinueButton}
+Event2_Search2Players2.button1,{qst:ContinueButton}
+Event2_Search2Players1.button1,{qst:ContinueButton}
+Event2_Search2Players2.text,Roba una carta de Búsqueda y descarta esta ficha.
+Event2_Search2Players1.text,Roba una carta de Búsqueda y descarta esta ficha.
+EventPlaceTiles2Story.text,<i>No lejos de vosotros se encuentra Splig hablando con sus acompañantes. \n\n Uno de los lacayos le comenta: \n\n —La puerta está cerrada a cal y canto, mi rey. El castillo de Maebury ha sido siempre una de las fortalezas más impenetrables de toda Terrinoth. Y parece que Valyndra la ha reconstruido. Sin su permiso jamás conseguiremos entrar. Pero por el momento ninguno de sus sirvientes se ha dejado ver. \n\n —¿Cómo puede ser eso? ¡Ninguna puerta permanece cerrada ante el Rey de todos los goblins! Quizá podamos llamar la atención de Valyndra con las viejas almenaras. ¡No se me ocurre un mejor modo de anunciar la llegada de un rey! Marchad y encargaos de todo. \n\n De repente alguien se da cuenta de vuestra presencia. \n\n —¿Otra vez vosotros? ¡Matad a esa escoria! —chilla Splig. \n\n Mientras está todavía pronunciando esas palabras corre hacia el interior del cañón y desaparece detrás de una roca. </i>
+EventPlaceTiles2Story.button1,{qst:ContinueButton}
+EventNoMoraleEncounter1.button1,{qst:ContinueButton}
+Event2_NoMoraleEncounter2.text,<i>Mientras os desplomáis sobre el suelo, decenas de tropas de Valyndra os sobrepasan. </i>
+Event2_NoMoraleEncounter2.button1,{qst:ContinueButton}
+EventStartEncounter2.text,Descarta todas las piezas de mapa y monstruos del Encuentro 1. \n\n Coloca la entrada. Coloca a todos los héroes en la entrada. \n\n Transición al Encuentro 2:\n\n 1. Los héroes mantienen todo el daño, estados, fichas de valor, elixires, fichas de Héroe sobre las cartas de Clase y todas las fichas Predicción de que tuviesen al final del encuentro anterior.\n 2. Los héroes recuperan toda la fatiga sufrida durante el encuentro anterior. \n 3. Los héroes le dan la vuelta a sus hojas de Héroe y las colocan boca arriba. \n 4. Los héroes mantienen todas sus cartas de Búsqueda; las cartas de Búsqueda agotadas permanece agotadas. \n 5. Los héroes descartan todas las fichas de Canción que tengan sobre sus cartas de clase. \n 6. Los héroes que estuvieran fuera de combate realizan una acción gratuita para ponerse en pie y a continuación recuperan toda la {fatigue}. A continuación, todos los héroes finalizarán su turno sin realizar ninguna otra acción. \n\n Los preparativos para el Encuentro 2 continúan.
+EventEndEncounter1.button1,{qst:ContinueButton}
+EventStartEncounter2.button1,{qst:ContinueButton}
+Event2_StartRoundEvents.button1,{qst:ContinueButton}
+Event2_StartRound.button1,{qst:ContinueButton}
+Event2_Start.button1,{qst:ContinueButton}
+EventSpligDefeated.button1,{qst:ContinueButton}
+EventSpligDefeatedEncounter1.button1,{qst:ContinueButton}
+Event2_SpligDefeatedEncounter2.button1,{qst:ContinueButton}
+Spawn2_OpenGroup.text,Coloca el grupo {type} en la pieza 4A.
+Spawn2_OpenGroup.button1,{qst:ContinueButton}
+EventPlaceBatteringRam.text,<i>Aparentemente las tropas de Valyndra se están preparando para atacar las baronías cercanas. Algunas portan un enorme ariete que sacan del castillo. Al veros, huyen hacia la fortaleza. La puerta se cierra a cal y canto. Parece muy robusta. Quizá podríais destruirla con el ariete. \n\n Coloca una ficha de Objetivo como se indica. \n\n Representa al ariete.
+EventPlaceBatteringRam.button1,{qst:ContinueButton}
+Event2_UseBatteringRamCheck.button2,Cancelar
+Event2_UseBatteringRamCheck.button1,{action} Mover / usar ariete
+Event2_UseBatteringRamTest.text,Prueba de {might} o de {awareness}.\n\n ¿Has superado la prueba?
+TokenBatteringRam1.button1,{qst:ContinueButton}
+TokenBatteringRam4.button1,{qst:ContinueButton}
+TokenBatteringRam3.button1,{qst:ContinueButton}
+TokenBatteringRam2.button1,{qst:ContinueButton}
+Event2_UseBatteringRamTest.button1,Superada
+Event2_UseBatteringRamTest.button2,Fallo
+Event2_UseBatteringRamTestPassed.button1,{qst:ContinueButton}
+Event2_UseBatteringRamTestFailed.button1,{qst:ContinueButton}
+Event2_UseBatteringRamTestPassed1.text,<i>Logras hacer avanzar el ariete un poco. </i> \n\n Coloca la ficha de Objetivo como se indica.
+Event2_UseBatteringRamTestPassed1.button1,{qst:ContinueButton}
+Event2_UseBatteringRamTestFailed.text,<i>El ariete no avanza.</i>
+Event2_UseBatteringRamTestPassed2.button1,{qst:ContinueButton}
+Event2_UseBatteringRamTestPassed4.text,<i>Con un ensordecedor estallido, el ariete se abre paso a través de la puerta.</i>. \n\n Descarta la ficha de Objetivo.
+Event2_UseBatteringRamTestPassed3.text,<i>Logras mover el ariete un poco. ¡Ahora es el momento de usarlo! </i> \n\n Coloca la ficha de Objetivo como se indica.
+Event2_UseBatteringRamTestPassed2.text,<i>Logras hacer avanzar el ariete un poco. </i> \n\n Coloca la ficha de Objetivo como se indica.
+Event2_UseBatteringRamTestPassed3.button1,{qst:ContinueButton}
+Event2_UseBatteringRamTestPassed4.button1,{qst:ContinueButton}
+Event2_PlaceSearchToken2Players1.button1,{qst:ContinueButton}
+TokenDebug2.button1,Ganar Primer Encuentro
+TokenDebug2.button2,Perder Encuentro I
+TokenDebug2.text,Haz clic en este botón para simular que ganas o que pierdes el encuentro 1.
+Spawn2_HybridSentinelWithWarGear.button1,{qst:ContinueButton}
+Event2_UseBatteringRamCheck.text,Este es el ariete. \n\n Como acción, un héroe adyacente al ariete puede realizar una prueba de {might} o de {knowledge} para mover / usar el ariete.
+Event2_Objective2.text,Preparativos completados. \n\n <b>Objetivo</b>:\n\n Encontrar a Valyndra.
+Event2_Objective2.button1,{qst:ContinueButton}
+Event2_Objective1.text,Preparativos completados. \n\n <b>Objetivo</b>:\n\n Usar el ariete para abriros paso por las puertas del castillo.
+Event2_Objective1.button1,{qst:ContinueButton}
+Event2_PlaceSearchToken2Players1.text,Coloca una ficha de Búsqueda como se indica.
+Event2_PlaceTiles3Story.text,<i>Cuando entráis en las estancias interiores del castillo, un profundo siseo resuena. \n\n —Así que aquí estáis de nuevo —dice Valyndra—. ¡Llegáis demasiado tarde! ¡Mi maestro armero ya ha empezado a repartir el equipamiento de guerra hecho con aurium entre mis huestes. ¡Rendíos, o mis centinelas híbridos os harán pedazos! </i>
+Spawn2_HybridSentinelWithWarGear.text,<i>Las tropas de Valyndra os estaban ya esperando en el pasillo. Su equipamiento brilla amenazadoramente. Al parecer Valyndra ya ha empezado a equipar a sus tropas con aurium.</i> \n\n Coloca los monstruos del grupo {type} como se indica. \n\n Estos monstruos portan equipamiento de guerra hecho con aurium. Por ello, cada monstruo de este grupo tiene 1 de Vida adicional por cada héroe.
+Event2_PlaceTiles3Story.button1,{qst:ContinueButton}
+Spawn2_Valyndra.button1,{qst:ContinueButton}
+WarGearRules,<b>Reglas Especiales: Alijos de equipamiento de guerra</b> \n\n Mientras el alijo siga existiendo, más centinelas híbridos con equipamiento de guerra seguirán llegando. \n\n Un héroe adyacente puede, como acción, realizar una prueba de {might} o de {awareness}. Si supera la prueba, el alijo es arrojado a la lava. \n\n Para realizar esta acción, haz clic sobre la ficha y elige <b>Mover alijo</b>.
+Event2_WarGearRackRules.text,{qst:WarGearRules}
+Spawn2_HybridSentinelsWithWearGear2.button1,{qst:ContinueButton}
+Spawn2_Valyndra.text,Coloca a {type} como se indica.\n\n {type} tiene 5 de vida adicional por cada héroe. \n Al final de cada ronda, {type} tiene una activación adicional.
+Spawn2_PlaceSpligBoss.button1,{qst:ContinueButton}
+Spawn2_HybridSentinelsWithWearGear2.text,Coloca los monstruos del grupo {type} como se indica (respetando los límites de monstruos). \n\n Estos monstruos portan equipo de guerra mágico hecho de aurium. Por ello, cada monstruo de este grupo tiene {var:AuriumWarGearAdditionalHeart} de vida adicional por cada héroe y hacen +{var:AuriumWarGearAdditionalDamage} {heart}.
+Event2_PlaceWarGearRackToken.text,Coloca una ficha de Objetivo como se indica. \n\n Esta ficha es un armero de material de guerra hecho con aurium.
+TokenWarGearRack.button1,{qst:ContinueButton}
+Spawn2_PlaceSpligBoss.text,<i>Para vuestro descontento, Splig aparece tras Valyndra. \n\n —Hola, amigos míos. Por desgracia nos volvemos a ver tan pronto. Pero no hay problema. Valyndra y yo lo tenemos todo preparado. ¡Ella y mi amo harán que las baronías de Dakan tiemblen! </i> \n\n Coloca a {type} como se indica.
+Event2_MoveRack.text,Esta ficha es el alijo de equipamiento de arma hecho de Aurium. \n\n{qst:WarGearRules}
+Event2_MoveRack.button1,{action} Mover alijo de armas
+Event2_MoveRack.button2,Cancelar
+Event2_MoveRackTest.text,Prueba de {might} o de {awareness}.\n\n ¿Has superado la prueba?
+Event2_MoveRackTest.button1,Superada
+Event2_MoveRackTest.button2,Fallo
+Event2_MoveRackTestFailed.text,No consigues mover el armero.
+Event2_MoveRackTestFailed.button1,{qst:ContinueButton}
+Event2_MoveRackTestPassed.text,<i>Con un sonoro chapoteo, el alijo cae dentro de la lava.</i> Descarta la ficha. \n\n Ya no aparecerán más centinelas híbridos de refuerzo.
+Event2_MoveRackTestPassed.button1,{qst:ContinueButton}
+Event2_PlaceWarGearRackToken.button1,{qst:ContinueButton}
+Event2_WarGearRackRules.button1,{qst:ContinueButton}
+Event2_PlaceSearchTokens2Players3.text,Coloca fichas de búsqueda como se indica.
+Event2_PlaceSearchTokens2.button1,{qst:ContinueButton}
+Event2_PlaceSearchTokens2Players3.button1,{qst:ContinueButton}
+Event2_PlaceSearchTokens2Players2.text,Coloca una ficha de Búsqueda como se indica.
+Event2_PlaceSearchTokens2Players2.button1,{qst:ContinueButton}
+Event2_PlaceSearchTokens2Players4.text,Coloca fichas de búsqueda como se indica.
+Event2_PlaceSearchTokens2Players4.button1,{qst:ContinueButton}
+Event2_Objective3.text,Preparativos completados. \n\n <b>Objetivo</b>:\n\n Derrotar a Valyndra.
+Event2_Objective3.button1,{qst:ContinueButton}
+Event2_EndRound.button1,{qst:ContinueButton}
+Event2_EndRoundEvents.button1,{qst:ContinueButton}
+Spawn2_Reinforcements_HybridSentinelsAuriumWargear.button1,{qst:ContinueButton}
+Event2_Reinforcements.button1,{qst:ContinueButton}
+Spawn2_ReinforcementsFireImps.button1,{qst:ContinueButton}
+Spawn2_ReinforcementsFireImps.text,Coloca un monstruo del grupo {type} en la entrada, respetando los límites de monstruos.
+Spawn2_Reinforcements_HybridSentinelsAuriumWargear.text,Coloca los monstruos del grupo {type} como se indica (respetando los límites de monstruos). \n\n Estos monstruos portan equipo de guerra mágico hecho de aurium. Por ello, cada monstruo de este grupo tiene {var:AuriumWarGearAdditionalHeart} de vida adicional por cada héroe y hacen +{var:AuriumWarGearAdditionalDamage} {heart}.
+Event2_SpligDefeatedEncounter2.text,<i>—Esto empieza a ser demasiado incómodo para mí —ruge Splig sangrando por varias heridas—. Quizá no fuese una buena idea, después de todo, mezclarme con esta chusma dragonil. ¡Nos vemos! \n\n Una vez más, Splig desaparece entre las sombras con una inaudita rapidez.
+EventDefeatPart2.button1,{qst:ContinueButton}
+Event2_DefeatedValyndra.button1,{qst:ContinueButton}
+Event2_ValyndraAttack3.text,Valyndra tiene una activación adicional: \n\n {action} Enfrenta al héroe que no esté en llamas. \n{action} Ataca al héroe que no esté en llamas.
+Event2_ValyndraAttack.button1,{qst:ContinueButton}
+Event2_ValyndraAttack3.button1,{qst:ContinueButton}
+Event2_ValyndraAttack1.text,Valyndra tiene una activación adicional: \n\n {action} Enfrenta al héroe que haya perdido más {heart}. \n{action} Ataca al héroe que haya perdido más {heart}.
+Event2_ValyndraAttack1.button1,{qst:ContinueButton}
+Event2_ValyndraAttack2.text,Valyndra tiene una activación adicional: \n\n {action} Enfrenta al héroe que haya perdido menos {heart}. \n{action} Ataca al héroe que haya perdido menos {heart}.
+Event2_ValyndraAttack2.button1,{qst:ContinueButton}
+EventIntroduction2.text,<i>Aquella noche, mientras os recuperábais de vuestra aventura, una figura envuelta en sombras irrumpió en la sala común del Ladrillo Mojado.¡Es Tolk! \n\n —¡He traído la ruina sobre nosotros! —dice llorando al tiempo que se deja caer en vuestros brazos —. ¡Valyndra se ha hecho con todo! Nos atacó por la noche con una docena de sus dragones —solloza—. Todos mis guardias han sido asesinados. Conseguí a duras penas esconderme y contemplé cómo sus huestes se llevaban todo el equipamiento de aurium. Creo que pusieron rumbo en dirección al castillo de Maebury. \n\n Partís inmediatamente a la mañana siguiente. Tan pronto como divisáis las montañas, también veis más humo en el horizonte. Os aproximáis con cuidado y descubrís una pequeña aldea que ha sido reducida a cenizas. En medio de los gritos de los aldeanos que huyen oís una risotada que os resulta familiar. \n\n —¡Nadie puede interponerse en el camino del Rey de todos los goblins! ¡Y ahora, es momento de entregar el mensaje de Señor Oscuro! ¿En qué dirección está la guarida de la Reina Sierpe...?</i>
+EventIntroductionInnkeeperAlive.text,<i>Jorem ha despachado a un séquito de guardas en dirección a Tamalir para entregar las armas y armaduras de Aurium. Mientras tanto, vuestras intenciones son las de descansar algo. Los últimos días han sido agotadores. No hay muchas posadas en esta zona y pronto os encontráis en la posada de Ladrillo Mojado. Allí os encontráis con el posadero que estoicamente reconstruye su negocio arruinado. \n\n ¡Vaya! —exclama cuando os acercáis —. ¡Llegáis justo a tiempo, héroes! ¡He reconstruido varias habitaciones y Bertha está preparando algo de estofado! ¡Vamos, entrad! </i>
+EventIntroductionInnkeeperAlive.button1,{qst:ContinueButton}
+EventIntroductionInnkeeperDead.text,<i>Jorem ha despachado a un séquito de guardas en dirección a Tamalir para entregar las armas y armaduras de Aurium. Mientras tanto, vuestras intenciones son las de descansar algo. Los últimos días han sido agotadores. No hay muchas posadas en esta zona y pronto os encontráis en la posada de Ladrillo Mojado. Allí os encontráis con la mujer del posadero doliente pero estoicamente reconstruyendo su negocio arruinado. \n\n ¡Vaya! —exclama cuando os acercáis —. ¡En un día normal no seríais bienvenidos aquí! Dejásteis que mi marido muriese a manos de esos monstruos. Pero necesito el dinero para volver a levantar la posada. He reconstruido varias habitaciones. Entrad, ¡pero partid mañana a primera hora, tan pronto como despunte el alba! Y tras ello, no quiero volver a veros por aquí nunca más. </i>
+Event2_BatteringRamEvents1.text,<i>Una lluvia de flechas cae sobre vosotros desde lo alto de la muralla. <i> Todos los héroes en la pieza 23A pierden {var:BatteringRamEvents1Heart} {heart}.
+Event2_BatteringRamEvents2.button1,{qst:ContinueButton}
+Event2_BatteringRamEvents.button1,{qst:ContinueButton}
+Event2_BatteringRamEvents1.button1,{qst:ContinueButton}
+Event2_BatteringRamEvents3.text,<i>Las tropas de Valyndra tratan desesperadamente de deteneros. Vierten un enorme caldero desde lo alto de la muralla. </i>\n\n Todos los héroes a {var:BatteringRamEvents3Spaces} o menos espacios del ariete pierden {var:BatteringRamEvents3Heart} {heart}.
+Event2_BatteringRamEvents2.text,<i>Las tropas de Valyndra lanzan enormes piedras por encima del muro.</i> \n\n Todos los héroes que estén en la pieza 23A realizan una prueba de {awareness}. Cada héroe que falle la tirada pierde  {var:BatteringRamEvents2Heart} {heart}.
+Event2_BatteringRamEvents3.button1,{qst:ContinueButton}
+Event2_BatteringRamEventsEnd.button1,{qst:ContinueButton}
+Spawn2_FireImpsBossBattle.text,Coloca un monstruo del grupo {type} como se indica, respetando los límites de monstruos.
+Spawn2_FireImpsBossBattle.button1,{qst:ContinueButton}
+EventSpawnFireImpsRackDestroyed.button1,{qst:ContinueButton}
+EventStartRoundEvents.button1,{qst:ContinueButton}
+Spawn1_ReinforcementsOpenGroup2.button2,Ya se ha alcanzado el límite de monstruos
+Spawn1_ReinforcementsOpenGroup3East.text,Coloca un monstruo del grupo {type} como se indica, respetando los límites de monstruos.
+Spawn1_ReinforcementsOpenGroup1.text,Coloca un monstruo del grupo {type} como se indica, respetando los límites de monstruos.
+Spawn1_ReinforcementsOpenGroup1.button1,{qst:ContinueButton}
+Spawn1_ReinforcementsOpenGroup2.text,Coloca un monstruo del grupo {type} como se indica, respetando los límites de monstruos.
+Spawn1_ReinforcementsOpenGroup2.button1,{qst:ContinueButton}
+Spawn1_ReinforcementsOpenGroup3West.button1,{qst:ContinueButton}
+Spawn1_ReinforcementsOpenGroup3West.text,Coloca un monstruo del grupo {type} como se indica, respetando los límites de monstruos.
+Spawn1_ReinforcementsOpenGroup3East.button1,{qst:ContinueButton}
+Spawn1_ReinforcementsOpenGroup1.button2,Ya se ha alcanzado el límite de monstruos
+Event1_Reinforcements.button1,{qst:ContinueButton}
+Event1_ReinforcementsFinished.button1,{qst:ContinueButton}
+Spawn1_ReinforcementsOpenGroup3West.button2,Ya se ha alcanzado el límite de monstruos
+Spawn1_ReinforcementsOpenGroup3East.button2,Ya se ha alcanzado el límite de monstruos

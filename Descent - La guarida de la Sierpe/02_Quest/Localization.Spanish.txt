@@ -1,0 +1,198 @@
+.,Spanish
+ContinueButton,Continuar
+SearchButton,{action} Buscar
+quest.name,La guarida de la Sierpe - Duro despertar
+EventStart.button1,{qst:ContinueButton}
+EventStartRound.button1,{qst:ContinueButton}
+EventEndRound.button1,{qst:ContinueButton}
+TokenSearch2Players1.button1,{qst:SearchButton}
+TokenSearch2Players2.button1,{qst:SearchButton}
+TokenSearch3Players.button1,{qst:SearchButton}
+TokenSearch4Players.button1,{qst:SearchButton}
+EventTokenSearch2Players1.text,Encuentras {var:TokenSearch2Players1Gold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players1.button1,{qst:ContinueButton}
+EventTokenSearch4Players.button1,{qst:ContinueButton}
+EventTokenSearch3Players.text,Encuentras {var:TokenSearch3Players1Gold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch3Players.button1,{qst:ContinueButton}
+EventTokenSearch2PlayersAurium.button1,{qst:ContinueButton}
+EventTokenSearch4Players.text,Encuentras {var:TokenSearch4Players1Gold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+TokenSearch4Players.text,<I> Algo sobresale del barro.</i>
+TokenSearch3Players.text,<i>Un cuerpo achicharrado sostiene algo con una mano.</i>
+TokenSearch2Players2.text,<i>A pesar de todo el caos que reina en la habitación te llama la atención algo brillante que hay en un rincón.</i>
+TokenSearch2Players1.text,<i>Sobre la cama descansa un pequeño objeto.</i>
+EventVictory1.text,<i> A medida que apagáis los rescoldos de las paredes combadas de Ladrillo Mojado, los secuaces del Señor Supremo se dispersan entre los bosques de los alrededores.</i>
+EventDefeat.text,<i>Mientras la posada del Ladrillo Mojado arde y se derrumba ante vuestros ojos, los esbirros del Señor Supremo graznan con regocijo y desaparecen entre los árboles. En ese momento es cuando os dais cuenta de que habéis caído en su trampa. A estas alturas los secuestradores de Jorem probablemente habrán borrado su rastro y no tenéis ninguna otra manera de averiguar adónde se lo han llevado...</i> \n\n ¡Los héroes han perdido este encuentro!
+EventDefeat.button1,{qst:ContinueButton}
+EventVictory2InkeeperAlive.text,—<I>¡Mi posada! —grita el posadero, mientras se abalanza sobre las cenizas del que era su hogar. Mientras consoláis al hombre, os cuenta la historia al completo, de cómo los malvados híbridos de dragón vinieron y sacaron a rastras de su cama a Jorem. \n\n  —Supongo que querían llevárselo de vuelta a las minas y hacerle trabajar hasta la muerte —dice mientras retrocede llorando. \n\n De repente se para y dice: \n\n —Uy, esperad, ¿qué es eso? Parece que Jorem se ha dejado algo...</i>\n\n<b>¡Los héroes han ganado este encuentro!</b>
+TokenDebug.button1,Victoria
+TokenDebug.button2,Derrota
+TokenDebug.text,Haz clic en un botón para simular que ganas o que pierdes
+EventNoMorale.text,<i>La pelea contra el fuego y contra los secuaces de Valyndra os han debilitado en extremo. Exhaustos, os derrumbáis.</i>
+EventNoMorale.button1,{qst:ContinueButton}
+EventEndEncounter1.text,Los héroes ganan {var:RewardGold} de oro, {var:RewardXp} PE y {var:RewardFame} de fama.
+EventEndEncounter1.button1,{qst:ContinueButton}
+EventSetup.button1,{qst:ContinueButton}
+EventIntroduction.text,<i>En vuestro camino a la posada del Ladrillo Mojado os cruzáis con un mensajero pomposamente ataviado, deseoso de compartir las últimas noticias. \n\n —<i>¿No se han enterado vuesas mercedes? —pregunta el mensajero, incrédulo, sin haberse siquiera presentado antes —. ¡Valyndra, la autoproclamada Reina Sierpe, se ha alzado en armas! Sus secuaces híbridos no sólo han saqueado los campos sino que ahora ha puesto sus ojos en el viejo Jorem Tolk. Saben de quién hablo, ¿no? El fundador de la Mina de la Vigilia. ¿No? Bueno, ¡pues es ni más ni menos que el artesano más talentoso de todos los tiempos! ¡Parece que además habían llegado a sus oídos su reciente descubrimiento de aurium, un misterioso mineral! ¡Y ella lo quiere a él y a su mineral místico para que le sirva en una forja! —coge aliento al fin, impresionado obviamente por su conocimiento de las noticias locales—. ¿Qué es eso? ¿La posada del Ladrillo Mojado? Oh, claro, sigan ese camino hasta que vean asomar unas montañas en la distancia, ¡ésa es la Mina de la Vigilia! La posada no tiene pérdida, ¡a menos que un goblin les robe los ojos!</i>
+EventIntroduction.button1,{qst:ContinueButton}
+EventPlaceTiles1.text,<i>Al aproximaros a la posada del Ladrillo Mojado, veis que sale humo entre los árboles y oís gritos de lugareños en apuros. </i>\n\n Coloca la entrada y las piezas 7A y 27A como se indica. \n\n Coloca una puerta como se indica. \n\n Colocad los héroes en la entrada.
+EventPlaceTiles1.button1,{qst:ContinueButton}
+SpawnHybridSentinels.text,Coloca el grupo {type} como se indica.
+SpawnHybridSentinels.button1,{qst:ContinueButton}
+EventPlaceSearchTokens1.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearchTokens1.button1,{qst:ContinueButton}
+EventObjective.text,Preparativos completados.\n\n<b>Objetivo:</b>\n\n Buscar supervivientes.
+EventObjective.button1,{qst:ContinueButton}
+Door07A.text,<i>Densas nubes de humo salen por debajo de la puerta.</i>
+Door07A.button1,{action} Abrir
+EventPlaceTiles2.text,<i>Giráis el último recodo que lleva a la posada y en ese momento veis como las llamas devoran el lugar. \n\n —Ayuda —grita el posadero—. ¡Se han llevado a Jorem mientras dormía y aún quedan supervivientes dentro! </i>\n\n Descarta la puerta. n\n Coloca las piezas 12A, 13A, 17A, \n 31A, 34A, \n una transición (a la derecha de la pieza 34A) \n y una salida como se indica. \n\n Coloca dos puertas como se indica.
+EventPlaceTiles2.button1,{qst:ContinueButton}
+SpawnFireImps.button1,{qst:ContinueButton}
+EventPlaceSurvivors.text,Coloca las fichas de Aldeanos como se indica.
+SpawnFireImps.text,Coloca el grupo {type} cen la pieza 34A como se indica.
+EventPlaceSurvivors.button1,{qst:ContinueButton}
+EventPlaceSearchTokens3Players.button1,{qst:ContinueButton}
+EventObjective2.text,Preparativos completados.\n\n<b>Objetivo:</b>\n\n Salvar a los supervivientes antes de que las fuerzas de Valyndra calcinen la posada.
+EventObjective2.button1,{qst:ContinueButton}
+EventPlaceSearchTokens4Players.text,Coloca fichas de Búsqueda como se indica.
+EventPlaceSearchTokens4Players.button1,{qst:ContinueButton}
+EventPlaceSearchTokens3Players.text,Coloca una ficha de Búsqueda como se indica.
+Door13AYellow.button1,{action} Abrir
+EventPlaceInnkeeper.button1,{qst:ContinueButton}
+SpawnOpenGroup.text,Coloca el grupo {type} cen la pieza 13A.
+EventPlaceInnkeeper.text,<i>Cuando abres la puerta, el posadero cae encima de ti. Parece que estaba apoyado sobre la puerta. \n\n —¡Gracias. héroes! —os dice—. Tenemos que apagar este fuego. Detrás de esta puerta hay un pozo con suficiente agua para apagar las llamas. Si sois capaces de ocuparos de los monstruos, puedo abriros la puerta.\n</i>\n Coloca una ficha de Objetivo blanca como se indica. Esta ficha representa al posadero.
+SpawnOpenGroup.button1,{qst:ContinueButton}
+InnkeeperRules,<b>Reglas especiales</b>: <b>El posadero</b>\n\n El posadero es una miniatura que puede ser objetivo de ataques de monstruos y afectada por éstos, pero que es inmune a los estados. \n\n Cuando un monstruo pueda elegir como objetivo a un héroe o al posadero, el monstruo atacará al posadero. \n\n Los héroes pueden activar al posadero al final del turno del último héroe en cada ronda. El posadero puede realizar una acción de movimiento por turno. Cuando está adyacente a la puerta roja, haz clic en la ficha de la puerta y elige <b>Abrir la puerta</b> para abrirla. \n\n Si es derrotado, haz clic en esta ficha y elige la opción <b>Posadero derrotado</b>.\n\n <b>Características del posadero</b>\n\n El posadero tiene las siguientes características:\n Velocidad: {var:InkeeperSpeed}\n Salud: {var:InkeeperHealth}\n Defensa: {var:InkeeperDefenseDie} dado gris.
+TokenInkeeper.button1,{qst:ContinueButton}
+EventInkeeper2.text,{qst:InnkeeperRules}
+EventInkeeper2.button1,{qst:ContinueButton}
+TokenInkeeperDefeated.text,{qst:InnkeeperRules}
+TokenInkeeperDefeated.button1,Posadero derrotado
+EventPlaceSearchToken2Players2.text,Coloca una ficha de Búsqueda como se indica.
+EventObjective3.text,Preparativos completados.\n\n<b>Objetivo:</b>\n\n Salvar a los supervivientes antes de que las fuerzas de Valyndra calcinen la posada.
+EventObjective3.button1,{qst:ContinueButton}
+Door13ARed.text,<i>Esta puerta está cerrada con llave. El posadero quizá pueda abrirla.</i>\n\n Esta puerta sólo puede ser abierta por el posadero. \n\n Cuando el posadero esté adyacente a esta puerta, selecciona <b>Abrir puerta</b> para que se abra.
+Door13ARed.button1,Abrir la puerta
+EventPlaceTiles3FromInn.button1,{qst:ContinueButton}
+Door13AYellow.text,<i>El posadero está peleando con algo al otro lado de esta puerta.</i>
+EventPlaceTiles3FromInn.text,<i>Jadeando, el posadero abre la puerta.</i>\n\n Descarta las dos puertas de la parte norte (roja y amarilla).
+EventPlaceTiles3.text,Coloca las piezas 13A, 24A y 35A y una terminal como se indica.
+EventPlaceTiles3.button1,{qst:ContinueButton}
+WellRules,<b>Reglas especiales: El pozo</b>\n\n El pozo bloquea la línea de visión y el movimiento. Un héroe adyacente al pozo puede gastar 1 punto de movimiento para colocar su ficha de Héroe en el pozo. En cualquier momento en el que un Héroe esté en una casilla de la Posada (pieza 31A), puede descartar su ficha de Héroe del pozo para apaciguar las llamas que calcinan la posada durante un turno. \n\n Si un héroe quiere descartar su ficha para sofocar las llamas haz clic en la ficha del pozo y selecciona <b>Sofocar el fuego</b>.
+EventPlaceWell.text,Coloca la ficha de Objetivo azul como se indica. \n\n Esto es el pozo. \n\n {qst:WellRules}
+EventPlaceWell.button1,{qst:ContinueButton}
+Door35A.button1,{action} Abrir
+Door35A.text,<i>Parece que también hay algo ardiendo detrás de esta puerta.</i>
+EventPlaceTiles3FromPath.text,Descarta la puerta.
+EventPlaceTiles3FromPath.button1,{qst:ContinueButton}
+EventRemoveRedDoor.text,<i>Jadeando, el posadero abre la puerta.</i>\n\n Descarta la puerta.
+EventRemoveRedDoor.button1,{qst:ContinueButton}
+EventPlaceRedDoor.text,Coloca una puerta roja como se indica.
+EventPlaceRedDoor.button1,{qst:ContinueButton}
+Door13ARedOtherSide.button1,{qst:ContinueButton}
+Door13ARedOtherSide.text,<i>Esta puerta no puede abrirse desde este lado.</i>
+EventObjective4.text,Preparativos completados.\n\n<b>Objetivo:</b>\n\n Rescatar a los supervivientes mientras ayudas a apagar el fuego.
+EventObjective4.button1,{qst:ContinueButton}
+Door13ARedLocked.button1,{qst:ContinueButton}
+EventInkeeperDefeated.text,<i>Con un grito desgarrador, el posadero se desploma. Inmediatamente unos secuaces de Valyndra se abalanzan sobre él y comienza a despedazar su cuerpo.</i>
+EventInkeeperDefeated.button1,{qst:ContinueButton}
+Door13ARedLocked.text,<i>Esta puerta está cerrada con llave. Sin el posadero es imposible abrirla. </i>
+TokenWell.text,{qst:WellRules}
+TokenWell.button1,Apagar el fuego
+EventRedDoorCantBeOpened.text,Ya no puedes volver a abrir la puerta roja.
+EventRedDoorCantBeOpened.button1,{qst:ContinueButton}
+EventSetup.text,Deja aparte las siguientes piezas:\n\n7A\n12A, 13A, 17A, \n24A, 27A, \n31A, 34A, 35A, \n una terminal, una transición,\n la entrada y la salida.
+EventPlaceInkeerTiles.button1,{qst:ContinueButton}
+EventPlaceInkeeperTilesInkeeperAlive.button1,{qst:ContinueButton}
+EventPlaceInkeeperTilesInkeeperAlive.text,Descarta la puerta \n\n Coloca una puerta roja como se indica.
+EventPlaceInkeeperTilesInkeeperDead.text,Descarta la puerta \n\n Coloca una puerta roja como se indica.
+EventPlaceInkeeperTilesInkeeperDead.button1,{qst:ContinueButton}
+EventPlaceSearchToken2Players2.button1,{qst:ContinueButton}
+EventInkeeperKilledCheckRound2.text,<i>Al otro lado de la puerta se oyen todavía ecos de batalla. Los esbirros de Valyndra aprovechan inmediatamente esa distracción y os atacan. </i>\n\n Cada héroe en la pieza 31A pierde {var:InkeeperKilledCheckRound2Health} {heart}.
+EventInkeeperKilledCheck.button1,{qst:ContinueButton}
+EventInkeeperKilledCheckRound1.text,<i>Oís de nuevo al posadero: \n\n —¡Por favor! ¡Ayudadme! ¡No creo que pueda retenerlos mucho más tiempo!</i>
+EventInkeeperKilledCheckRound1.button1,{qst:ContinueButton}
+EventInkeeperKilledCheckRound2.button1,{qst:ContinueButton}
+EventInkeeperKilledCheckRound3.text,<i>Se oye un gran grito. Después algo choca contra la puerta. A continuación, todo queda en silencio. \n\n Momentos después, la puerta se abre de golpe.</i>
+EventInkeeperKilledCheckRound3.button1,{qst:ContinueButton}
+EventEndRoundEvents.button1,{qst:ContinueButton}
+EventPlaceSurvivors3.button1,{qst:ContinueButton}
+EventPlaceSurvivors2.button1,{qst:ContinueButton}
+EventCarrySurvivorTest.text,Como acción, mientras esté adyacente a un superviviente, un héroe puede realizar una prueba de {might} para acarrear a un superviviente (no importa si está herido o no). \n\n ¿Ha superado el héroe la prueba?
+SurvivorRules,<b>Reglas especiales: Supervivientes</b>\n\n Los supervivientes cuentan como miniaturas.\n Los supervivientes no pueden ser dañados por los monstruos.\n\n<b>Sanar a los supervivientes</b>\n\n Un héroe adyacente puede, como acción, realizar una acción especial para curar a un superviviente realizando una prueba de {knowledge}. Después de sanar a un superviviente, el héroe podrá realizar acciones de movimiento. \n\n Haz clic sobre esta ficha cuando un héroe intente sanar a un superviviente y elige <b>Tratar de sanar a un superviviente</b>.\n\n<b>Acarrear supervivientes</b>\n\n Como acción, un héroe adyacente a un superviviente puede realizar una prueba de {might} para acarrear a un superviviente (no importa si está herido o no). Un héroe sólo puede acarrear a un superviviente. \n\n Haz clic en esta ficha cuando un héroe trate de acarrear a un superviviente y elige <b>Tratar de acarrear superviviente</b>.
+EventPlaceSurvivors2.text,Las fichas de Aldeano son los supervivientes. Coloca una ficha de Fatiga sobre cada superviviente para indicar que están heridos. \n\n{qst:SurvivorRules}
+TokenSurvivorTokenActions.button1,Intentar sanar al superviviente
+TokenSurvivorTokenActions.button2,Intentar acarrear a un superviviente
+EventHealSurvivorTestCheck.text,Como acción, mientras esté adyacente a un superviviente, un héroe puede realizar una acción especial y realizar una prueba de  {knowledge} para sanar a un superviviente. Después de sanar a un superviviente, el héroe puede ejecutar acciones de movimiento. \n\n ¿Ha superado el héroe la prueba de {knowledge}?
+EventHealSurvivorTestCheck.button1,Superación
+EventHealSurvivorTestCheck.button2,Fallo
+EventHealSurvivorTestPassed.text,<i>Consigues vendar al superviviente. </i>\n\n Descarta la ficha de fatiga del superviviente. \n\n Ahora el superviviente puede realizar una sola acción por turno. Tiene una velocidad de {var:SurvivorMovementSpeed}.\n\n Un superviviente sin ficha de fatiga puede ser activado al final del turno del último héroe de cada ronda. El héroe que realizó su turno en último lugar controla al superviviente. \n\n Si el superviviente sale del mapa por la salida, inmediatamente es rescatado y su ficha es devuelta a la caja.
+EventHealSurvivorTestPassed.button1,{qst:ContinueButton}
+EventCarrySurvivorTest.button1,Superación
+EventCarrySurvivorTest.button2,Fallo
+EventCarrySurvivorTestPassed.button1,{qst:ContinueButton}
+TokenSurvivorsSaved2.button1,{qst:ContinueButton}
+EventPlaceSurvivors3.text,—<i>¡Que todo arda, dijo la reina! —ríe un diablillo de fuego.  Riendo como un loco, sale corriendo hacia los restos de la posada y explota provocando una gran nube de fuego. El fuego se expande rápidamente en todas las direccione. El edificio no resistirá mucho más. Quizá el posadero conozca una manera de ralentizar el avance del fuego... </i>\n\n Los héroes tienen que acarrear a todos los supervivientes hasta la salida antes de que la posada arda hasta los cimientos para poder ganar este encuentro.
+TokenSurvivorsSaved1.button1,{qst:ContinueButton}
+EventAllSurvivorsSavedCheck.text,¿Han rescatado los héroes a todos los supervivientes acarreándolos hasta la salida? \n\n Seleccionar <b>Todos los supervivientes han sido salvados</b> hará que el encuentro termine.
+EventAllSurvivorsSavedCheck.button1,Todos los supervivientes han sido salvados
+EventAllSurvivorsSavedCheck.button2,Cancelar
+EventCarrySurvivorTestPassed.text,<i>Consigues acarrear al superviviente.</i>\n\n Coloca la ficha de Aldeano sobre la hoja del héroe que ha pasado la prueba. \n\n Ese héroe ahora acarrea al superviviente . \n\n Si un héroe cruza la salida llevando consigo a un superviviente, éste es rescatado y devuelto a la caja. Depués de eso, coloca al héroe de vuelta en la salida.
+EventPlaceSurvivors4.text,Cuando todos los supervivientes hayan sido salvados, haz clic en una de las fichas y selecciona <b>Todos los supervivientes salvados</b> para terminar este encuentro.
+EventPlaceSurvivors4.button1,{qst:ContinueButton}
+EventInnkeeperWellRules.text,—<i>¡Alabado sea Kellos! —dice el posadero—.  Os ayudaré a apagar el fuego</i>\n\n<b>Reglas especiales: El posadero</b>\n\n El posadero también puede ayudar a apagar el incendio. \n\n A partir de este momento, puede ejecutar una acción adicional: \n\n Si está adyacente al pozo puede gastar 1 punto de movimiento para colocar una ficha de Daño en el pozo. En cualquier momento, si el posadero está en la pieza 31A, puede descartar esta ficha de Daño del pozo para reducir las llamas que calcinan la posada durante un turno. \n\n Si el posadero quiere descartar la ficha de Daño para detener las llamas, haz clic en la ficha del pozo y selecciona <b>Sofocar el fuego</b>.
+EventWellUsed.text,<i>El agua del pozo parece apaciguar las llamas. </i>\n\n En este turno la posada no sufrirá más daños causados por las llamas.
+EventWellUsed.button1,{qst:ContinueButton}
+SpawnFireImpsReinforcements.text,Coloca una monstruo del grupo {type} en la pieza 17A.
+EventReinforcements.button1,{qst:ContinueButton}
+SpawnFireImpsReinforcements.button1,{qst:ContinueButton}
+SpawnHybridSentinelsReinforcements.text,Coloca una monstruo del grupo {type} en la entrada.
+EventReinforcementsFinished.button1,{qst:ContinueButton}
+SpawnHybridSentinelsReinforcements.button1,{qst:ContinueButton}
+EventInnBurning.button1,{qst:ContinueButton}
+EventInnNoBurning.text,Habéis detenido el incendio de la posada durante este turno.
+EventInnNoBurning.button1,{qst:ContinueButton}
+EventInnBurnsMore.text,<i>La posada sigue ardiendo. </i>\n\n{var:InnPercent}% de la posada está en llamas.\n\n Cuando el 100% de la posada esté en llamas, los héroes perderán el encuentro.
+EventInnBurns.button1,{qst:ContinueButton}
+EventInnBurnsMore.button1,{qst:ContinueButton}
+EventInnReached100Percent.button1,{qst:ContinueButton}
+EventMoveInkeeper.button1,{qst:ContinueButton}
+EventSurvivorEvents.button1,{qst:ContinueButton}
+EventSurvivorsMove.button1,{qst:ContinueButton}
+EventMoveInkeeper.text,<b>El posadero</b>\n\n El héroe que actúo en último lugar puede activar ahora al posadero.
+EventSurvivorsMove.text,<b>Los supervivientes</b>\n\n El héroe que actúo en último lugar puede mover ahora a todos los supervivientes que no esté heridos o que estén siendo acarreados por un héroe.
+EventSurvivorRandomEvent.button1,{qst:ContinueButton}
+EventSurvivorRandomEvent1.text,<i>Del cielo caen flechas que alcanzan a los supervivientes.</i> \n\n Todos los supervivientes que no estén siendo acarreados por un héroe quedan heridos.
+EventSurvivorRandomEvent1.button1,{qst:ContinueButton}
+EventSurvivorRandomEvent2.text,<i>Acarrear a los supervivientes y pelear contra los servidores de Valyndra es agotador. </i>\n\n Todos los héroes que acarreen un superviviente quedan aturdidos.
+EventSurvivorRandomEvent2.button1,{qst:ContinueButton}
+EventSurvivorRandomEvent3.text,<i>El superviviente que llevas a la espalda no te deja ver. Demasiado tarde descubres la trampa que tienes justo debajo. </i>\n\n Todos los héroes que acarreen a un superviviente pierden  {var:SurvivorRandomEvent3Damage} {heart}.
+EventSurvivorRandomEvent3.button1,{qst:ContinueButton}
+EventSurvivorRandomEvent4.text,<i>Las fuerzas de Valyndra realizan un desesperado intento por deteneros abalanzándose sobre los supervivientes. </i>\n\n Todos los monstruos se enfrentan inmediatamente con el superviviente que tengan más cerca.
+EventSurvivorRandomEvent4.button1,{qst:ContinueButton}
+EventSurvivorRandomEvent5.text,<i>Un rayo de fuego cae desde el cielo. A lo lejos veis un dragón de la sombra que se aleja volando. Inmediatamente todo comienza a arder a vuestro alrededor. </i>\n\n Todos los héroes y todos los monstruos sobre el tablero obtienen el estado En llamas y pierden {var:SurvivorRandomEvent5Damage} {heart}.
+EventSurvivorRandomEvent5.button1,{qst:ContinueButton}
+EventSurvivorRandomEventRest.text,<i>Los supervivientes están sufriendo debido a sus heridas. </i>\n\n Todos los supervivientes están heridos.
+EventSurvivorRandomEventRest.button1,{qst:ContinueButton}
+EventTokenSearch2PlayersAurium.text,<i>¡Encuentras un trozo de mineral de aurium!\n\n Quizá alguien pueda usarlo para haceros algo de equipo. </i>\n\n Ganas {var:%FoundNumberOfAuriumPieces} de {var:%MaximumNumberOfAurium} mineral de aurium.\n\n Descarta esta ficha.
+EventSearch4PlayersTest.text,<i>El lodo es más profundo de lo que pensabas. A cada paso que das te hundes más y más en su interior. </i>\n\n El héroe que realizó la acción de búsqueda debe realizar una prueba de {might}.\n\n ¿Ha superado el héroe la prueba?
+EventSearch4PlayersTest.button1,Superación
+EventSearch4PlayersTest.button2,Fallo
+EventSearch4PlayersTestPassed.text,<i>Usando todas tus fuerzas consigues liberarte del fango.</i>
+EventSearch4PlayersTestPassed.button1,{qst:ContinueButton}
+EventSearch4PlayersTestFailed.text,<i>Consigues salir del lodo, pero tus piernas están cubiertas por un espeso manto de fango. </i>\n\n El héroe queda inmovilizado.
+EventSearch4PlayersTestFailed.button1,{qst:ContinueButton}
+EventHealSurvivorTestFailed.text,<i>El superviviente yace inerte.</i>
+EventInkeeperEndRoundCheckEnd.button1,{qst:ContinueButton}
+TokenSurvivorTokenActions.text,{qst:SurvivorRules}
+EventCarrySurvivorTestFailed.text,<i>No consigues levantar al superviviente.</i>
+EventCarrySurvivorTestFailed.button1,{qst:ContinueButton}
+EventInnkeeperWellRules.button1,{qst:ContinueButton}
+EventDoor13ARedOpen.button1,{qst:ContinueButton}
+EventMoveInkeeperRedDoorNotOpened.button2,No
+EventMoveInkeeperRedDoorNotOpened.button1,Sí
+EventIsEndRoundEvent.button1,{qst:ContinueButton}
+EventMoveInkeeperRedDoorNotOpened.text,¿Está el posadero adyacente a la puerta roja?
+EventVictory1.button1,{qst:ContinueButton}
+EventVictory2InkeeperAlive.button1,{qst:ContinueButton}
+EventVictory2InkeeperDead.text,—<I>¡Mi esposo! ¡Nooo! ¡Y también la posada! —llora la mujer del posadero, mientras se abalanza sobre las cenizas del que era su hogar. Mientras consoláis a la mujer, os cuenta la historia al completo, de cómo los malvados hibridos de dragón vinieron y sacaron a rastras de su cama a Jorem. \n\n  —Creo que querían llevárselo de vuelta a las minas y que trabajase en ellas hasta que muriese —dice mientras retrocede llorando. \n\n De repente se para y dice: \n\n —Uy, esperad, ¿qué es eso? Parece que Jorem se ha dejado algo...</i>\n\n<b>¡Los héroes han ganado este encuentro!</b>
+EventVictory2InkeeperDead.button1,{qst:ContinueButton}

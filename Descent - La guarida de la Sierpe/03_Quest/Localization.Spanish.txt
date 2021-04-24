@@ -1,0 +1,256 @@
+.,Spanish
+ContinueButton,Continuar
+SearchButton,{action} Buscar
+quest.name,La guarida de la Sierpe - Lo que es tuyo es mío
+EventStart.button1,{qst:ContinueButton}
+EventStartRound.button1,{qst:ContinueButton}
+EventEndRound.button1,{qst:ContinueButton}
+TokenSearch2Players1.button1,{qst:SearchButton}
+TokenSearch2Players2.button1,{qst:SearchButton}
+TokenSearch3Players.button1,{qst:SearchButton}
+TokenSearch4Players.button1,{qst:SearchButton}
+EventTokenSearch2Players1.text,Encuentras {var:TokenSearch2Players1Gold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players1.button1,{qst:ContinueButton}
+EventTokenSearch2Players2.text,Encuentras {var:TokenSearch2Players2Gold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players2.button1,{qst:ContinueButton}
+EventTokenSearch3Players.text,Encuentras {var:TokenSearch3PlayersGold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch3Players.button1,{qst:ContinueButton}
+EventTokenSearch4Players.text,Encuentras {var:TokenSearch4PlayersGold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch4Players.button1,{qst:ContinueButton}
+TokenSearch4Players.text,<i>En el rincón hay un pequeño objeto sobre un pedestal.</i>
+TokenSearch3Players.text,<i>Hay vasijas rotas esparcidas por el suelo.</i>
+TokenSearch2Players2.text,<I> En una esquina se encuentra un pequeño armario. </i>
+TokenSearch2Players1.text,<i>En los escombros que hay junto a la carreta hay algo que brilla.</i>
+EventVictory.button1,{qst:ContinueButton}
+EventDefeat.text,–<i>¡Du'lak vence! –grita una de las cabezas del ettin mientras su torpe cuerpo camina balanceándose por el sendero de montaña como una imparable fuerza de la naturaleza. \n\n –¡No! –grita la otra cabeza mientras desaparece de vuestra vista–. ¡Kul'ud vence! ¡Tú dormir durante el combate! \n\n Las dos cabezas riñen continuamente, pero poco podéis hacer para detenerlas. Los híbridos de Valyndra os tienen acorralados, y sólo podéis observar cómo escapa el ettin con el aurium. \n\n Tras la batalla, encontráis a uno de los hombres de Jorem que viene cojeando desde el pozo de la mina. \n\n –¡Se han llevado a Jorem! Oí a la Reina de las Sierpes, o como quiera que se llame, ordenar a sus esbirros que lo llevaran a su guarida. Seguro que está planeando obligarlo a forjar ese aurium para sus malvados propósitos –dice antes de dar un profundo suspiro–. La buena noticia es que no estoy muerto. ¡La mala noticia es que esa maldita dragona tiene suficiente aurium para equipar a todo su ejército! Debe ser detenida. Especialmente si lo que he oído sobre ella es cierto... Sobre fuerzas más oscuras que quieren unirse a Valyndra. No tengo ninguna duda de que una fuerza así se está encaminando ahora mismo hacia la guarida de la sierpe...</i> \n\n<b>¡Los héroes han perdido este encuentro!</b>
+EventDefeat.button1,{qst:ContinueButton}
+EventVictory.text,<i>El enorme ettin llamado Du'lak hinca la rodilla, emitiendo un atronador rugido de derrota. Al caer de bruces contra el suelo, varios trozos de aurium quedan esparcidos a su alrededor. \n\n Vuestro momento de victoria es interrumpido por uno de los malignos esbirros de Valyndra que se lanza en picado y se lleva a Jorem Tolk antes de que el minero pueda siquiera daros las gracias. Se marchan, dejándoos de nuevo tras el rastro del pobre herrero. \n\n Quizá deberíais registrar las forjas que hay por aquí, en busca de algo que os pueda resultar útil antes de lanzaros de cabeza a la guarida de Valyndra... \n\n<b>¡Los héroes han ganado este encuentro!</b>
+TokenDebug.button1,Victoria
+TokenDebug.button2,Derrota
+TokenDebug.text,Haz clic en un botón para simular que ganas o que pierdes
+EventNoMorale.text,<i>Os desplomáis, agotados.</i>
+EventNoMorale.button1,{qst:ContinueButton}
+EventEndEncounter1.text,Los héroes ganan {var:GoldGained} de oro ({var:MinimumGold} + {var:GoldPerObjective} de oro por cada mineral destruido por Jorem), {var:RewardXp} PE y {var:RewardFame} de fama.
+EventEndEncounter1.button1,{qst:ContinueButton}
+EventSetup.text,Deja aparte las siguientes piezas:\n\n3A, 5B, 7A, 8B, 9A, \n20B, 23B, \n33A, 34B, \n dos transiciones,  \n un conector, \n dos terminales, \n la entrada y la salida.\n\n Deja aparte un número de fichas de Objetivo igual al doble del número de héroes. Asegúrate de que la mitad de esas fichas de Objetivo son rojas y la otra mitad azules. Mezcla estas fichas y colócalas boca abajo a un lado del mapa.
+EventIntroduction.text,<i>Tras enteraros del secuestro de Jorem Tolk en la posada del Ladrillo Mojado, os apresuráis a emprender camino hacia la mina de la Vigilia, donde se sospecha que se lo han llevado. Cuando llegáis a lo alto del último promontorio que lleva a la mina, podéis ver grandes huellas que bajan por el camino hacia la casita de los mineros. Apenas podéis imaginar el tamaño de la criatura que ha dejado unas huellas así... \n\n Mientras corréis por el sinuoso camino, os topáis con un minero que se oculta entre la maleza. \n\n —¡Shh! ¡Se han hecho con la mina! Mason y la abuela han muerto intentando recuperarla, así que ni siquiera penséis en intentarlo. Nuestra única esperanza es aguardar hasta que Jorem acabe de darles lo que quieren... \n\n Le decís al minero lo que pensáis sobre «aguardar» y os apresuráis a rescatar a Jorem. \n\n  —¡Pues vale! —sisea entre dientes—. ¡Pero no digáis que no os lo advertí! ¡Y no os molestéis yendo a la puerta! ¡No se abrirá mientras ese corpulento patán esté sentado contra ella! </i>
+EventIntroduction.button1,{qst:ContinueButton}
+EventPlaceTiles1.text,Coloca las piezas 3A, 7A, 9A, 33A, un conector, la entrada y la salida como se indica. \n\n Coloca dos puertas como se indica. \n\n Colocad a los héroes en la entrada.
+EventPlaceTiles1.button1,{qst:ContinueButton}
+Door34B.text,<i>Procedentes del otro lado de la puerta te llegan sonidos de lucha.</i>
+Door34B.button1,{action} Abrir
+EventRemoveDoor7A.text,Descarta la puerta
+EventRemoveDoor7A.button1,{qst:ContinueButton}
+EventPlaceTiles3.button1,{qst:ContinueButton}
+EventPlaceTiles2.text,Descarta la puerta. \n\n Coloca una transición como se indica. \n\n Coloca una puerta en la pieza 7A como se indica.
+Door07A.button1,{qst:ContinueButton}
+EventPlaceTiles3.text,Descarta la puerta. \n\n Coloca las piezas 20B, 34B y un conector (a la izquierda de la pieza 20B) como se indica. \n\n Coloca una puerta como se indica.
+EventPlaceTiles2.button1,{qst:ContinueButton}
+SpawnHybridSentinels.text,<i>Los guerreros de Valyndra marchan en dirección a vosotros con las armas desenvainadas.  </i>\n\n Coloca el grupo {type} como se indica.
+SpawnHybridSentinels.button1,{qst:ContinueButton}
+EventPlaceSearchToken2Players1.text,Coloca fichas de Búsqueda como se indica.
+EventPlaceSearchToken2Players1.button1,{qst:ContinueButton}
+EventObjective1.text,Preparativos completados.\n\n <b>Objetivo:</b>\n\n Encontrar la entrada a la mina.
+EventObjective1.button1,{qst:ContinueButton}
+Door05B.button1,{qst:ContinueButton}
+Door05B.text,<i>Este portalón está cerrado</i>
+EventRedDoorOpened.text,Descarta la puerta
+EventRedDoorOpened.button1,{qst:ContinueButton}
+Door08B.text,<i>Esta puerta se adentra en la mina.</i>
+Door08B.button1,{action} Abrir
+EventPlaceJoremTolk.text,<i>Hay un hombre de pie, un poco más adentro de la cueva. Sin inmutarse por el grito del Ettin, sigue picando la roca. \n\n —¡Fuera de mi camino! Hay mucha faena por hacer —dice. </i> \n\n Coloca una ficha de Aldeano como se indica. \n\n Éste es Jorem Tolk.
+JoremTolkRules,<b>Características de Jorem Tolk</b>\n\n Salud: Ilimitada \n Velocidad: {var:JoremTolkSpeed} \n Defensa: 1 dado negro de defensa \n Ataque: 1 dado rojo y 1 dado azul de ataque \n\n\n La aplicación te dirá cuándo debes activar a Jorem Tolk al principio de cada ronda. \n\n Jorem puede ejecutar las siguientes acciones: \n - Mover \n- Atacar \n- Destruir veta (esta acción será explicada más adelante)
+EventJoremTokenNoDamage.text,{qst:JoremTolkRules}
+EventPlaceVeins1.button1,{qst:ContinueButton}
+EventVeinsRemovedAllOreFound.button1,{qst:ContinueButton}
+EventObjective2.text,Preparativos completados.\n\n <b>Objetivo:</b>\n\n Derrotar a Dul'ak antes de que escape con el mineral.
+EventObjective2.button1,{qst:ContinueButton}
+EventPlaceSearchToken2Players2.button1,{qst:ContinueButton}
+EventPlaceTiles4.text,Descarta la puerta.\n\n Coloca las piezas 5B, 8B, 23B, un conector y dos terminales como se indica.
+EventPlaceTiles4.button1,{qst:ContinueButton}
+EventPlaceSearchTokens3Players.text,Coloca dos fichas de Búsqueda como se indica.
+EventPlaceSearchTokens3Players.button1,{qst:ContinueButton}
+EventPlaceSearchTokens4Players.text,Coloca fichas de Búsqueda como se indica.
+EventPlaceSearchTokens4Players.button1,{qst:ContinueButton}
+EventPlaceOre2.button1,{qst:ContinueButton}
+SpawnOpenGroup.text,<i>Otros sirvientes de Dul'ak inmediatamente se preparan para atacar. </i>\n\n Coloca el grupo {type} en la pieza 23B como se indica.
+SpawnOpenGroup.button1,{qst:ContinueButton}
+SpawnEttins.uniquetitle,Du'lak
+SpawnEttins.uniquetext,Dul'ak tiene 3 {heart} adicionales por cada héroe.
+SpawnEttins.text,<i>Hay un enorme Ettin en la cueva. \n\n —¿Dónde estar mineral? ¡Reina dragona quiere! —grita. </i> \n\n Coloca un grupo de Ettin como se indica. \n\n El líder de este grupo de monstruos es Dul'ak. Dul'ak tiene 3 {heart} adicionales por cada héroe.
+SpawnEttins.button1,{qst:ContinueButton}
+EventPlaceVeins2Players2.button1,{qst:ContinueButton}
+EventPlaceVeins2Players3.text,Coloca a un lado el conjunto de fichas de Objetivo como se indica. \n\n Estas fichas representan las vetas.
+EventPlaceVeins2Players3.button1,{qst:ContinueButton}
+EventPlaceVeins2Players4.text,Coloca a un lado el conjunto de fichas de Objetivo como se indica. \n\n Estas fichas representan las vetas.
+EventObjective3Or4.button1,{qst:ContinueButton}
+EventObjective3.button1,{qst:ContinueButton}
+EventPlaceVeins2Players4.button1,{qst:ContinueButton}
+EventPlaceVeins1.text,Coloca dos de las fichas apartadas de Objetivo como se indica. \n\n Estas fichas son vetas. \n\n<i>Cuando Jorem os ve, se le nota aliviado. \n\n —¡Eh, vosotros! Venid aquí. Tenéis que ayudarme a mantener alejado a este Ettin mientras inutilizo las vetas. Bajo ningún concepto debéis dejar que el aurium caiga en las avariciosas garras de Valyndra..</i>
+EventDefeatedDulak.button1,{qst:ContinueButton}
+EventSetup.button1,{qst:ContinueButton}
+EventMineKeyCheckSearch2Players1.text,<i>¡Has encontrado la llave de la mina! </i>\n\n Descarta esta ficha.
+TokenSearch2Players3.button1,{action} Buscar
+EventMineKeyCheckSearch2Players1.button1,{qst:ContinueButton}
+EventMineKeyCheckSearch2Players3.text,<i>¡Has encontrado la llave de la mina! </i>\n\n Descarta esta ficha.
+EventMineKeyCheckSearch2Players3.button1,{qst:ContinueButton}
+EventDoor07AKeyFound.button1,{qst:ContinueButton}
+EventDoor07AMineKeyFoundCheck.button1,{qst:ContinueButton}
+EventPlaceSearchToken2Players2.text,Coloca una ficha de Búsqueda como se indica. \n\n <b>Preparativos completados.</b>
+EventDoor07AKeyNotFound.text,<i>Ésta es la puerta principal de entrada a la mina. </i>\n\n<i> No podéis abrir esta puerta sin la llave.</i>
+EventDoor07AKeyNotFound.button1,{qst:ContinueButton}
+TokenSearch2Players3.text,<i>Una pequeña bolsa tirada en el suelo.</i>
+EventTokenSearch2Players3.button1,{qst:ContinueButton}
+EventTokenSearch2Players3.text,Encuentras {var:TokenSearch2Players3Gold} de oro.\n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventPlaceJoremTolk.button1,{qst:ContinueButton}
+EventJoremTolkRules1.button1,{qst:ContinueButton}
+EventJoremTolkRules1.text,<b>Reglas especiales: Jorem Tolk</b>\n\n Jorem Tolk es considerada una miniatura y puede ser objetivo y verse afectada por ataques. \n\n<b>Características de Jorem Tolk</b>\n\n Salud: Ilimitada \n Velocidad: {var:JoremTolkSpeed} \n Defensa: 1 dado negro de defensa \n Ataque: 1 dado rojo y 1 dado azul de ataque \n\n\n La aplicación te dirá cuándo debes activar a Jorem Tolk al principio de cada ronda. \n\n Jorem puede ejecutar las siguientes acciones: \n - Mover \n- Atacar \n- Destruir veta (esta acción será explicada más adelante)
+EventJoremTolkRules2.text,<b>Reglas especiales: Salud de Jorem</b>\n\n Si Jorem Tolk es un objetivo válido para un monstruo y no ha sufrido ningún daño en la misma ronda, el monstruo debe siempre elegir a Jorem Tolk en lugar de a un héroe. \n\n Si Jorem Tolk sufre cualquier cantidad de {heart} cancela todo el  {heart} y en su lugar haz clic en esta ficha. Después elige <b>Jorem ha sufrido daño</b>. \n\n Si Jorem Tolk sufrió daño, un héroe puede ejecutar una acción para curarlo. Haz clic sobre la ficha y elige <b>Sanar</b> si un héroe está adyacente a Jorem Tolk. A continuación el héroe adyacente debe realizar una prueba de {will}. \n\n Jorem Tolk no puede ser activado hasta que no sea sanado.
+EventJoremTolkRules2.button1,{qst:ContinueButton}
+TokenJoremTolkRulesAndDamage.button1,{qst:ContinueButton}
+EventVeinRules.text,<b>Reglas Especiales: Vetas</b>\n\n Dul'ak intentará buscar minerales en las vetas. Al final de cada turno Du'lak ejecutará una acción especial para buscar en la veta más cercana. \n\n Los héroes deben impedir que Dul'ak consiga {var:NumberOfOre} fragmentos de mineral. De lo contrario, tratará de escapar con ellos. \n\n<b>Reglas Especiales: Destruir las vetas</b>\n\n Como una acción, si Jorem está adyacente a una veta puede realizar una acción especial para destruirla. Como consecuencia, Dul'ak no podrá obtener mineral de ella nunca más. Haz clic y selecciona <b>Destruir veta</b> para destruirla. \n\n Por cada veta que destruyan, los héroes ganarán  {var:GoldPerObjective} de oro al final del encuentro.
+EventVeinRules.button1,{qst:ContinueButton}
+TokenVein6.button1,{qst:ContinueButton}
+EventExecuteVeinAction.text,<i>Ésta es una veta. </i>\n\n Jorem Tolk puede destruir esta veta. Como acción, si Jorem está adyacente a una veta puede realizar la acción especial de destruirla. Tras ello, Dul'ak no podrá obtener mineral de esta veta nunca más. Haz clic en la veta y elige <b>Destruir veta</b> para destruirla.
+EventExecuteVeinAction.button1,Destruir (Acción especial de Jorem Tolk)
+EventExecuteVeinAction.button2,Cancelar
+TokenVein1.button1,{qst:ContinueButton}
+EventJoremTokenDamage.text,<b>Características de Jorem Tolk</b>\n\n Salud: Ilimitada \n Velocidad: {var:JoremTolkSpeed} \n Defensa: 1 dado negro de defensa \n Ataque: 1 dado rojo y 1 dado azul de ataque \n\n\n La aplicación te dirá cuándo debes activar a Jorem Tolk al principio de cada ronda. \n\n Jorem puede ejecutar las siguientes acciones: \n - Mover \n- Atacar \n- Destruir veta \n\n Elige <b>Sanar</b> si un héroe está adyacente a Jorem Tolk para ejecutar una acción para curarlo. Después de eso, el héroe adyacente debe realizar una prueba de {will}.
+EventJoremTokenDamage.button1,{action} Sanar
+EventJoremGainedDamage.button1,{qst:ContinueButton}
+EventJoremTokenNoDamage.button1,Jorem sufrió daños
+EventJoremGainedDamage.text,<i>Jorem cae al suelo, jadeando. \n\n —¡Estoy bien! —dice—. Por favor, dadme un momento para que recobre el aliento. </i>\n\n Jorem Tolk no puede activarse en esta ronda. \n\n Un héroe adyacente puede ejecutar una prueba de {will} para sanar a Jorem. Para hacer esto, haz clic en la ficha y elige <b>Sanar</b>.
+EventJoremTokenDamageHealTestPassed.button1,{qst:ContinueButton}
+EventJoremTokenNoDamage.button2,Cancelar
+EventDestroyVein.text,<i>La veta se rompe en pedazos. </i>\n\n Dale la vuelta a esta ficha de Objetivo. ¿Es una ficha roja o azul?
+EventDestroyVein.button1,Azul
+EventRemoveVeins.button1,{qst:ContinueButton}
+EventRemoveVein1.text,Descarta esta ficha.
+EventRemoveVein1.button1,{qst:ContinueButton}
+EventRemoveVein2.text,Descarta esta ficha.
+EventRemoveVein2.button1,{qst:ContinueButton}
+EventRemoveVein3.text,Descarta esta ficha.
+EventRemoveVein3.button1,{qst:ContinueButton}
+EventRemoveVein4.text,Descarta esta ficha.
+EventRemoveVein4.button1,{qst:ContinueButton}
+EventRemoveVein5.text,Descarta esta ficha.
+EventRemoveVein5.button1,{qst:ContinueButton}
+EventRemoveVein6.text,Descarta esta ficha.
+EventRemoveVein6.button1,{qst:ContinueButton}
+EventRemoveVein7.text,Descarta esta ficha.
+EventRemoveVein7.button1,{qst:ContinueButton}
+EventRemoveVein8.text,Descarta esta ficha.
+EventRemoveVein8.button1,{qst:ContinueButton}
+EventSearchVein.button1,Azul
+EventAllVainsRemoved.button1,{qst:ContinueButton}
+EventVeinsRemovedAllOreFound.text,<i>—Tiempo agotarse. ¡Fuera de mi camino! —dice Dul'ak. \n\n Una gran puerta en la otra entrada de la mina se abre.</i> \n\n Descarta esta puerta.
+EventPlaceVeins2Players2.text,Coloca a un lado dos de las fichas de Objetivo apartadas como se indica. \n\n Estas fichas representan las vetas.
+EventVainsRemovedNotAllOreFound.text,<i>—¡Lo habéis destruido todo! —chilla Dul'ak—. ¡Mataros al menos alegrará a Valyndra! </i>. \n\n Descarta esta puerta.
+EventVainsRemovedNotAllOreFound.button1,{qst:ContinueButton}
+EventSearchVeinCurrentVeinIsNoOre.button1,{qst:ContinueButton}
+EventOreFound.button1,{qst:ContinueButton}
+EventSearchVein.button2,Rojo
+EventSearchVeinCurrentVeinIsNoOre.text,<i>Dul'ak consigue romper la roca, pero no contiene aurium. Irritado, arroja con fuerza la piedra, que arrasa con todo lo que se encuentra en su camino. </i>\n\n Todas las miniaturas a {var:DulakSearchFailedAttackRange} o menos espacios de la ficha de Objetivo pierde {var:DulakSearchFailedAttackDamage} {heart}.
+EventSearchVein.text,<i>Con un gran estruendo la roca se parte. </i> \n\n Dale la vuelta a esta ficha de Objetivo. ¿Es azul o es roja?
+EventDestroyVein.button2,Rojo
+EventDestroyVeinOre.text,Jorem ha destruido una veta que contenía algo de mineral.
+EventDestroyVeinOre.button1,{qst:ContinueButton}
+EventDestroyVeinNoOre.button1,{qst:ContinueButton}
+EventDestroyVeinNoOre.text,Esta veta no contiene nada de mineral.
+EventAllOreFoundRules.text,Dul'ak ahora se dirigirá hacia la salida para huir. Haz clic en una de estas fichas tan pronto como  Dul'ak alcance la salida y selecciona <b>Dul'ak ha llegado a la salida</b>.
+EventAllOreFoundRules.button1,{qst:ContinueButton}
+TokenDulakEntranceReached2.button1,Du'lak ha llegado a la salida.
+TokenDulakEntranceReached1.text,¿Ha alcanzado Dul'ak la salida?
+TokenDulakEntranceReached1.button1,Du'lak ha llegado a la salida.
+TokenDulakEntranceReached2.text,¿Ha alcanzado Dul'ak la salida?
+EventObjective4.text,Preparativos completados.\n\n <b>Objetivo:</b>\n\n Derrotar a Dul'ak antes de que escape con el mineral.
+EventObjective4.button1,{qst:ContinueButton}
+EventDulakOreCheck.button1,{qst:ContinueButton}
+EventDulakSearchVein1.button1,Superada
+EventDulakSearchVein1.button2,Fallo
+EventDulakSearchVein1.text,<i>Dul'ak busca en la veta. </i>\n\n Coloca a Dul'ak adyacente a la ficha de Objetivo. Realiza una prueba de {might} con Dul'ak. La {might} de es {var:DulakMight}. Si tiene éxito, dale la vuelta a la ficha de veta que se indica. \n\n ¿Ha pasado Dul'ak la prueba?
+EventDulakSearchVein2.button1,Superada
+EventDulakSearchVein2.button2,Fallo
+EventDulakSearchVein2.text,<i>Dul'ak busca en la veta. </i>\n\n Coloca a Dul'ak adyacente a la ficha de Objetivo. Realiza una prueba de {might} con Dul'ak. La {might} de es {var:DulakMight}. Si tiene éxito, dale la vuelta a la ficha de veta que se indica. \n\n ¿Ha pasado Dul'ak la prueba?
+EventDulakSearchVein3.button1,Superada
+EventDulakSearchVein3.button2,Fallo
+EventDulakSearchVein3.text,<i>Dul'ak busca en la veta. </i>\n\n Coloca a Dul'ak adyacente a la ficha de Objetivo. Realiza una prueba de {might} con Dul'ak. La {might} de es {var:DulakMight}. Si tiene éxito, dale la vuelta a la ficha de veta que se indica. \n\n ¿Ha pasado Dul'ak la prueba?
+EventDulakSearchVein4.button1,Superada
+EventDulakSearchVein4.button2,Fallo
+EventDulakSearchVein4.text,<i>Dul'ak busca en la veta. </i>\n\n Coloca a Dul'ak adyacente a la ficha de Objetivo. Realiza una prueba de {might} con Dul'ak. La {might} de es {var:DulakMight}. Si tiene éxito, dale la vuelta a la ficha de veta que se indica. \n\n ¿Ha pasado Dul'ak la prueba?
+EventDulakSearchVein5.button1,Superada
+EventDulakSearchVein5.button2,Fallo
+EventDulakSearchVein5.text,<i>Dul'ak busca en la veta. </i>\n\n Coloca a Dul'ak adyacente a la ficha de Objetivo. Realiza una prueba de {might} con Dul'ak. La {might} de es {var:DulakMight}. Si tiene éxito, dale la vuelta a la ficha de veta que se indica. \n\n ¿Ha pasado Dul'ak la prueba?
+EventDulakSearchVein6.button1,Superada
+EventDulakSearchVein6.button2,Fallo
+EventDulakSearchVein6.text,<i>Dul'ak busca en la veta. </i>\n\n Coloca a Dul'ak adyacente a la ficha de Objetivo. Realiza una prueba de {might} con Dul'ak. La {might} de es {var:DulakMight}. Si tiene éxito, dale la vuelta a la ficha de veta que se indica. \n\n ¿Ha pasado Dul'ak la prueba?
+EventDulakSearchVein7.button1,Superada
+EventDulakSearchVein7.button2,Fallo
+EventDulakSearchVein7.text,<i>Dul'ak busca en la veta. </i>\n\n Coloca a Dul'ak adyacente a la ficha de Objetivo. Realiza una prueba de {might} con Dul'ak. La {might} de es {var:DulakMight}. Si tiene éxito, dale la vuelta a la ficha de veta que se indica. \n\n ¿Ha pasado Dul'ak la prueba?
+EventDulakSearchVein8.button1,Superada
+EventDulakSearchVein8.button2,Fallo
+EventDulakSearchVein8.text,<i>Dul'ak busca en la veta. </i>\n\n Coloca a Dul'ak adyacente a la ficha de Objetivo. Realiza una prueba de {might} con Dul'ak. La {might} de es {var:DulakMight}. Si tiene éxito, dale la vuelta a la ficha de veta que se indica. \n\n ¿Ha pasado Dul'ak la prueba?
+EventOreFound.text,<i>De entre el polvo de las rocas partidas aparece un  brillante metal. ¡Es Aurium! </i>\n\n Dul'ak ha encontrado {var:OreFound} de {var:NumberOfOre} trozos de mineral.
+EventDulakSearchVeinFailed.text,<i> Los golpes de Dul'ak no tienen efecto. Desconcertado, gruñe unas palabras incomprensibles. </i>
+EventDulakSearchVeinFailed.button1,{qst:ContinueButton}
+EventStartRoundEvents.button1,{qst:ContinueButton}
+EventReinforcements.button1,{qst:ContinueButton}
+SpawnReinforcementsHybridSentinelsWithOpenGroup.button1,{qst:ContinueButton}
+SpawnReinforcementsHybridSentinelsWithOpenGroup.button2,Ya se ha alcanzado el límite de monstruos
+SpawnReinforcementsOpenGroup.button1,{qst:ContinueButton}
+SpawnReinforcementsOpenGroup.button2,Ya se ha alcanzado el límite de monstruos
+SpawnReinforcementsHybridSentinelsNoOpenGroup.text,Coloca un monstruos del grupo {type} en la salida como se indica, respetando el límite de monstruos.
+SpawnReinforcementsHybridSentinelsWithOpenGroup.text,Coloca un monstruos del grupo {type} en la salida como se indica, respetando el límite de monstruos.
+SpawnReinforcementsHybridSentinelsNoOpenGroup.button1,{qst:ContinueButton}
+EventJoremTolkActions.button1,{qst:ContinueButton}
+EventExecuteJoremTolkActions.text,El jugador que ha actuado en último lugar puede ahora activar a Jorem Tolk. \n\n Jorem puede ejecutar dos de las siguientes acciones: \n - mover \n - atacar \n - destruir veta
+EventExecuteJoremTolkActions.button1,{qst:ContinueButton}
+EventExecuteJoremTolkNoActions.button1,{qst:ContinueButton}
+EventExecuteJoremTolkNoActions.text,Los jugadores no pueden activar a Jorem Tolk esta ronda por culpa del daño que ha sufrido.
+ActivationDulakAllOreFound.master,{action} Enfrenta la salida.\n{action} Ataca a un héroe.\n{action} Se dirige a la salida.
+CustomMonsterDulak.monstername,Du'lak
+ActivationDulakAllOreFound.ability,Du'lak gana {var:ActivationDulakAllOreFoundSpeed} de velocidad durante este turno.
+ActivationDulakAllOreFound.minion,{action} Enfrenta al héroe más cercano.\n{action} Ataca a un héroe.
+ActivationDulak1.master,{action} Enfrenta al héroe más cercano. \n{action} Ataca a un héroe.  \n{action} Todos los héroes en la línea de visión de este monstruo realizan una prueba de {will}. Cada héroe que falle queda Aturdido.
+ActivationDulak1.ability,Aplica un +2 de Velocidad a cada ettin.
+ActivationDulak2.ability,Cada ataque gana +1 {heart}
+ActivationDulak1.minion,{action} Enfrenta al héroe más cercano. \n{action} Ataca al héroe más cercano a 2 o menos espacios y que haya sufrido menos {heart}.
+ActivationDulak2.master,{action} Enfrenta al héroe más cercano.\n{action} Ataca a un héroe.
+ActivationDulak2.minion,{action} Enfrenta al héroe más cercano.\n{action} Ataca a un héroe.
+EventVeinsRemovedNotAllOreFound.text,<i>—Tiempo agotarse. ¡Fuera de mi camino! —dice Du'lak. </i>\n\n Descarta esta puerta.
+EventVeinsRemovedNotAllOreFound.button1,{qst:ContinueButton}
+EventObjective3.text,Preparativos completados.\n\n <b>Objetivo:</b>\n\n Derrotar a Du'lak antes de que escape con el mineral.
+EventForcePlaceTiles4.text,—<i>¿Esbirros? ¿Dónde estáis? ¡Ayudad a vuestro amo! —brama una de las cabezas de Du'lak. De repente, una de las puertas se abre de golpe.</i>
+EventForcePlaceTiles4.button1,{qst:ContinueButton}
+EventDulakEscape.text,<i>Dul'ak aprovecha la confusión de la batalla para rebasarte. </i> \n\n Ejecuta la siguiente acción para Du'lak: \n {action} Enfrentar la salida.
+EventDulakEscape.button1,{qst:ContinueButton}
+TokenSearchAurium.text,<i>En el suelo hay una gran calavera.</i>
+TokenSearchAurium.button1,{action} Buscar
+EventPlaceSearchToken2PlayersAurium.text,Coloca una ficha de Búsqueda como se indica
+EventPlaceSearchToken2PlayersAurium.button1,{qst:ContinueButton}
+EventSearchAurium.text,<i>¡Encuentras un trozo de mineral de aurium! \n\n Quizá alguien pueda usarlo para crear equipo para vosotros. </i>\n\n Ganas {var:%FoundNumberOfAuriumPieces} de {var:%MaximumNumberOfAurium} trozos de aurium.\n\n Descarta esta ficha.
+EventSearchAurium.button1,{qst:ContinueButton}
+EventJoremTokenDamage.button2,Cancelar
+EventJoremTokenDamageHealTest.text,Un héroe adyacente a Jorem Tolk debe realizar una prueba de {will}. \n\n ¿Ha superado la prueba el héroe?
+EventJoremTokenDamageHealTest.button1,Superada
+EventJoremTokenDamageHealTest.button2,Fallo
+EventJoremTokenDamageHealTestFailed.button1,{qst:ContinueButton}
+EventJoremTokenDamageHealTestPassed.text,<i>Parece que tu cura ha servido. Jorem se levanta lentamente. \n\n —Ya me siento mejor —dice con voz firme—. Ahora echemos a estos monstruos de mi mina de una vez por todas. </i> \n\n Jorem puede ser activado de nuevo al principio de la siguiente ronda.
+EventJoremTokenDamageHealTestFailed.text,A pesar de todos vuestros esfuerzos, Jorem yace sin vida tendido sobre el suelo.
+SpawnReinforcementsOpenGroup.text,Coloca un monstruos del grupo {type} en la pieza 8B como se indica, respetando el límite de monstruos.
+EventSearch2Players2Test.button1,Superada
+EventSearch2Players2Test.button2,Fallo
+EventSearch2Players2Test.text,<i>Al acercarte al armario oyes un extraño ruido. </i>\n\n El héroe que ha realizado la búsqueda realiza una prueba de  {knowledge}.\n\n ¿Ha superado el héroe la prueba?
+EventSearch2Players2TestPassed.button1,{qst:ContinueButton}
+EventSearch2Players2TestFailed.text,<i>Cuando abre el armario, una plaga de ratas se abalanza sobre ti. A duras penas consigues deshacerte de ellas. </i> \n\n El héroe que realizó la acción queda Envenenado.
+EventSearch2Players2TestFailed.button1,{qst:ContinueButton}
+EventDoor07AKeyFoundUse.text,<i>Con la llave de la mina puedes abrir la puerta.</i>
+EventSearch2Players2TestPassed.text,<i>Con cuidado abres el armario. Una plaga de ratas sale de su interior e intenta atacarte. Consigues apartarte con facilidad y las ratas pasan de largo.</i>
+TokenVein7.button1,{qst:ContinueButton}
+EventObjective4B.text,Dul'ak ahora se dirigirá hacia la salida para huir. Haz clic en una de estas fichas tan pronto como  Dul'ak alcance la salida y selecciona <b>Dul'ak ha llegado a la salida</b>. \n\n Preparativos completados.\n\n<b>Objetivo</b>\n\n Derrotar a Dul'ak antes de que huya.
+EventObjective4B.button1,{qst:ContinueButton}
+EventDefeatedDulakUnique.button1,{qst:ContinueButton}
+EventAutoOpenMineDoor2.button1,{qst:ContinueButton}
+EventIsEndRoundEvent.button1,{qst:ContinueButton}
+EventDoor07AKeyFoundUse.button1,{action} Abrir
+EventDoor07AKeyFoundUse.button2,Cancelar
