@@ -1,0 +1,105 @@
+.,Spanish
+ContinueButton,Continuar
+SearchButton,{action} Buscar
+quest.name,Incursión Goblin
+quest.synopsys,Fuistéis contratados para escoltar una caravana. Las cosas no salieron como estaba planeado. Ahora es una misión de rescate.
+DoorButton,{action} Abrir puerta
+DoorRuleText,Puedes abrir esta puerta con una acción de <b>Abrir puerta</b>.
+EventStart.button1,{qst:ContinueButton}
+EventStartRound.button1,{qst:ContinueButton}
+EventEndRound.button1,{qst:ContinueButton}
+TokenSearch2Players1.button1,{qst:SearchButton}
+TokenSearch2Players2.button1,{qst:SearchButton}
+TokenSearch3Players.button1,{qst:SearchButton}
+TokenSearch_treasure_room.text,Éste es el cargamento de la caravana perdida.
+EventTokenSearch2Players1.text,<i>Encuentras algo en un arbusto cercano.</i>  \n\n  Hallas {var:TokenSearch2Players2Gold} de Oro.  \n\n  Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players1.button1,{qst:ContinueButton}
+EventTokenSearch2Players2.text,Encuentras {var:TokenSearch2Players2Gold} de Oro.  \n\n  Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch2Players2.button1,{qst:ContinueButton}
+EventTokenSearch3Players.text,<i> Entre las telarañas descubres algo valioso. </i> \n\n Encuentras {var:Tokensearch3playersgold} de Oro. \n\n Roba una carta de Búsqueda y descarta esta ficha.
+EventTokenSearch3Players.button1,{qst:ContinueButton}
+EventTokenSearch4Players.text,<i>Encuentras el cargamento de la caravana.</i>  \n\n  Entre la carga hay {var:TokenSearch4PlayersGold} de Oro y un par de dados muy especiales. \n\n Encuentras la reliquia <i>Dados de Fortuna</i>
+EventTokenSearch4Players.button1,{qst:ContinueButton}
+Event_add_treasure_room_search_token.text,Coloca una ficha de Búsqueda como se indica
+TokenSearch3Players.text,Ves algo en las redes.
+TokenSearch2Players2.text,Los goblins no se lo llevaron todo. \n Encuentras parte del equipo que se usó en el ataque a la caravana.
+TokenSearch2Players1.text,Los goblins dejaron algo de tesoro.
+EventVictory.button1,{qst:ContinueButton}
+EventDefeat.text,\n<i> A pesar de vuestros grandes esfuerzos no habéis podido liberar a los aldeanos y completar la misión. </i> \n\n <b>¡ Los héroes pierden esta aventura! </b>\n
+EventDefeat.button1,{qst:ContinueButton}
+EventVictory.text,\n<i>¡Todos los aldeanos han sido rescatados!</i>  \n\n  <b>Los héroes ganan esta aventura!</b>\n
+TokenDebug.button1,Victoria
+TokenDebug.button2,Derrota
+TokenDebug.text,Pulsa un botón para simular la Victoria o la Derrota
+EventNoMorale.text,<i>Aunque combatís valientemente, los numerosos enemigos van acabando con vosotros hasta que finalmente no queda nadie en pie.</i> \n\n <b>¡Los héroes han perdido el encuentro!</b>
+EventNoMorale.button1,{qst:ContinueButton}
+EventSetup.button1,{qst:ContinueButton}
+EventIntroduction.text,¡Goblins! Atacaron durante la noche. Los carromatos han sido destruidos. El cargamento ha sido robado. Las personas que se suponía que debíais proteger no aparecen por ninguna parte... \n\n Coloca la pieza 9A como se indica.
+EventIntroduction.button1,{qst:ContinueButton}
+EventSetup.text,Deja aparte las siguientes piezas: 3A, 4B, 6B, 8A 9A, 15B, 16B,  23A, 25B, 27B, 4 terminales, 1 conector, 1 transición y una entrada.
+Door3_prisoner_area.text,Como acción, un héroe puede abrir esta puerta.
+EventEventPlacesearchtokens.text,Coloca fichas de Búsqueda como se indica
+Door2_treasure_room.button1,{qst:DoorButton}
+Door3_prisoner_area.button1,{action} Abrir puerta
+Door1_Goblin_Lair_Enterance.text,¡Entra en la guarida goblin! \n\n Puedes abrir esta puerta con una acción de <b> Abrir puerta</ ​​b>.
+Spawn_cave_spider_group.text,Coloca el grupo {type} como se indica.
+quest.description,Una misión de escolta ha ido terriblemente mal. \n<b>¡¡¡Goblins!!!</b>  \n\n Esta aventura no necesita expansiones. \n
+quest.authors,\nAutor: Matt Thornton \n\n Traducción al español: Xavi y Vidimus \n\n Imagen de un goblin (Licencia CC BY-NC-ND) \n https://static.wikia.nocookie.net/descent2e/images/8/8c/GoblinArcher.png/revision/latest?cb=20141222154120
+Eventplaceheros.text,Coloca los héroes en la pieza 9A como se indica
+EventStartRound.text,Nueva ronda
+Token9AVilligerTokenTheSurvivor.text,Ésta es Evlyn. Como acción, un héroe puede tratar de vendar sus heridas.
+Token9AVilligerTokenTheSurvivor.button1,{action} Curar
+EventStartRoundEvents.button1,Continuar
+Event9AVillagerTokenRemove.text,Curas las heridas de Evyln.\n\n Con la respiración agitada, Evlyn te dice que los goblins han tomado prisioneros a otros miembros de la caravana. \n\n —<i>Gracias por ayudarme. Ahora, por favor, encontrad a los demás... </i>
+Event9AVillagerTokenRemove.button1,Continuar
+EventEventHealthevillager.button1,Continuar
+EventEventPlaceDoors1and2.text,Coloca la puerta como se indica
+EventEventPlaceDoors1and2.button1,Continuar
+Event_Enter_Goblin_lair.text,Coloca las piezas 15B, 16B, 25B, 27B y un terminal como se indica
+EventEventPlacesearchtokens.button1,Continuar
+SpawnSpawnGoblinArchers.text,—<i>¡Aún quedan algunos con vida!</i> \n Los goblins han sido alertados de vuestra presencia. \n Coloca los arqueros goblin como se indica.
+SpawnSpawnGoblinArchers.button1,Continuar
+SpawnSpawnhugerandom.button1,Continuar
+EventObjectiveUpdated1.text,\n<b>Objetivo Actualizado:</b>\n Encontrar y rescatar a los aldeanos desaparecidos. \n\n <b>Objetivo opcional:</b> \n Encontrar el cargamento perdido de la caravana.\n
+SpawnSpawnhugerandom.text,Los goblins tienen amigos. Coloca al grupo {tipo} como se indica.
+EventObjectiveUpdated1.button1,Continuar
+EventEventHealthevillager.text,Coloca las piezas 3A, 8A, 23A, 1 conector, 1 terminal, 1 transición y una entrada como se indica.
+EventEventPlaceEvylnVillager.text,Coloca una ficha de Aldeano como se indica. Ésta es Evlyn. Ella sobrevivió al ataque goblin. Como acción, un héroe puede vendarle sus heridas.
+EventEventPlaceEvylnVillager.button1,Continuar
+Eventplaceheros.button1,Continuar
+SpawnEveryRoundGoblinSpawn.text,Coloca un monstruo del grupo {type} como se indica.
+SpawnEveryRoundGoblinSpawn.button1,Continuar
+Door1_Goblin_Lair_Enterance.button1,{qst:DoorButton}
+Event_Enter_Goblin_lair.button1,Continuar
+EventPlacegoblinlairsearchtoken.text,Coloca una ficha de Búsqueda como se indica
+EventPlacegoblinlairsearchtoken.button1,Continuar
+Event_place_doors_goblin_lair.text,Coloca puertas como se indica
+Event_place_doors_goblin_lair.button1,Continuar
+Door2_treasure_room.text,Una gran puerta ornamentada.  \n\n  Puedes abrir esta puerta con una acción de <b>Abrir puerta</b>.
+Spawn_cave_spider_group.button1,Continuar
+Event_find_the_villagers.text,\n<b>Objetivo:</b> \n Encuentra los aldeanos que faltan. \n\n <b>Objetivo opcional:</b> \n Recupera el cargamento perdido.
+Event_find_the_villagers.button1,Continuar
+Event_treasure_room_door.text,Coloca la pieza 6B y un terminal como se indica
+Event_treasure_room_door.button1,Continuar
+Event_add_treasure_room_search_token.button1,Continuar
+Spawn_treasure_room.button1,Continuar
+TokenSearch_treasure_room.button1,{qst:SearchButton}
+Spawn_treasure_room.text,Coloca el grupo de monstruos {type} como se indica.
+Event_open_door3_prisinor_area.text,Coloca la pieza 4B y un terminal como se indica
+Event_open_door3_prisinor_area.button1,Continuar
+Event_place_prisoners.text,Has encontrado a los aldeanos de la caravana. \n Como acción, un héroe puede liberar a un aldeano.
+Event_place_prisoners.button1,Continuar
+Token_prisoner1.text,Como acción, un héroe puede liberar a este aldeano.
+Token_prisoner1.button1,{action} Liberar al adeano
+Token_prisoner2.button1,{action} Liberar al adeano
+Event_prisoner_4B_update.text,\n<b>Objetivo actualizado:</b>\n Libera a los aldeanos.
+Token_prisoner2.text,Como acción, un héroe puede liberar a este aldeano.
+Event_prisoner_4B_update.button1,Continuar
+Spawn_prisoner_area.text,Coloca el grupo de monstruos {type} como se indica.
+Spawn_prisoner_area.button1,Continuar
+Spawn_prisoner_area2.text,Coloca el grupo de monstruos {type} como se indica.
+Spawn_prisoner_area2.button1,Continuar
+Event_free_prisoner1.text,Has liberado a uno de los aldeanos.  \n\n  Retira la ficha de Aldeano.
+Event_free_prisoner1.button1,Continuar
+Event_free_prisoner2.text,Has liberado a un aldeano. \n\n Retira la ficha de Aldeano.
+Event_free_prisoner2.button1,Continuar
